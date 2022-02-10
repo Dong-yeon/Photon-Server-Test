@@ -1,0 +1,725 @@
+3228: 16:32:12.799 - ---
+3228: 16:32:12.799 - Service: "Photon Socket Server" starting
+3228: 16:32:12.799 - Config File: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+3228: 16:32:12.799 - Config|INFO| Adding config path macro: "[CONFIG]" - "D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64"
+3228: 16:32:12.799 - Config|INFO| Adding config path macro: "[DEPLOY]" - "[CONFIG]\.."
+3228: 16:32:12.799 - Config|INFO| Adding config path macro: "[EXE]" - "D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64"
+3228: 16:32:12.801 - Will produce at most: 10 crash dumps
+3228: 16:32:12.801 - Construction of service object complete
+3228: 16:32:12.803 - Server Starting...
+3228: 16:32:12.803 -    Tick count: 276211734 (wraps in: 46.5134 days)
+3228: 16:32:12.803 - Tick count 64: 276211734
+3228: 16:32:12.803 - ENet high resolution Tick count: 276216473 (wraps in: 46.5133 days)
+3228: 16:32:12.803 - Photon Version: 5.0.12.7770
+3228: 16:32:12.803 - Photon Build: RELEASE - x64 - VS2019 (16.8) - 192829336
+3228: 16:32:12.803 - PID: 24496
+3228: 16:32:12.803 - EXE: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonSocketServer.exe
+3228: 16:32:12.803 - OpenSSL 1.1.1i  8 Dec 2020
+3228: 16:32:12.805 - Current directory is: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\Debug
+3228: 16:32:12.805 - Changing current directory to: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64
+3228: 16:32:12.806 - Config File: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+3228: 16:32:12.806 - Will NOT log unimportant exceptions
+3228: 16:32:12.807 - Performance Counter Configuration for: "Photon Socket Server"
+3228: 16:32:12.807 - CPerformanceCounterInstaller::DumpCounterConfiguration() - Counters are not installed
+3228: 16:32:12.807 - Performance counters NOT enabled, user must have SE_CREATE_GLOBAL_NAME privilege
+3228: 16:32:12.808 - Using in-proc performance counters, access via Interop API only
+3228: 16:32:12.815 - Shutdown timeout enabled: 60000ms
+3228: 16:32:12.816 - Starting I/O thread pool with 4 threads
+5644: 16:32:12.816 - InitialiseWorkerThread - I/O thread - COM enabled
+38644: 16:32:12.816 - InitialiseWorkerThread - I/O thread - COM enabled
+20612: 16:32:12.816 - InitialiseWorkerThread - I/O thread - COM enabled
+6692: 16:32:12.817 - InitialiseWorkerThread - I/O thread - COM enabled
+3228: 16:32:12.817 - ENet: buffer size: 4096
+3228: 16:32:12.817 - ENet: buffer pool: 5000
+3228: 16:32:12.817 - Max message size: 512000
+3228: 16:32:12.817 - CMultiPoolBufferAllocator::GetAllocator() - "CENetThreadPool"
+25180: 16:32:12.817 - Initialise - ENet thread pool thread
+26012: 16:32:12.817 - Initialise - ENet thread pool thread
+41728: 16:32:12.817 - Initialise - ENet thread pool thread
+15068: 16:32:12.817 - Initialise - ENet thread pool thread
+17428: 16:32:12.818 - Initialise - ENet thread pool thread
+12872: 16:32:12.818 - Initialise - ENet thread pool thread
+25004: 16:32:12.818 - Initialise - ENet thread pool thread
+3228: 16:32:12.818 - Starting ENet thread pool with the following settings
+3228: 16:32:12.818 - InitialThreads: 8 threads
+3228: 16:32:12.818 - MinThreads: 8 threads
+3228: 16:32:12.818 - Thread pool is fixed size
+3228: 16:32:12.818 - OnlyDispatchTimers: False
+37616: 16:32:12.818 - Initialise - ENet thread pool thread
+3228: 16:32:13.485 - Resolution ~ 320564 - 32ms
+3228: 16:32:13.485 - ENet timer granularity: 15ms
+3228: 16:32:13.485 - ENet high performance timers: False
+3228: 16:32:13.486 - Config|INFO| TCP S2S: no explicit configuration, using defaults. Add a <S2S> node to configure.
+3228: 16:32:13.486 - Config|INFO| TCP S2S:  - flow control: Max queued bytes: 50000
+3228: 16:32:13.486 - Config|INFO| TCP S2S:  - flow control: Notification step size: 25
+3228: 16:32:13.486 - Config|INFO| TCP S2S:  - no read timeout
+3228: 16:32:13.486 - Config|INFO| TCP S2S:  - rate limit: 32000 bytes per 250ms (125KB/sec)
+3228: 16:32:13.486 - Config|INFO| TCP S2S: Nagle: disabled
+3228: 16:32:13.486 - Config|INFO| TCP S2S: PingFrequency: 2500
+3228: 16:32:13.486 - Config|INFO| TCP S2S: MaxInboundMessageSize: 512000
+3228: 16:32:13.486 - Config|INFO| TCP S2S: MaxOutboundMessageSize: 512000
+3228: 16:32:13.486 - Config|INFO| TCP S2S: ConnectTimeout: 30000ms
+3228: 16:32:13.486 - Config|INFO| TCP S2S: No App Data inactivity timeout
+3228: 16:32:13.486 - Config|INFO| TCP S2S: No write completion timeout
+3228: 16:32:13.488 - GetRuntime - About to load CLR - versions available:
+3228: 16:32:13.488 - v2.0.50727
+3228: 16:32:13.488 - v4.0.30319
+3228: 16:32:13.488 - Configuration requests: "v4.0.30319"
+3228: 16:32:13.488 - About to load version: "v4.0.30319"
+3228: 16:32:13.491 - About to load runtime: PhotonHostRuntime.PhotonDomainManager from PhotonHostRuntime, Culture=neutral, PublicKeyToken=02C301B61B060C4D
+3228: 16:32:13.491 - CLRBaseDirectory set to "D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy"
+3228: 16:32:13.492 - Start: About to load CLR - versions available:
+3228: 16:32:13.492 - v2.0.50727
+3228: 16:32:13.492 - v4.0.30319
+3228: 16:32:13.492 - No preference in configuration file, will load latest.
+3228: 16:32:13.492 - About to load version: "v4.0.30319"
+3228: 16:32:13.492 - Using server GC
+3228: 16:32:13.492 - GC: Server garbage collector enabled
+3228: 16:32:13.492 - GC: Concurrent garbage collector enabled
+3228: 16:32:13.492 - GC: Trim on commit disabled
+3228: 16:32:13.492 - Using CLR config file: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonSocketServer.exe.config
+3228: 16:32:13.492 - Loaded version: "v4.0.30319"
+3228: 16:32:13.891 - Photon host runtime loaded
+3228: 16:32:15.214 - 
+3228: 16:32:15.214 - FATAL ERROR * FATAL ERROR * FATAL ERROR * FATAL ERROR
+3228: 16:32:15.214 - FATAL ERROR *                           * FATAL ERROR
+3228: 16:32:15.214 - FATAL ERROR *   License has expired.    * FATAL ERROR
+3228: 16:32:15.214 - FATAL ERROR *                           * FATAL ERROR
+3228: 16:32:15.214 - FATAL ERROR * FATAL ERROR * FATAL ERROR * FATAL ERROR
+3228: 16:32:15.214 - 
+3228: 16:32:15.214 - Server shutting down...
+3228: 16:32:15.214 - Shutdown monitoring disabled due to the fact we're running in the debugger
+3228: 16:32:15.214 - Notifying CLR applications of shutdown...
+3228: 16:32:15.214 - RequestStop: defalt app domain
+3228: 16:32:15.215 - Shutting down NEW TCP Outbound Connection Manager...
+3228: 16:32:15.215 - Shutting down socket servers...
+3228: 16:32:15.215 - Shutting down ENet thread pool...
+3228: 16:32:15.215 - Shutting down TCP inactivity timers...
+3228: 16:32:15.216 - Timer queue stats: TCP Timers
+3228: 16:32:15.216 - Stats are not available
+3228: 16:32:15.216 - Shutting down ENet timers...
+3228: 16:32:15.216 - Waiting for socket servers to shutdown...
+3228: 16:32:15.216 - Shutting down I/O thread pool...
+3228: 16:32:15.216 - Shutting down CLR applications...
+3228: 16:32:15.216 - Shutting down network data traces...
+3228: 16:32:15.216 - Waiting for network data traces to complete...
+3228: 16:32:15.216 - Destroying servers
+3228: 16:32:15.216 - Destroying WebRTC Outbound Connection Manager
+3228: 16:32:15.216 - Destroying WebRTC Outbound Host
+3228: 16:32:15.216 - Destroying outbound ICE connection manager
+3228: 16:32:15.216 - Destroying ENet timer wheel
+3228: 16:32:15.216 - Timer queue stats: ENetTimerWheel
+3228: 16:32:15.216 - Stats are not available
+3228: 16:32:15.216 - Destroying Network Data Trace factory
+3228: 16:32:15.216 - Destroying ENet host
+3228: 16:32:15.216 - Destroying WebRTC inactivity timer queue
+3228: 16:32:15.216 - Destroying WebRTC host
+3228: 16:32:15.216 - Destroying ICE connection manager
+3228: 16:32:15.216 - Flushing stream socket allocator...
+3228: 16:32:15.216 - Flushing UDP Chunk datagram socket allocator...
+3228: 16:32:15.216 - Flushing NEW TCP socket allocator...
+3228: 16:32:15.216 - Destroying TCP inactivity timer
+3228: 16:32:15.216 - Flushing ENET buffer allocator...
+3228: 16:32:15.216 - Flushing TCP buffer allocator...
+3228: 16:32:15.217 - Flushing TCP buffer handle allocator...
+3228: 16:32:15.217 - Destroying CLR applications
+3228: 16:32:15.217 - ~CCLRApplicationCollection() - Waiting up to 10 seconds for the CLR to release all of our objects
+3228: 16:32:15.217 - ~CCLRApplicationCollection() - Done. All objects released
+3228: 16:32:15.217 - ~CManagedHost() - Release default app domain
+3228: 16:32:15.217 - CManagedHost::OnDomainUnload() - 1
+3228: 16:32:15.217 - ~CManagedHost() - Waiting up to 10 seconds for CLR shutdown...
+3228: 16:32:15.238 - ~CManagedHost
+3228: 16:32:15.238 - Destroying ENet thread pool
+3228: 16:32:15.238 - Destroying I/O thread pool
+3228: 16:32:15.238 - Destroying HTTP File Server I/O thread pool
+3228: 16:32:15.238 - Destroying ENet I/O thread pool
+3228: 16:32:15.238 - Destroying ENet buffer allocator
+3228: 16:32:15.238 - Destroying TCP buffer allocator
+3228: 16:32:15.238 - Destroying TCP socket allocator
+3228: 16:32:15.238 - Destroying NEW TCP socket allocator
+3228: 16:32:15.238 - Destroying NEW TCP configuration
+3228: 16:32:15.238 - Destroying UDP Chunk inbound socket allocator
+3228: 16:32:15.238 - Destroying shared datagram flow control data
+3228: 16:32:15.238 - Shutdown complete...
+3228: 16:32:15.240 - Service shutting down: not licensed. Errorcode: 105
+3228: 16:32:15.300 - Service shut down complete
+33028: 16:32:28.680 - ---
+33028: 16:32:28.680 - Service: "Photon Socket Server" starting
+33028: 16:32:28.680 - Config File: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+33028: 16:32:28.680 - Config|INFO| Adding config path macro: "[CONFIG]" - "D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64"
+33028: 16:32:28.680 - Config|INFO| Adding config path macro: "[DEPLOY]" - "[CONFIG]\.."
+33028: 16:32:28.680 - Config|INFO| Adding config path macro: "[EXE]" - "D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64"
+33028: 16:32:28.681 - Will produce at most: 10 crash dumps
+33028: 16:32:28.681 - Construction of service object complete
+33028: 16:32:28.683 - Server Starting...
+33028: 16:32:28.683 -    Tick count: 276227609 (wraps in: 46.5132 days)
+33028: 16:32:28.683 - Tick count 64: 276227609
+33028: 16:32:28.683 - ENet high resolution Tick count: 276232352 (wraps in: 46.5131 days)
+33028: 16:32:28.683 - Photon Version: 5.0.12.7770
+33028: 16:32:28.683 - Photon Build: RELEASE - x64 - VS2019 (16.8) - 192829336
+33028: 16:32:28.683 - PID: 13624
+33028: 16:32:28.683 - EXE: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonSocketServer.exe
+33028: 16:32:28.683 - OpenSSL 1.1.1i  8 Dec 2020
+33028: 16:32:28.685 - Current directory is: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\Debug
+33028: 16:32:28.685 - Changing current directory to: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64
+33028: 16:32:28.685 - Config File: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+33028: 16:32:28.686 - Will NOT log unimportant exceptions
+33028: 16:32:28.686 - Performance Counter Configuration for: "Photon Socket Server"
+33028: 16:32:28.687 - CPerformanceCounterInstaller::DumpCounterConfiguration() - Counters are not installed
+33028: 16:32:28.687 - Performance counters NOT enabled, user must have SE_CREATE_GLOBAL_NAME privilege
+33028: 16:32:28.687 - Using in-proc performance counters, access via Interop API only
+33028: 16:32:28.692 - Shutdown timeout enabled: 60000ms
+33028: 16:32:28.692 - Starting I/O thread pool with 4 threads
+25248: 16:32:28.693 - InitialiseWorkerThread - I/O thread - COM enabled
+19640: 16:32:28.693 - InitialiseWorkerThread - I/O thread - COM enabled
+18608: 16:32:28.693 - InitialiseWorkerThread - I/O thread - COM enabled
+33028: 16:32:28.693 - ENet: buffer size: 4096
+33028: 16:32:28.693 - ENet: buffer pool: 5000
+8796: 16:32:28.693 - InitialiseWorkerThread - I/O thread - COM enabled
+33028: 16:32:28.693 - Max message size: 512000
+33028: 16:32:28.693 - CMultiPoolBufferAllocator::GetAllocator() - "CENetThreadPool"
+33856: 16:32:28.693 - Initialise - ENet thread pool thread
+42584: 16:32:28.693 - Initialise - ENet thread pool thread
+25964: 16:32:28.694 - Initialise - ENet thread pool thread
+29360: 16:32:28.694 - Initialise - ENet thread pool thread
+3776: 16:32:28.694 - Initialise - ENet thread pool thread
+40840: 16:32:28.694 - Initialise - ENet thread pool thread
+6812: 16:32:28.694 - Initialise - ENet thread pool thread
+33028: 16:32:28.694 - Starting ENet thread pool with the following settings
+33028: 16:32:28.694 - InitialThreads: 8 threads
+25072: 16:32:28.694 - Initialise - ENet thread pool thread
+33028: 16:32:28.694 - MinThreads: 8 threads
+33028: 16:32:28.694 - Thread pool is fixed size
+33028: 16:32:28.694 - OnlyDispatchTimers: False
+33028: 16:32:29.900 - Resolution ~ 160052 - 16ms
+33028: 16:32:29.900 - ENet timer granularity: 15ms
+33028: 16:32:29.900 - ENet high performance timers: False
+33028: 16:32:29.900 - Config|INFO| TCP S2S: no explicit configuration, using defaults. Add a <S2S> node to configure.
+33028: 16:32:29.900 - Config|INFO| TCP S2S:  - flow control: Max queued bytes: 50000
+33028: 16:32:29.900 - Config|INFO| TCP S2S:  - flow control: Notification step size: 25
+33028: 16:32:29.900 - Config|INFO| TCP S2S:  - no read timeout
+33028: 16:32:29.900 - Config|INFO| TCP S2S:  - rate limit: 32000 bytes per 250ms (125KB/sec)
+33028: 16:32:29.900 - Config|INFO| TCP S2S: Nagle: disabled
+33028: 16:32:29.900 - Config|INFO| TCP S2S: PingFrequency: 2500
+33028: 16:32:29.900 - Config|INFO| TCP S2S: MaxInboundMessageSize: 512000
+33028: 16:32:29.900 - Config|INFO| TCP S2S: MaxOutboundMessageSize: 512000
+33028: 16:32:29.900 - Config|INFO| TCP S2S: ConnectTimeout: 30000ms
+33028: 16:32:29.900 - Config|INFO| TCP S2S: No App Data inactivity timeout
+33028: 16:32:29.900 - Config|INFO| TCP S2S: No write completion timeout
+33028: 16:32:29.902 - GetRuntime - About to load CLR - versions available:
+33028: 16:32:29.902 - v2.0.50727
+33028: 16:32:29.902 - v4.0.30319
+33028: 16:32:29.902 - Configuration requests: "v4.0.30319"
+33028: 16:32:29.902 - About to load version: "v4.0.30319"
+33028: 16:32:29.905 - About to load runtime: PhotonHostRuntime.PhotonDomainManager from PhotonHostRuntime, Culture=neutral, PublicKeyToken=02C301B61B060C4D
+33028: 16:32:29.905 - CLRBaseDirectory set to "D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy"
+33028: 16:32:29.905 - Start: About to load CLR - versions available:
+33028: 16:32:29.905 - v2.0.50727
+33028: 16:32:29.905 - v4.0.30319
+33028: 16:32:29.905 - No preference in configuration file, will load latest.
+33028: 16:32:29.905 - About to load version: "v4.0.30319"
+33028: 16:32:29.905 - Using server GC
+33028: 16:32:29.905 - GC: Server garbage collector enabled
+33028: 16:32:29.905 - GC: Concurrent garbage collector enabled
+33028: 16:32:29.905 - GC: Trim on commit disabled
+33028: 16:32:29.905 - Using CLR config file: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonSocketServer.exe.config
+33028: 16:32:29.906 - Loaded version: "v4.0.30319"
+33028: 16:32:30.201 - Photon host runtime loaded
+33028: 16:32:31.510 - 
+33028: 16:32:31.510 - FATAL ERROR * FATAL ERROR * FATAL ERROR * FATAL ERROR
+33028: 16:32:31.510 - FATAL ERROR *                           * FATAL ERROR
+33028: 16:32:31.510 - FATAL ERROR *   License has expired.    * FATAL ERROR
+33028: 16:32:31.510 - FATAL ERROR *                           * FATAL ERROR
+33028: 16:32:31.510 - FATAL ERROR * FATAL ERROR * FATAL ERROR * FATAL ERROR
+33028: 16:32:31.510 - 
+33028: 16:32:31.510 - Server shutting down...
+33028: 16:32:31.510 - Shutdown monitoring disabled due to the fact we're running in the debugger
+33028: 16:32:31.510 - Notifying CLR applications of shutdown...
+33028: 16:32:31.510 - RequestStop: defalt app domain
+33028: 16:32:31.511 - Shutting down NEW TCP Outbound Connection Manager...
+33028: 16:32:31.511 - Shutting down socket servers...
+33028: 16:32:31.511 - Shutting down ENet thread pool...
+33028: 16:32:31.511 - Shutting down TCP inactivity timers...
+33028: 16:32:31.512 - Timer queue stats: TCP Timers
+33028: 16:32:31.512 - Stats are not available
+33028: 16:32:31.512 - Shutting down ENet timers...
+33028: 16:32:31.512 - Waiting for socket servers to shutdown...
+33028: 16:32:31.512 - Shutting down I/O thread pool...
+33028: 16:32:31.512 - Shutting down CLR applications...
+33028: 16:32:31.512 - Shutting down network data traces...
+33028: 16:32:31.512 - Waiting for network data traces to complete...
+33028: 16:32:31.512 - Destroying servers
+33028: 16:32:31.512 - Destroying WebRTC Outbound Connection Manager
+33028: 16:32:31.512 - Destroying WebRTC Outbound Host
+33028: 16:32:31.512 - Destroying outbound ICE connection manager
+33028: 16:32:31.512 - Destroying ENet timer wheel
+33028: 16:32:31.512 - Timer queue stats: ENetTimerWheel
+33028: 16:32:31.512 - Stats are not available
+33028: 16:32:31.512 - Destroying Network Data Trace factory
+33028: 16:32:31.512 - Destroying ENet host
+33028: 16:32:31.512 - Destroying WebRTC inactivity timer queue
+33028: 16:32:31.512 - Destroying WebRTC host
+33028: 16:32:31.512 - Destroying ICE connection manager
+33028: 16:32:31.512 - Flushing stream socket allocator...
+33028: 16:32:31.512 - Flushing UDP Chunk datagram socket allocator...
+33028: 16:32:31.512 - Flushing NEW TCP socket allocator...
+33028: 16:32:31.512 - Destroying TCP inactivity timer
+33028: 16:32:31.512 - Flushing ENET buffer allocator...
+33028: 16:32:31.512 - Flushing TCP buffer allocator...
+33028: 16:32:31.512 - Flushing TCP buffer handle allocator...
+33028: 16:32:31.512 - Destroying CLR applications
+33028: 16:32:31.512 - ~CCLRApplicationCollection() - Waiting up to 10 seconds for the CLR to release all of our objects
+33028: 16:32:31.512 - ~CCLRApplicationCollection() - Done. All objects released
+33028: 16:32:31.512 - ~CManagedHost() - Release default app domain
+33028: 16:32:31.512 - CManagedHost::OnDomainUnload() - 1
+33028: 16:32:31.512 - ~CManagedHost() - Waiting up to 10 seconds for CLR shutdown...
+33028: 16:32:31.536 - ~CManagedHost
+33028: 16:32:31.536 - Destroying ENet thread pool
+33028: 16:32:31.536 - Destroying I/O thread pool
+33028: 16:32:31.536 - Destroying HTTP File Server I/O thread pool
+33028: 16:32:31.536 - Destroying ENet I/O thread pool
+33028: 16:32:31.536 - Destroying ENet buffer allocator
+33028: 16:32:31.536 - Destroying TCP buffer allocator
+33028: 16:32:31.536 - Destroying TCP socket allocator
+33028: 16:32:31.536 - Destroying NEW TCP socket allocator
+33028: 16:32:31.536 - Destroying NEW TCP configuration
+33028: 16:32:31.536 - Destroying UDP Chunk inbound socket allocator
+33028: 16:32:31.536 - Destroying shared datagram flow control data
+33028: 16:32:31.536 - Shutdown complete...
+33028: 16:32:31.537 - Service shutting down: not licensed. Errorcode: 105
+33028: 16:32:31.582 - Service shut down complete
+33632: 16:32:38.316 - ---
+33632: 16:32:38.316 - Service: "Photon Socket Server" starting
+33632: 16:32:38.316 - Config File: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+33632: 16:32:38.316 - Config|INFO| Adding config path macro: "[CONFIG]" - "D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64"
+33632: 16:32:38.316 - Config|INFO| Adding config path macro: "[DEPLOY]" - "[CONFIG]\.."
+33632: 16:32:38.316 - Config|INFO| Adding config path macro: "[EXE]" - "D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64"
+33632: 16:32:38.318 - Will produce at most: 10 crash dumps
+33632: 16:32:38.318 - Construction of service object complete
+33632: 16:32:38.320 - Server Starting...
+33632: 16:32:38.320 -    Tick count: 276237250 (wraps in: 46.5131 days)
+33632: 16:32:38.320 - Tick count 64: 276237250
+33632: 16:32:38.320 - ENet high resolution Tick count: 276241989 (wraps in: 46.513 days)
+33632: 16:32:38.320 - Photon Version: 5.0.12.7770
+33632: 16:32:38.320 - Photon Build: RELEASE - x64 - VS2019 (16.8) - 192829336
+33632: 16:32:38.320 - PID: 41488
+33632: 16:32:38.320 - EXE: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonSocketServer.exe
+33632: 16:32:38.320 - OpenSSL 1.1.1i  8 Dec 2020
+33632: 16:32:38.322 - Current directory is: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\Debug
+33632: 16:32:38.322 - Changing current directory to: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64
+33632: 16:32:38.322 - Config File: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+33632: 16:32:38.322 - Will NOT log unimportant exceptions
+33632: 16:32:38.323 - Performance Counter Configuration for: "Photon Socket Server"
+33632: 16:32:38.323 - CPerformanceCounterInstaller::DumpCounterConfiguration() - Counters are not installed
+33632: 16:32:38.323 - Performance counters NOT enabled, user must have SE_CREATE_GLOBAL_NAME privilege
+33632: 16:32:38.324 - Using in-proc performance counters, access via Interop API only
+33632: 16:32:38.329 - Shutdown timeout enabled: 60000ms
+33632: 16:32:38.329 - Starting I/O thread pool with 4 threads
+38112: 16:32:38.330 - InitialiseWorkerThread - I/O thread - COM enabled
+29288: 16:32:38.330 - InitialiseWorkerThread - I/O thread - COM enabled
+24560: 16:32:38.330 - InitialiseWorkerThread - I/O thread - COM enabled
+17544: 16:32:38.330 - InitialiseWorkerThread - I/O thread - COM enabled
+33632: 16:32:38.330 - ENet: buffer size: 4096
+33632: 16:32:38.330 - ENet: buffer pool: 5000
+33632: 16:32:38.330 - Max message size: 512000
+33632: 16:32:38.330 - CMultiPoolBufferAllocator::GetAllocator() - "CENetThreadPool"
+20500: 16:32:38.330 - Initialise - ENet thread pool thread
+31036: 16:32:38.330 - Initialise - ENet thread pool thread
+30224: 16:32:38.331 - Initialise - ENet thread pool thread
+31428: 16:32:38.331 - Initialise - ENet thread pool thread
+11752: 16:32:38.331 - Initialise - ENet thread pool thread
+30404: 16:32:38.331 - Initialise - ENet thread pool thread
+21564: 16:32:38.331 - Initialise - ENet thread pool thread
+33632: 16:32:38.331 - Starting ENet thread pool with the following settings
+33632: 16:32:38.331 - InitialThreads: 8 threads
+33632: 16:32:38.331 - MinThreads: 8 threads
+33632: 16:32:38.331 - Thread pool is fixed size
+33632: 16:32:38.331 - OnlyDispatchTimers: False
+34692: 16:32:38.331 - Initialise - ENet thread pool thread
+33632: 16:32:39.521 - Resolution ~ 160063 - 16ms
+33632: 16:32:39.521 - ENet timer granularity: 15ms
+33632: 16:32:39.521 - ENet high performance timers: False
+33632: 16:32:39.521 - Config|INFO| TCP S2S: no explicit configuration, using defaults. Add a <S2S> node to configure.
+33632: 16:32:39.521 - Config|INFO| TCP S2S:  - flow control: Max queued bytes: 50000
+33632: 16:32:39.521 - Config|INFO| TCP S2S:  - flow control: Notification step size: 25
+33632: 16:32:39.521 - Config|INFO| TCP S2S:  - no read timeout
+33632: 16:32:39.521 - Config|INFO| TCP S2S:  - rate limit: 32000 bytes per 250ms (125KB/sec)
+33632: 16:32:39.521 - Config|INFO| TCP S2S: Nagle: disabled
+33632: 16:32:39.521 - Config|INFO| TCP S2S: PingFrequency: 2500
+33632: 16:32:39.521 - Config|INFO| TCP S2S: MaxInboundMessageSize: 512000
+33632: 16:32:39.521 - Config|INFO| TCP S2S: MaxOutboundMessageSize: 512000
+33632: 16:32:39.521 - Config|INFO| TCP S2S: ConnectTimeout: 30000ms
+33632: 16:32:39.521 - Config|INFO| TCP S2S: No App Data inactivity timeout
+33632: 16:32:39.521 - Config|INFO| TCP S2S: No write completion timeout
+33632: 16:32:39.524 - GetRuntime - About to load CLR - versions available:
+33632: 16:32:39.524 - v2.0.50727
+33632: 16:32:39.524 - v4.0.30319
+33632: 16:32:39.524 - Configuration requests: "v4.0.30319"
+33632: 16:32:39.524 - About to load version: "v4.0.30319"
+33632: 16:32:39.526 - About to load runtime: PhotonHostRuntime.PhotonDomainManager from PhotonHostRuntime, Culture=neutral, PublicKeyToken=02C301B61B060C4D
+33632: 16:32:39.526 - CLRBaseDirectory set to "D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy"
+33632: 16:32:39.527 - Start: About to load CLR - versions available:
+33632: 16:32:39.527 - v2.0.50727
+33632: 16:32:39.527 - v4.0.30319
+33632: 16:32:39.527 - No preference in configuration file, will load latest.
+33632: 16:32:39.527 - About to load version: "v4.0.30319"
+33632: 16:32:39.527 - Using server GC
+33632: 16:32:39.527 - GC: Server garbage collector enabled
+33632: 16:32:39.527 - GC: Concurrent garbage collector enabled
+33632: 16:32:39.527 - GC: Trim on commit disabled
+33632: 16:32:39.527 - Using CLR config file: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonSocketServer.exe.config
+33632: 16:32:39.527 - Loaded version: "v4.0.30319"
+33632: 16:32:39.822 - Photon host runtime loaded
+33632: 16:32:41.149 - 
+33632: 16:32:41.149 - FATAL ERROR * FATAL ERROR * FATAL ERROR * FATAL ERROR
+33632: 16:32:41.149 - FATAL ERROR *                           * FATAL ERROR
+33632: 16:32:41.149 - FATAL ERROR *   License has expired.    * FATAL ERROR
+33632: 16:32:41.149 - FATAL ERROR *                           * FATAL ERROR
+33632: 16:32:41.149 - FATAL ERROR * FATAL ERROR * FATAL ERROR * FATAL ERROR
+33632: 16:32:41.149 - 
+33632: 16:32:41.149 - Server shutting down...
+33632: 16:32:41.149 - Shutdown monitoring disabled due to the fact we're running in the debugger
+33632: 16:32:41.149 - Notifying CLR applications of shutdown...
+33632: 16:32:41.149 - RequestStop: defalt app domain
+33632: 16:32:41.150 - Shutting down NEW TCP Outbound Connection Manager...
+33632: 16:32:41.150 - Shutting down socket servers...
+33632: 16:32:41.150 - Shutting down ENet thread pool...
+33632: 16:32:41.150 - Shutting down TCP inactivity timers...
+33632: 16:32:41.151 - Timer queue stats: TCP Timers
+33632: 16:32:41.151 - Stats are not available
+33632: 16:32:41.151 - Shutting down ENet timers...
+33632: 16:32:41.151 - Waiting for socket servers to shutdown...
+33632: 16:32:41.151 - Shutting down I/O thread pool...
+33632: 16:32:41.151 - Shutting down CLR applications...
+33632: 16:32:41.151 - Shutting down network data traces...
+33632: 16:32:41.151 - Waiting for network data traces to complete...
+33632: 16:32:41.151 - Destroying servers
+33632: 16:32:41.151 - Destroying WebRTC Outbound Connection Manager
+33632: 16:32:41.151 - Destroying WebRTC Outbound Host
+33632: 16:32:41.151 - Destroying outbound ICE connection manager
+33632: 16:32:41.151 - Destroying ENet timer wheel
+33632: 16:32:41.151 - Timer queue stats: ENetTimerWheel
+33632: 16:32:41.151 - Stats are not available
+33632: 16:32:41.151 - Destroying Network Data Trace factory
+33632: 16:32:41.151 - Destroying ENet host
+33632: 16:32:41.151 - Destroying WebRTC inactivity timer queue
+33632: 16:32:41.151 - Destroying WebRTC host
+33632: 16:32:41.151 - Destroying ICE connection manager
+33632: 16:32:41.151 - Flushing stream socket allocator...
+33632: 16:32:41.151 - Flushing UDP Chunk datagram socket allocator...
+33632: 16:32:41.151 - Flushing NEW TCP socket allocator...
+33632: 16:32:41.151 - Destroying TCP inactivity timer
+33632: 16:32:41.151 - Flushing ENET buffer allocator...
+33632: 16:32:41.151 - Flushing TCP buffer allocator...
+33632: 16:32:41.151 - Flushing TCP buffer handle allocator...
+33632: 16:32:41.151 - Destroying CLR applications
+33632: 16:32:41.151 - ~CCLRApplicationCollection() - Waiting up to 10 seconds for the CLR to release all of our objects
+33632: 16:32:41.151 - ~CCLRApplicationCollection() - Done. All objects released
+33632: 16:32:41.151 - ~CManagedHost() - Release default app domain
+33632: 16:32:41.151 - CManagedHost::OnDomainUnload() - 1
+33632: 16:32:41.151 - ~CManagedHost() - Waiting up to 10 seconds for CLR shutdown...
+33632: 16:32:41.173 - ~CManagedHost
+33632: 16:32:41.173 - Destroying ENet thread pool
+33632: 16:32:41.173 - Destroying I/O thread pool
+33632: 16:32:41.173 - Destroying HTTP File Server I/O thread pool
+33632: 16:32:41.173 - Destroying ENet I/O thread pool
+33632: 16:32:41.173 - Destroying ENet buffer allocator
+33632: 16:32:41.173 - Destroying TCP buffer allocator
+33632: 16:32:41.173 - Destroying TCP socket allocator
+33632: 16:32:41.173 - Destroying NEW TCP socket allocator
+33632: 16:32:41.173 - Destroying NEW TCP configuration
+33632: 16:32:41.173 - Destroying UDP Chunk inbound socket allocator
+33632: 16:32:41.173 - Destroying shared datagram flow control data
+33632: 16:32:41.173 - Shutdown complete...
+33632: 16:32:41.174 - Service shutting down: not licensed. Errorcode: 105
+33632: 16:32:41.221 - Service shut down complete
+34076: 16:32:47.086 - ---
+34076: 16:32:47.086 - Service: "Photon Socket Server" starting
+34076: 16:32:47.086 - Config File: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+34076: 16:32:47.086 - Config|INFO| Adding config path macro: "[CONFIG]" - "D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64"
+34076: 16:32:47.086 - Config|INFO| Adding config path macro: "[DEPLOY]" - "[CONFIG]\.."
+34076: 16:32:47.086 - Config|INFO| Adding config path macro: "[EXE]" - "D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64"
+34076: 16:32:47.087 - Will produce at most: 10 crash dumps
+34076: 16:32:47.087 - Construction of service object complete
+34076: 16:32:47.089 - Server Starting...
+34076: 16:32:47.089 -    Tick count: 276246015 (wraps in: 46.513 days)
+34076: 16:32:47.089 - Tick count 64: 276246015
+34076: 16:32:47.089 - ENet high resolution Tick count: 276250758 (wraps in: 46.5129 days)
+34076: 16:32:47.089 - Photon Version: 5.0.12.7770
+34076: 16:32:47.089 - Photon Build: RELEASE - x64 - VS2019 (16.8) - 192829336
+34076: 16:32:47.089 - PID: 20708
+34076: 16:32:47.089 - EXE: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonSocketServer.exe
+34076: 16:32:47.089 - OpenSSL 1.1.1i  8 Dec 2020
+34076: 16:32:47.091 - Current directory is: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\Debug
+34076: 16:32:47.091 - Changing current directory to: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64
+34076: 16:32:47.091 - Config File: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+34076: 16:32:47.091 - Will NOT log unimportant exceptions
+34076: 16:32:47.092 - Performance Counter Configuration for: "Photon Socket Server"
+34076: 16:32:47.092 - CPerformanceCounterInstaller::DumpCounterConfiguration() - Counters are not installed
+34076: 16:32:47.092 - Performance counters NOT enabled, user must have SE_CREATE_GLOBAL_NAME privilege
+34076: 16:32:47.093 - Using in-proc performance counters, access via Interop API only
+34076: 16:32:47.099 - Shutdown timeout enabled: 60000ms
+34076: 16:32:47.099 - Starting I/O thread pool with 4 threads
+1116: 16:32:47.099 - InitialiseWorkerThread - I/O thread - COM enabled
+19880: 16:32:47.099 - InitialiseWorkerThread - I/O thread - COM enabled
+32012: 16:32:47.099 - InitialiseWorkerThread - I/O thread - COM enabled
+34076: 16:32:47.100 - ENet: buffer size: 4096
+34076: 16:32:47.100 - ENet: buffer pool: 5000
+34076: 16:32:47.100 - Max message size: 512000
+41876: 16:32:47.100 - InitialiseWorkerThread - I/O thread - COM enabled
+34076: 16:32:47.100 - CMultiPoolBufferAllocator::GetAllocator() - "CENetThreadPool"
+14032: 16:32:47.100 - Initialise - ENet thread pool thread
+36476: 16:32:47.100 - Initialise - ENet thread pool thread
+36272: 16:32:47.100 - Initialise - ENet thread pool thread
+29600: 16:32:47.100 - Initialise - ENet thread pool thread
+38628: 16:32:47.100 - Initialise - ENet thread pool thread
+23124: 16:32:47.101 - Initialise - ENet thread pool thread
+6728: 16:32:47.101 - Initialise - ENet thread pool thread
+34076: 16:32:47.101 - Starting ENet thread pool with the following settings
+34076: 16:32:47.101 - InitialThreads: 8 threads
+34076: 16:32:47.101 - MinThreads: 8 threads
+34076: 16:32:47.101 - Thread pool is fixed size
+34076: 16:32:47.101 - OnlyDispatchTimers: False
+14888: 16:32:47.101 - Initialise - ENet thread pool thread
+34076: 16:32:48.277 - Resolution ~ 160038 - 16ms
+34076: 16:32:48.277 - ENet timer granularity: 15ms
+34076: 16:32:48.277 - ENet high performance timers: False
+34076: 16:32:48.277 - Config|INFO| TCP S2S: no explicit configuration, using defaults. Add a <S2S> node to configure.
+34076: 16:32:48.277 - Config|INFO| TCP S2S:  - flow control: Max queued bytes: 50000
+34076: 16:32:48.277 - Config|INFO| TCP S2S:  - flow control: Notification step size: 25
+34076: 16:32:48.277 - Config|INFO| TCP S2S:  - no read timeout
+34076: 16:32:48.277 - Config|INFO| TCP S2S:  - rate limit: 32000 bytes per 250ms (125KB/sec)
+34076: 16:32:48.277 - Config|INFO| TCP S2S: Nagle: disabled
+34076: 16:32:48.277 - Config|INFO| TCP S2S: PingFrequency: 2500
+34076: 16:32:48.277 - Config|INFO| TCP S2S: MaxInboundMessageSize: 512000
+34076: 16:32:48.277 - Config|INFO| TCP S2S: MaxOutboundMessageSize: 512000
+34076: 16:32:48.277 - Config|INFO| TCP S2S: ConnectTimeout: 30000ms
+34076: 16:32:48.277 - Config|INFO| TCP S2S: No App Data inactivity timeout
+34076: 16:32:48.277 - Config|INFO| TCP S2S: No write completion timeout
+34076: 16:32:48.279 - GetRuntime - About to load CLR - versions available:
+34076: 16:32:48.279 - v2.0.50727
+34076: 16:32:48.279 - v4.0.30319
+34076: 16:32:48.279 - Configuration requests: "v4.0.30319"
+34076: 16:32:48.279 - About to load version: "v4.0.30319"
+34076: 16:32:48.281 - About to load runtime: PhotonHostRuntime.PhotonDomainManager from PhotonHostRuntime, Culture=neutral, PublicKeyToken=02C301B61B060C4D
+34076: 16:32:48.281 - CLRBaseDirectory set to "D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy"
+34076: 16:32:48.282 - Start: About to load CLR - versions available:
+34076: 16:32:48.282 - v2.0.50727
+34076: 16:32:48.282 - v4.0.30319
+34076: 16:32:48.282 - No preference in configuration file, will load latest.
+34076: 16:32:48.282 - About to load version: "v4.0.30319"
+34076: 16:32:48.282 - Using server GC
+34076: 16:32:48.282 - GC: Server garbage collector enabled
+34076: 16:32:48.282 - GC: Concurrent garbage collector enabled
+34076: 16:32:48.282 - GC: Trim on commit disabled
+34076: 16:32:48.282 - Using CLR config file: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonSocketServer.exe.config
+34076: 16:32:48.282 - Loaded version: "v4.0.30319"
+34076: 16:32:48.599 - Photon host runtime loaded
+34076: 16:32:49.907 - 
+34076: 16:32:49.907 - FATAL ERROR * FATAL ERROR * FATAL ERROR * FATAL ERROR
+34076: 16:32:49.907 - FATAL ERROR *                           * FATAL ERROR
+34076: 16:32:49.907 - FATAL ERROR *   License has expired.    * FATAL ERROR
+34076: 16:32:49.907 - FATAL ERROR *                           * FATAL ERROR
+34076: 16:32:49.907 - FATAL ERROR * FATAL ERROR * FATAL ERROR * FATAL ERROR
+34076: 16:32:49.907 - 
+34076: 16:32:49.907 - Server shutting down...
+34076: 16:32:49.907 - Shutdown monitoring disabled due to the fact we're running in the debugger
+34076: 16:32:49.907 - Notifying CLR applications of shutdown...
+34076: 16:32:49.907 - RequestStop: defalt app domain
+34076: 16:32:49.908 - Shutting down NEW TCP Outbound Connection Manager...
+34076: 16:32:49.908 - Shutting down socket servers...
+34076: 16:32:49.908 - Shutting down ENet thread pool...
+34076: 16:32:49.908 - Shutting down TCP inactivity timers...
+34076: 16:32:49.909 - Timer queue stats: TCP Timers
+34076: 16:32:49.909 - Stats are not available
+34076: 16:32:49.909 - Shutting down ENet timers...
+34076: 16:32:49.909 - Waiting for socket servers to shutdown...
+34076: 16:32:49.909 - Shutting down I/O thread pool...
+34076: 16:32:49.909 - Shutting down CLR applications...
+34076: 16:32:49.909 - Shutting down network data traces...
+34076: 16:32:49.909 - Waiting for network data traces to complete...
+34076: 16:32:49.909 - Destroying servers
+34076: 16:32:49.909 - Destroying WebRTC Outbound Connection Manager
+34076: 16:32:49.909 - Destroying WebRTC Outbound Host
+34076: 16:32:49.909 - Destroying outbound ICE connection manager
+34076: 16:32:49.909 - Destroying ENet timer wheel
+34076: 16:32:49.909 - Timer queue stats: ENetTimerWheel
+34076: 16:32:49.909 - Stats are not available
+34076: 16:32:49.909 - Destroying Network Data Trace factory
+34076: 16:32:49.910 - Destroying ENet host
+34076: 16:32:49.910 - Destroying WebRTC inactivity timer queue
+34076: 16:32:49.910 - Destroying WebRTC host
+34076: 16:32:49.910 - Destroying ICE connection manager
+34076: 16:32:49.910 - Flushing stream socket allocator...
+34076: 16:32:49.910 - Flushing UDP Chunk datagram socket allocator...
+34076: 16:32:49.910 - Flushing NEW TCP socket allocator...
+34076: 16:32:49.910 - Destroying TCP inactivity timer
+34076: 16:32:49.910 - Flushing ENET buffer allocator...
+34076: 16:32:49.910 - Flushing TCP buffer allocator...
+34076: 16:32:49.910 - Flushing TCP buffer handle allocator...
+34076: 16:32:49.910 - Destroying CLR applications
+34076: 16:32:49.910 - ~CCLRApplicationCollection() - Waiting up to 10 seconds for the CLR to release all of our objects
+34076: 16:32:49.910 - ~CCLRApplicationCollection() - Done. All objects released
+34076: 16:32:49.910 - ~CManagedHost() - Release default app domain
+34076: 16:32:49.910 - CManagedHost::OnDomainUnload() - 1
+34076: 16:32:49.910 - ~CManagedHost() - Waiting up to 10 seconds for CLR shutdown...
+34076: 16:32:49.933 - ~CManagedHost
+34076: 16:32:49.933 - Destroying ENet thread pool
+34076: 16:32:49.933 - Destroying I/O thread pool
+34076: 16:32:49.933 - Destroying HTTP File Server I/O thread pool
+34076: 16:32:49.933 - Destroying ENet I/O thread pool
+34076: 16:32:49.933 - Destroying ENet buffer allocator
+34076: 16:32:49.933 - Destroying TCP buffer allocator
+34076: 16:32:49.933 - Destroying TCP socket allocator
+34076: 16:32:49.933 - Destroying NEW TCP socket allocator
+34076: 16:32:49.933 - Destroying NEW TCP configuration
+34076: 16:32:49.933 - Destroying UDP Chunk inbound socket allocator
+34076: 16:32:49.933 - Destroying shared datagram flow control data
+34076: 16:32:49.933 - Shutdown complete...
+34076: 16:32:49.934 - Service shutting down: not licensed. Errorcode: 105
+34076: 16:32:49.977 - Service shut down complete
+10280: 16:32:53.627 - ---
+10280: 16:32:53.627 - Service: "Photon Socket Server" starting
+10280: 16:32:53.627 - Config File: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+10280: 16:32:53.628 - Config|INFO| Adding config path macro: "[CONFIG]" - "D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64"
+10280: 16:32:53.628 - Config|INFO| Adding config path macro: "[DEPLOY]" - "[CONFIG]\.."
+10280: 16:32:53.628 - Config|INFO| Adding config path macro: "[EXE]" - "D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64"
+10280: 16:32:53.629 - Will produce at most: 10 crash dumps
+10280: 16:32:53.629 - Construction of service object complete
+10280: 16:32:53.631 - Server Starting...
+10280: 16:32:53.631 -    Tick count: 276252562 (wraps in: 46.5129 days)
+10280: 16:32:53.631 - Tick count 64: 276252562
+10280: 16:32:53.631 - ENet high resolution Tick count: 276257300 (wraps in: 46.5128 days)
+10280: 16:32:53.631 - Photon Version: 5.0.12.7770
+10280: 16:32:53.631 - Photon Build: RELEASE - x64 - VS2019 (16.8) - 192829336
+10280: 16:32:53.631 - PID: 31160
+10280: 16:32:53.631 - EXE: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonSocketServer.exe
+10280: 16:32:53.631 - OpenSSL 1.1.1i  8 Dec 2020
+10280: 16:32:53.633 - Current directory is: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\Debug
+10280: 16:32:53.633 - Changing current directory to: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64
+10280: 16:32:53.633 - Config File: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+10280: 16:32:53.634 - Will NOT log unimportant exceptions
+10280: 16:32:53.634 - Performance Counter Configuration for: "Photon Socket Server"
+10280: 16:32:53.635 - CPerformanceCounterInstaller::DumpCounterConfiguration() - Counters are not installed
+10280: 16:32:53.635 - Performance counters NOT enabled, user must have SE_CREATE_GLOBAL_NAME privilege
+10280: 16:32:53.635 - Using in-proc performance counters, access via Interop API only
+10280: 16:32:53.641 - Shutdown timeout enabled: 60000ms
+10280: 16:32:53.641 - Starting I/O thread pool with 4 threads
+40408: 16:32:53.641 - InitialiseWorkerThread - I/O thread - COM enabled
+12144: 16:32:53.641 - InitialiseWorkerThread - I/O thread - COM enabled
+8196: 16:32:53.641 - InitialiseWorkerThread - I/O thread - COM enabled
+10280: 16:32:53.642 - ENet: buffer size: 4096
+10280: 16:32:53.642 - ENet: buffer pool: 5000
+10280: 16:32:53.642 - Max message size: 512000
+10280: 16:32:53.642 - CMultiPoolBufferAllocator::GetAllocator() - "CENetThreadPool"
+36392: 16:32:53.642 - InitialiseWorkerThread - I/O thread - COM enabled
+31968: 16:32:53.642 - Initialise - ENet thread pool thread
+29292: 16:32:53.642 - Initialise - ENet thread pool thread
+36184: 16:32:53.642 - Initialise - ENet thread pool thread
+27144: 16:32:53.642 - Initialise - ENet thread pool thread
+16436: 16:32:53.642 - Initialise - ENet thread pool thread
+24040: 16:32:53.643 - Initialise - ENet thread pool thread
+39280: 16:32:53.643 - Initialise - ENet thread pool thread
+10280: 16:32:53.643 - Starting ENet thread pool with the following settings
+10280: 16:32:53.643 - InitialThreads: 8 threads
+31920: 16:32:53.643 - Initialise - ENet thread pool thread
+10280: 16:32:53.643 - MinThreads: 8 threads
+10280: 16:32:53.643 - Thread pool is fixed size
+10280: 16:32:53.643 - OnlyDispatchTimers: False
+10280: 16:32:54.852 - Resolution ~ 160005 - 16ms
+10280: 16:32:54.852 - ENet timer granularity: 15ms
+10280: 16:32:54.852 - ENet high performance timers: False
+10280: 16:32:54.852 - Config|INFO| TCP S2S: no explicit configuration, using defaults. Add a <S2S> node to configure.
+10280: 16:32:54.852 - Config|INFO| TCP S2S:  - flow control: Max queued bytes: 50000
+10280: 16:32:54.852 - Config|INFO| TCP S2S:  - flow control: Notification step size: 25
+10280: 16:32:54.852 - Config|INFO| TCP S2S:  - no read timeout
+10280: 16:32:54.852 - Config|INFO| TCP S2S:  - rate limit: 32000 bytes per 250ms (125KB/sec)
+10280: 16:32:54.852 - Config|INFO| TCP S2S: Nagle: disabled
+10280: 16:32:54.852 - Config|INFO| TCP S2S: PingFrequency: 2500
+10280: 16:32:54.852 - Config|INFO| TCP S2S: MaxInboundMessageSize: 512000
+10280: 16:32:54.852 - Config|INFO| TCP S2S: MaxOutboundMessageSize: 512000
+10280: 16:32:54.852 - Config|INFO| TCP S2S: ConnectTimeout: 30000ms
+10280: 16:32:54.852 - Config|INFO| TCP S2S: No App Data inactivity timeout
+10280: 16:32:54.852 - Config|INFO| TCP S2S: No write completion timeout
+10280: 16:32:54.854 - GetRuntime - About to load CLR - versions available:
+10280: 16:32:54.854 - v2.0.50727
+10280: 16:32:54.854 - v4.0.30319
+10280: 16:32:54.854 - Configuration requests: "v4.0.30319"
+10280: 16:32:54.854 - About to load version: "v4.0.30319"
+10280: 16:32:54.857 - About to load runtime: PhotonHostRuntime.PhotonDomainManager from PhotonHostRuntime, Culture=neutral, PublicKeyToken=02C301B61B060C4D
+10280: 16:32:54.857 - CLRBaseDirectory set to "D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy"
+10280: 16:32:54.858 - Start: About to load CLR - versions available:
+10280: 16:32:54.858 - v2.0.50727
+10280: 16:32:54.858 - v4.0.30319
+10280: 16:32:54.858 - No preference in configuration file, will load latest.
+10280: 16:32:54.858 - About to load version: "v4.0.30319"
+10280: 16:32:54.858 - Using server GC
+10280: 16:32:54.858 - GC: Server garbage collector enabled
+10280: 16:32:54.858 - GC: Concurrent garbage collector enabled
+10280: 16:32:54.858 - GC: Trim on commit disabled
+10280: 16:32:54.858 - Using CLR config file: D:\Photon-Server-Test\photon-server-plugin-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonSocketServer.exe.config
+10280: 16:32:54.858 - Loaded version: "v4.0.30319"
+10280: 16:32:55.191 - Photon host runtime loaded
+10280: 16:32:56.512 - 
+10280: 16:32:56.512 - FATAL ERROR * FATAL ERROR * FATAL ERROR * FATAL ERROR
+10280: 16:32:56.512 - FATAL ERROR *                           * FATAL ERROR
+10280: 16:32:56.512 - FATAL ERROR *   License has expired.    * FATAL ERROR
+10280: 16:32:56.512 - FATAL ERROR *                           * FATAL ERROR
+10280: 16:32:56.512 - FATAL ERROR * FATAL ERROR * FATAL ERROR * FATAL ERROR
+10280: 16:32:56.512 - 
+10280: 16:32:56.512 - Server shutting down...
+10280: 16:32:56.512 - Shutdown monitoring disabled due to the fact we're running in the debugger
+10280: 16:32:56.512 - Notifying CLR applications of shutdown...
+10280: 16:32:56.512 - RequestStop: defalt app domain
+10280: 16:32:56.513 - Shutting down NEW TCP Outbound Connection Manager...
+10280: 16:32:56.513 - Shutting down socket servers...
+10280: 16:32:56.513 - Shutting down ENet thread pool...
+10280: 16:32:56.513 - Shutting down TCP inactivity timers...
+10280: 16:32:56.514 - Timer queue stats: TCP Timers
+10280: 16:32:56.514 - Stats are not available
+10280: 16:32:56.514 - Shutting down ENet timers...
+10280: 16:32:56.514 - Waiting for socket servers to shutdown...
+10280: 16:32:56.514 - Shutting down I/O thread pool...
+10280: 16:32:56.515 - Shutting down CLR applications...
+10280: 16:32:56.515 - Shutting down network data traces...
+10280: 16:32:56.515 - Waiting for network data traces to complete...
+10280: 16:32:56.515 - Destroying servers
+10280: 16:32:56.515 - Destroying WebRTC Outbound Connection Manager
+10280: 16:32:56.515 - Destroying WebRTC Outbound Host
+10280: 16:32:56.515 - Destroying outbound ICE connection manager
+10280: 16:32:56.515 - Destroying ENet timer wheel
+10280: 16:32:56.515 - Timer queue stats: ENetTimerWheel
+10280: 16:32:56.515 - Stats are not available
+10280: 16:32:56.515 - Destroying Network Data Trace factory
+10280: 16:32:56.515 - Destroying ENet host
+10280: 16:32:56.515 - Destroying WebRTC inactivity timer queue
+10280: 16:32:56.515 - Destroying WebRTC host
+10280: 16:32:56.515 - Destroying ICE connection manager
+10280: 16:32:56.515 - Flushing stream socket allocator...
+10280: 16:32:56.515 - Flushing UDP Chunk datagram socket allocator...
+10280: 16:32:56.515 - Flushing NEW TCP socket allocator...
+10280: 16:32:56.515 - Destroying TCP inactivity timer
+10280: 16:32:56.515 - Flushing ENET buffer allocator...
+10280: 16:32:56.515 - Flushing TCP buffer allocator...
+10280: 16:32:56.515 - Flushing TCP buffer handle allocator...
+10280: 16:32:56.515 - Destroying CLR applications
+10280: 16:32:56.515 - ~CCLRApplicationCollection() - Waiting up to 10 seconds for the CLR to release all of our objects
+10280: 16:32:56.515 - ~CCLRApplicationCollection() - Done. All objects released
+10280: 16:32:56.515 - ~CManagedHost() - Release default app domain
+10280: 16:32:56.515 - CManagedHost::OnDomainUnload() - 1
+10280: 16:32:56.515 - ~CManagedHost() - Waiting up to 10 seconds for CLR shutdown...
+10280: 16:32:56.538 - ~CManagedHost
+10280: 16:32:56.538 - Destroying ENet thread pool
+10280: 16:32:56.538 - Destroying I/O thread pool
+10280: 16:32:56.538 - Destroying HTTP File Server I/O thread pool
+10280: 16:32:56.538 - Destroying ENet I/O thread pool
+10280: 16:32:56.538 - Destroying ENet buffer allocator
+10280: 16:32:56.538 - Destroying TCP buffer allocator
+10280: 16:32:56.538 - Destroying TCP socket allocator
+10280: 16:32:56.538 - Destroying NEW TCP socket allocator
+10280: 16:32:56.538 - Destroying NEW TCP configuration
+10280: 16:32:56.538 - Destroying UDP Chunk inbound socket allocator
+10280: 16:32:56.538 - Destroying shared datagram flow control data
+10280: 16:32:56.538 - Shutdown complete...
+10280: 16:32:56.539 - Service shutting down: not licensed. Errorcode: 105
+10280: 16:32:56.585 - Service shut down complete

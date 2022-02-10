@@ -20,8 +20,8 @@ MonoBehaviour:
     AppVersion: 
     UseNameServer: 0
     FixedRegion: 
-    Server: 118.36.97.193
-    Port: 5055
+    Server: 
+    Port: 0
     ProxyServer: 
     Protocol: 0
     EnableProtocolFallback: 0

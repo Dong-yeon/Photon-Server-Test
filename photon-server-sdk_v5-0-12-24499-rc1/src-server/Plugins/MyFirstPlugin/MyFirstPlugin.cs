@@ -4,7 +4,7 @@ using System.IO;
 
 namespace MyFirstPlugin
 {
-	class MyFirstPlugin : PluginBase
+	public class MyFirstPlugin : PluginBase
 	{
 		public override string Name => "MyFirstPlugin";
 		public override string Version => base.Version;
