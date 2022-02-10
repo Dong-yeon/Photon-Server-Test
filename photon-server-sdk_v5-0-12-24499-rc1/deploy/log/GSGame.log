@@ -11976,3 +11976,798 @@ System.Net.WebException: 원격 서버에 연결할 수 없습니다. ---> Syste
 2022-02-10 16:52:23,350 [34] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Level1, new=Lowest
 2022-02-10 16:52:54,751 [53] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Level1 with input 11
 2022-02-10 16:52:54,752 [53] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Level1
+2022-02-10 16:54:52,673 [48] DEBUG Photon.LoadBalancing.GameServer.GameApplication - CreatePeer for LoadBalancing
+2022-02-10 16:54:52,673 [48] DEBUG Photon.LoadBalancing.GameServer.GameApplication - incoming game peer at 192.168.0.49:5056 from 192.168.0.1:64660
+2022-02-10 16:54:52,674 [48] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker scheduled. authTimeout:20000 p:GameClientPeer: PID: 15, IsConnected: False, IsDisposed: False, Last Activity: Operation 0 at UTC 0001-01-01T00:00:00, in Room '', IP 192.168.0.1:64660, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 16:54:52,742 [34] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=15, opCode=230
+2022-02-10 16:54:52,742 [34] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 15, IsConnected: True, IsDisposed: False, Last Activity: Operation 230 at UTC 2022-02-10T07:54:52, in Room '', IP 192.168.0.1:64660, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 16:54:52,742 [34] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Token Validation: checking token with GS: 118.36.97.193 and GameId:MainHall/0
+2022-02-10 16:54:52,801 [45] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=15, opCode=226
+2022-02-10 16:54:52,802 [45] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=226
+2022-02-10 16:54:52,802 [45] DEBUG Photon.Hive.Caching.RoomCacheBase - Creating room instance: roomName=MainHall/0
+2022-02-10 16:54:52,802 [45] DEBUG Photon.Hive.Caching.RoomCacheBase - Created room instance reference: roomName=MainHall/0, referenceCount=1
+2022-02-10 16:54:52,803 [45] INFO  Photon.Hive.Plugin.PluginManager - Plugin successfully created:Type:MyFirstPlugin.MyPluginFactory, path:D:\Photon-Server-Test\photon-server-sdk_v5-0-12-24499-rc1\deploy\Plugins/MyFirstPlugin//bin/MyFirstPlugin.dll
+2022-02-10 16:54:52,803 [45] INFO  Plugin.MyFirstPlugin - OnCreateGame MainHall/0 by user 1
+2022-02-10 16:54:52,803 [45] DEBUG Photon.Hive.Plugin.CreateGameCallInfo - Continue.
+2022-02-10 16:54:52,803 [45] DEBUG Photon.Hive.HiveGame - Processing Join from IP: 192.168.0.1 to port: 5056
+2022-02-10 16:54:52,803 [45] DEBUG Photon.Hive.Collections.ActorsManager - Actor added: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 15, IsConnected: True, IsDisposed: False, Last Activity: Operation 226 at UTC 2022-02-10T07:54:52, in Room 'MainHall/0', IP 192.168.0.1:64660, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 4 
+2022-02-10 16:54:52,804 [45] DEBUG Photon.Hive.HiveGame - JoinApplyGameStateChanges: Actor 1 is added. MasterClientId is 1
+2022-02-10 16:54:52,804 [45] DEBUG Photon.Hive.HiveGame - Created Game - name=MainHall/0, lobbyName=, lobbyType=Default, maxPlayers=4, IsOpen=True, IsVisible=True, EmptyRoomLiveTime=0, PlayerTTL=0, CheckUserOnJoin=True, PublishUserId=False, ExpectedUsers=
+2022-02-10 16:54:52,804 [45] DEBUG Photon.LoadBalancing.GameServer.Game - UpdateGameStateOnMasterOnCreate: game - 'MainHall/0'
+2022-02-10 16:54:52,804 [45] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 16:54:52,805 [45] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 16:54:53,686 [36] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 16:54:55,735 [50] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 16:54:55,735 [50] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 16:54:55,735 [50] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=15, opCode=219
+2022-02-10 16:54:55,735 [50] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 16:54:55,736 [50] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/users/1?:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 16:54:55,735 [53] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 16:54:55,738 [53] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 16:54:55,738 [53] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 16:54:55,738 [53] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 16:54:55,739 [53] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 16:54:55,739 [53] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 16:54:55,743 [47] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/users/1?: {"ResultCode":0,"data":{"user":[{"name":"tester1","sex":1,"level":2}]}}
+2022-02-10 16:55:03,934 [48] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=15, opCode=219
+2022-02-10 16:55:03,935 [48] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 16:55:03,935 [48] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/videos?lecture_name=math&:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 16:55:03,940 [50] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/videos?lecture_name=math&: {"ResultCode":0,"data":{"videos":[{"vid":1,"video_count":1,"video_desc":"수학 1","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669685953","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":100},{"vid":2,"video_count":2,"video_desc":"수학 2","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669651592","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":200}]}}
+2022-02-10 16:55:09,560 [51] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=15, opCode=219
+2022-02-10 16:55:09,561 [51] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 16:55:09,561 [51] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/videos?lecture_name=science&:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 16:55:09,569 [35] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/videos?lecture_name=science&: {"ResultCode":0,"data":{"videos":[{"vid":3,"video_count":1,"video_desc":"과학 1","lecture_name":"science","lecture_num":2,"professor_id":1,"url":"https://vimeo.com/669685953","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":100}]}}
+2022-02-10 16:55:22,320 [56] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 15, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T07:55:09, in Room 'MainHall/0', IP 192.168.0.1:64660, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 16:55:22,320 [56] DEBUG Photon.Hive.HivePeer - OnDisconnect: conId=15, reason=0, reasonDetail=
+2022-02-10 16:55:22,321 [56] DEBUG Photon.Hive.HivePeer - RemovePeerFromCurrentRoom: Removing peer from room. p:GameClientPeer: PID: 15, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T07:55:09, in Room 'MainHall/0', IP 192.168.0.1:64660, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 16:55:22,321 [56] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance reference: roomName=MainHall/0, referenceCount=0
+2022-02-10 16:55:22,321 [56] DEBUG Photon.Hive.Caching.RoomCacheBase - Room has no references. Trying to remove it. room:MainHall/0
+2022-02-10 16:55:22,321 [56] DEBUG Photon.Hive.Caching.RoomCacheBase - Room BeforeRemoveFromCache returned 'false'. Removing stopped. room:MainHall/0
+2022-02-10 16:55:22,321 [47] DEBUG Photon.Hive.HiveGame - ProcessMessage 1
+2022-02-10 16:55:22,322 [47] DEBUG Photon.Hive.Plugin.LeaveGameCallInfo - Continue.
+2022-02-10 16:55:22,322 [47] DEBUG Photon.Hive.HiveGame - Actor 1 left. MasterClientId is 0
+2022-02-10 16:55:22,322 [47] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 16:55:22,323 [47] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 16:55:22,323 [47] DEBUG Photon.Hive.Collections.ActorsManager - Actor removed: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 15, IsConnected: False, IsDisposed: True, Last Activity: Operation 219 at UTC 2022-02-10T07:55:09, in Room '', IP 192.168.0.1:64660, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 16:55:22,323 [47] DEBUG Photon.Hive.Plugin.BeforeCloseGameCallInfo - Continue.
+2022-02-10 16:55:22,323 [47] DEBUG Photon.Hive.Plugin.CloseGameCallInfo - Continue.
+2022-02-10 16:55:22,323 [47] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance: roomId=MainHall/0
+2022-02-10 16:55:22,324 [47] DEBUG Photon.Hive.Room - Release for room:MainHall/0, RemovePath:;BeforeRemoveFromCacheCalled(오전 7:55:22);BeforeRemoveFromCacheActionCalled(오전 7:55:22);ProcessBeforeCloseGameCalled(오전 7:55:22);ProcessBeforeCloseGameCalledEmptyRoomLiveTimeLECalled(오전 7:55:22);TriggerPluginOnCloseCalled(오전 7:55:22);ProcessCloseGameCalled(오전 7:55:22);TryRemoveRoomFromCacheCalled(오전 7:55:22)
+2022-02-10 16:55:22,324 [47] DEBUG Photon.Hive.Room - Tried to remove room: roomName=MainHall/0, removed=True
+2022-02-10 16:55:22,324 [47] DEBUG Photon.Hive.Room - Disposing room 'MainHall/0', dispose:True
+2022-02-10 16:55:22,324 [47] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Flush for appId:, version:
+2022-02-10 16:55:23,327 [55] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 16:56:02,856 [47] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Level1 to Lowest with input 8
+2022-02-10 16:56:02,856 [47] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Level1, new=Lowest
+2022-02-10 16:56:36,279 [53] DEBUG Photon.LoadBalancing.GameServer.GameApplication - CreatePeer for LoadBalancing
+2022-02-10 16:56:36,280 [53] DEBUG Photon.LoadBalancing.GameServer.GameApplication - incoming game peer at 192.168.0.49:5056 from 192.168.0.1:54565
+2022-02-10 16:56:36,280 [53] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker scheduled. authTimeout:20000 p:GameClientPeer: PID: 17, IsConnected: False, IsDisposed: False, Last Activity: Operation 0 at UTC 0001-01-01T00:00:00, in Room '', IP 192.168.0.1:54565, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 16:56:36,373 [57] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=17, opCode=230
+2022-02-10 16:56:36,373 [57] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 17, IsConnected: True, IsDisposed: False, Last Activity: Operation 230 at UTC 2022-02-10T07:56:36, in Room '', IP 192.168.0.1:54565, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 16:56:36,373 [57] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Token Validation: checking token with GS: 118.36.97.193 and GameId:MainHall/0
+2022-02-10 16:56:36,407 [41] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=17, opCode=226
+2022-02-10 16:56:36,407 [41] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=226
+2022-02-10 16:56:36,407 [41] DEBUG Photon.Hive.Caching.RoomCacheBase - Creating room instance: roomName=MainHall/0
+2022-02-10 16:56:36,408 [41] DEBUG Photon.Hive.Caching.RoomCacheBase - Created room instance reference: roomName=MainHall/0, referenceCount=1
+2022-02-10 16:56:36,408 [41] INFO  Photon.Hive.Plugin.PluginManager - Plugin successfully created:Type:MyFirstPlugin.MyPluginFactory, path:D:\Photon-Server-Test\photon-server-sdk_v5-0-12-24499-rc1\deploy\Plugins/MyFirstPlugin//bin/MyFirstPlugin.dll
+2022-02-10 16:56:36,408 [41] INFO  Plugin.MyFirstPlugin - OnCreateGame MainHall/0 by user 1
+2022-02-10 16:56:36,408 [41] DEBUG Photon.Hive.Plugin.CreateGameCallInfo - Continue.
+2022-02-10 16:56:36,409 [41] DEBUG Photon.Hive.HiveGame - Processing Join from IP: 192.168.0.1 to port: 5056
+2022-02-10 16:56:36,409 [41] DEBUG Photon.Hive.Collections.ActorsManager - Actor added: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 17, IsConnected: True, IsDisposed: False, Last Activity: Operation 226 at UTC 2022-02-10T07:56:36, in Room 'MainHall/0', IP 192.168.0.1:54565, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 4 
+2022-02-10 16:56:36,409 [41] DEBUG Photon.Hive.HiveGame - JoinApplyGameStateChanges: Actor 1 is added. MasterClientId is 1
+2022-02-10 16:56:36,409 [41] DEBUG Photon.Hive.HiveGame - Created Game - name=MainHall/0, lobbyName=, lobbyType=Default, maxPlayers=4, IsOpen=True, IsVisible=True, EmptyRoomLiveTime=0, PlayerTTL=0, CheckUserOnJoin=True, PublishUserId=False, ExpectedUsers=
+2022-02-10 16:56:36,410 [41] DEBUG Photon.LoadBalancing.GameServer.Game - UpdateGameStateOnMasterOnCreate: game - 'MainHall/0'
+2022-02-10 16:56:36,410 [41] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 16:56:36,410 [41] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 16:56:37,283 [55] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 16:56:39,317 [57] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 16:56:39,317 [57] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 16:56:39,317 [57] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=17, opCode=219
+2022-02-10 16:56:39,318 [57] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 16:56:39,318 [57] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/users/1?:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 16:56:39,317 [38] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 16:56:39,320 [38] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 16:56:39,320 [38] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 16:56:39,321 [38] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 16:56:39,321 [38] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 16:56:39,321 [38] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 16:56:39,323 [54] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/users/1?: {"ResultCode":0,"data":{"user":[{"name":"tester1","sex":1,"level":2}]}}
+2022-02-10 16:56:47,603 [40] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=17, opCode=219
+2022-02-10 16:56:47,604 [40] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 16:56:47,604 [40] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/videos?lecture_name=math&:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 16:56:47,609 [39] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/videos?lecture_name=math&: {"ResultCode":0,"data":{"videos":[{"vid":1,"video_count":1,"video_desc":"수학 1","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669685953","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":100},{"vid":2,"video_count":2,"video_desc":"수학 2","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669651592","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":200}]}}
+2022-02-10 16:56:55,168 [54] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=17, opCode=219
+2022-02-10 16:56:55,169 [54] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 16:56:55,169 [54] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/videos?lecture_name=science&:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 16:56:55,175 [53] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/videos?lecture_name=science&: {"ResultCode":0,"data":{"videos":[{"vid":3,"video_count":1,"video_desc":"과학 1","lecture_name":"science","lecture_num":2,"professor_id":1,"url":"https://vimeo.com/669685953","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":100}]}}
+2022-02-10 16:57:03,971 [46] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=17, opCode=219
+2022-02-10 16:57:03,972 [46] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 16:57:03,972 [46] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/videos?lecture_name=math&:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 16:57:03,976 [34] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/videos?lecture_name=math&: {"ResultCode":0,"data":{"videos":[{"vid":1,"video_count":1,"video_desc":"수학 1","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669685953","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":100},{"vid":2,"video_count":2,"video_desc":"수학 2","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669651592","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":200}]}}
+2022-02-10 16:57:12,628 [42] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=17, opCode=219
+2022-02-10 16:57:12,629 [42] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 16:57:12,629 [42] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/videos?lecture_name=math&:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 16:57:12,634 [50] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/videos?lecture_name=math&: {"ResultCode":0,"data":{"videos":[{"vid":1,"video_count":1,"video_desc":"수학 1","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669685953","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":100},{"vid":2,"video_count":2,"video_desc":"수학 2","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669651592","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":200}]}}
+2022-02-10 16:57:16,577 [53] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 17, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T07:57:12, in Room 'MainHall/0', IP 192.168.0.1:54565, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 16:57:16,578 [53] DEBUG Photon.Hive.HivePeer - OnDisconnect: conId=17, reason=0, reasonDetail=
+2022-02-10 16:57:16,578 [53] DEBUG Photon.Hive.HivePeer - RemovePeerFromCurrentRoom: Removing peer from room. p:GameClientPeer: PID: 17, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T07:57:12, in Room 'MainHall/0', IP 192.168.0.1:54565, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 16:57:16,578 [53] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance reference: roomName=MainHall/0, referenceCount=0
+2022-02-10 16:57:16,578 [53] DEBUG Photon.Hive.Caching.RoomCacheBase - Room has no references. Trying to remove it. room:MainHall/0
+2022-02-10 16:57:16,579 [53] DEBUG Photon.Hive.Caching.RoomCacheBase - Room BeforeRemoveFromCache returned 'false'. Removing stopped. room:MainHall/0
+2022-02-10 16:57:16,578 [46] DEBUG Photon.Hive.HiveGame - ProcessMessage 1
+2022-02-10 16:57:16,580 [46] DEBUG Photon.Hive.Plugin.LeaveGameCallInfo - Continue.
+2022-02-10 16:57:16,580 [46] DEBUG Photon.Hive.HiveGame - Actor 1 left. MasterClientId is 0
+2022-02-10 16:57:16,580 [46] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 16:57:16,580 [46] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 16:57:16,581 [46] DEBUG Photon.Hive.Collections.ActorsManager - Actor removed: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 17, IsConnected: False, IsDisposed: True, Last Activity: Operation 219 at UTC 2022-02-10T07:57:12, in Room '', IP 192.168.0.1:54565, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 16:57:16,581 [46] DEBUG Photon.Hive.Plugin.BeforeCloseGameCallInfo - Continue.
+2022-02-10 16:57:16,581 [46] DEBUG Photon.Hive.Plugin.CloseGameCallInfo - Continue.
+2022-02-10 16:57:16,581 [46] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance: roomId=MainHall/0
+2022-02-10 16:57:16,582 [46] DEBUG Photon.Hive.Room - Release for room:MainHall/0, RemovePath:;BeforeRemoveFromCacheCalled(오전 7:57:16);BeforeRemoveFromCacheActionCalled(오전 7:57:16);ProcessBeforeCloseGameCalled(오전 7:57:16);ProcessBeforeCloseGameCalledEmptyRoomLiveTimeLECalled(오전 7:57:16);TriggerPluginOnCloseCalled(오전 7:57:16);ProcessCloseGameCalled(오전 7:57:16);TryRemoveRoomFromCacheCalled(오전 7:57:16)
+2022-02-10 16:57:16,582 [46] DEBUG Photon.Hive.Room - Tried to remove room: roomName=MainHall/0, removed=True
+2022-02-10 16:57:16,582 [46] DEBUG Photon.Hive.Room - Disposing room 'MainHall/0', dispose:True
+2022-02-10 16:57:16,582 [46] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Flush for appId:, version:
+2022-02-10 16:57:17,592 [38] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 16:58:02,437 [52] DEBUG Photon.LoadBalancing.GameServer.GameApplication - CreatePeer for LoadBalancing
+2022-02-10 16:58:02,437 [52] DEBUG Photon.LoadBalancing.GameServer.GameApplication - incoming game peer at 192.168.0.49:5056 from 192.168.0.1:58093
+2022-02-10 16:58:02,438 [52] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker scheduled. authTimeout:20000 p:GameClientPeer: PID: 19, IsConnected: False, IsDisposed: False, Last Activity: Operation 0 at UTC 0001-01-01T00:00:00, in Room '', IP 192.168.0.1:58093, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 16:58:02,528 [49] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=19, opCode=230
+2022-02-10 16:58:02,529 [49] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 19, IsConnected: True, IsDisposed: False, Last Activity: Operation 230 at UTC 2022-02-10T07:58:02, in Room '', IP 192.168.0.1:58093, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 16:58:02,529 [49] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Token Validation: checking token with GS: 118.36.97.193 and GameId:MainHall/0
+2022-02-10 16:58:02,587 [35] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=19, opCode=226
+2022-02-10 16:58:02,587 [35] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=226
+2022-02-10 16:58:02,588 [35] DEBUG Photon.Hive.Caching.RoomCacheBase - Creating room instance: roomName=MainHall/0
+2022-02-10 16:58:02,588 [35] DEBUG Photon.Hive.Caching.RoomCacheBase - Created room instance reference: roomName=MainHall/0, referenceCount=1
+2022-02-10 16:58:02,588 [35] INFO  Photon.Hive.Plugin.PluginManager - Plugin successfully created:Type:MyFirstPlugin.MyPluginFactory, path:D:\Photon-Server-Test\photon-server-sdk_v5-0-12-24499-rc1\deploy\Plugins/MyFirstPlugin//bin/MyFirstPlugin.dll
+2022-02-10 16:58:02,589 [35] INFO  Plugin.MyFirstPlugin - OnCreateGame MainHall/0 by user 1
+2022-02-10 16:58:02,589 [35] DEBUG Photon.Hive.Plugin.CreateGameCallInfo - Continue.
+2022-02-10 16:58:02,589 [35] DEBUG Photon.Hive.HiveGame - Processing Join from IP: 192.168.0.1 to port: 5056
+2022-02-10 16:58:02,589 [35] DEBUG Photon.Hive.Collections.ActorsManager - Actor added: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 19, IsConnected: True, IsDisposed: False, Last Activity: Operation 226 at UTC 2022-02-10T07:58:02, in Room 'MainHall/0', IP 192.168.0.1:58093, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 4 
+2022-02-10 16:58:02,589 [35] DEBUG Photon.Hive.HiveGame - JoinApplyGameStateChanges: Actor 1 is added. MasterClientId is 1
+2022-02-10 16:58:02,590 [35] DEBUG Photon.Hive.HiveGame - Created Game - name=MainHall/0, lobbyName=, lobbyType=Default, maxPlayers=4, IsOpen=True, IsVisible=True, EmptyRoomLiveTime=0, PlayerTTL=0, CheckUserOnJoin=True, PublishUserId=False, ExpectedUsers=
+2022-02-10 16:58:02,590 [35] DEBUG Photon.LoadBalancing.GameServer.Game - UpdateGameStateOnMasterOnCreate: game - 'MainHall/0'
+2022-02-10 16:58:02,590 [35] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 16:58:02,590 [35] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 16:58:03,438 [57] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 16:58:05,535 [44] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 16:58:05,536 [44] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 16:58:05,536 [44] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=19, opCode=219
+2022-02-10 16:58:05,536 [44] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 16:58:05,536 [44] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/users/1?:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 16:58:05,536 [47] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 16:58:05,537 [47] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 16:58:05,537 [47] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 16:58:05,538 [47] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 16:58:05,538 [47] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 16:58:05,538 [47] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 16:58:05,558 [35] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/users/1?: {"ResultCode":0,"data":{"user":[{"name":"tester1","sex":1,"level":2}]}}
+2022-02-10 16:58:20,557 [43] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 19, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T07:58:05, in Room 'MainHall/0', IP 192.168.0.1:58093, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 16:58:20,557 [43] DEBUG Photon.Hive.HivePeer - OnDisconnect: conId=19, reason=0, reasonDetail=
+2022-02-10 16:58:20,558 [43] DEBUG Photon.Hive.HivePeer - RemovePeerFromCurrentRoom: Removing peer from room. p:GameClientPeer: PID: 19, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T07:58:05, in Room 'MainHall/0', IP 192.168.0.1:58093, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 16:58:20,558 [43] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance reference: roomName=MainHall/0, referenceCount=0
+2022-02-10 16:58:20,558 [43] DEBUG Photon.Hive.Caching.RoomCacheBase - Room has no references. Trying to remove it. room:MainHall/0
+2022-02-10 16:58:20,558 [43] DEBUG Photon.Hive.Caching.RoomCacheBase - Room BeforeRemoveFromCache returned 'false'. Removing stopped. room:MainHall/0
+2022-02-10 16:58:20,558 [57] DEBUG Photon.Hive.HiveGame - ProcessMessage 1
+2022-02-10 16:58:20,559 [57] DEBUG Photon.Hive.Plugin.LeaveGameCallInfo - Continue.
+2022-02-10 16:58:20,560 [57] DEBUG Photon.Hive.HiveGame - Actor 1 left. MasterClientId is 0
+2022-02-10 16:58:20,560 [57] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 16:58:20,560 [57] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 16:58:20,560 [57] DEBUG Photon.Hive.Collections.ActorsManager - Actor removed: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 19, IsConnected: False, IsDisposed: True, Last Activity: Operation 219 at UTC 2022-02-10T07:58:05, in Room '', IP 192.168.0.1:58093, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 16:58:20,561 [57] DEBUG Photon.Hive.Plugin.BeforeCloseGameCallInfo - Continue.
+2022-02-10 16:58:20,561 [57] DEBUG Photon.Hive.Plugin.CloseGameCallInfo - Continue.
+2022-02-10 16:58:20,561 [57] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance: roomId=MainHall/0
+2022-02-10 16:58:20,561 [57] DEBUG Photon.Hive.Room - Release for room:MainHall/0, RemovePath:;BeforeRemoveFromCacheCalled(오전 7:58:20);BeforeRemoveFromCacheActionCalled(오전 7:58:20);ProcessBeforeCloseGameCalled(오전 7:58:20);ProcessBeforeCloseGameCalledEmptyRoomLiveTimeLECalled(오전 7:58:20);TriggerPluginOnCloseCalled(오전 7:58:20);ProcessCloseGameCalled(오전 7:58:20);TryRemoveRoomFromCacheCalled(오전 7:58:20)
+2022-02-10 16:58:20,561 [57] DEBUG Photon.Hive.Room - Tried to remove room: roomName=MainHall/0, removed=True
+2022-02-10 16:58:20,562 [57] DEBUG Photon.Hive.Room - Disposing room 'MainHall/0', dispose:True
+2022-02-10 16:58:20,562 [57] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Flush for appId:, version:
+2022-02-10 16:58:21,564 [38] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 16:58:44,469 [41] DEBUG Photon.LoadBalancing.GameServer.GameApplication - CreatePeer for LoadBalancing
+2022-02-10 16:58:44,469 [41] DEBUG Photon.LoadBalancing.GameServer.GameApplication - incoming game peer at 192.168.0.49:5056 from 192.168.0.1:50457
+2022-02-10 16:58:44,469 [41] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker scheduled. authTimeout:20000 p:GameClientPeer: PID: 21, IsConnected: False, IsDisposed: False, Last Activity: Operation 0 at UTC 0001-01-01T00:00:00, in Room '', IP 192.168.0.1:50457, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 16:58:44,529 [35] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=21, opCode=230
+2022-02-10 16:58:44,529 [35] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 21, IsConnected: True, IsDisposed: False, Last Activity: Operation 230 at UTC 2022-02-10T07:58:44, in Room '', IP 192.168.0.1:50457, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 16:58:44,530 [35] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Token Validation: checking token with GS: 118.36.97.193 and GameId:MainHall/0
+2022-02-10 16:58:44,564 [39] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=21, opCode=226
+2022-02-10 16:58:44,564 [39] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=226
+2022-02-10 16:58:44,564 [39] DEBUG Photon.Hive.Caching.RoomCacheBase - Creating room instance: roomName=MainHall/0
+2022-02-10 16:58:44,565 [39] DEBUG Photon.Hive.Caching.RoomCacheBase - Created room instance reference: roomName=MainHall/0, referenceCount=1
+2022-02-10 16:58:44,565 [39] INFO  Photon.Hive.Plugin.PluginManager - Plugin successfully created:Type:MyFirstPlugin.MyPluginFactory, path:D:\Photon-Server-Test\photon-server-sdk_v5-0-12-24499-rc1\deploy\Plugins/MyFirstPlugin//bin/MyFirstPlugin.dll
+2022-02-10 16:58:44,565 [39] INFO  Plugin.MyFirstPlugin - OnCreateGame MainHall/0 by user 1
+2022-02-10 16:58:44,565 [39] DEBUG Photon.Hive.Plugin.CreateGameCallInfo - Continue.
+2022-02-10 16:58:44,566 [39] DEBUG Photon.Hive.HiveGame - Processing Join from IP: 192.168.0.1 to port: 5056
+2022-02-10 16:58:44,566 [39] DEBUG Photon.Hive.Collections.ActorsManager - Actor added: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 21, IsConnected: True, IsDisposed: False, Last Activity: Operation 226 at UTC 2022-02-10T07:58:44, in Room 'MainHall/0', IP 192.168.0.1:50457, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 4 
+2022-02-10 16:58:44,566 [39] DEBUG Photon.Hive.HiveGame - JoinApplyGameStateChanges: Actor 1 is added. MasterClientId is 1
+2022-02-10 16:58:44,566 [39] DEBUG Photon.Hive.HiveGame - Created Game - name=MainHall/0, lobbyName=, lobbyType=Default, maxPlayers=4, IsOpen=True, IsVisible=True, EmptyRoomLiveTime=0, PlayerTTL=0, CheckUserOnJoin=True, PublishUserId=False, ExpectedUsers=
+2022-02-10 16:58:44,567 [39] DEBUG Photon.LoadBalancing.GameServer.Game - UpdateGameStateOnMasterOnCreate: game - 'MainHall/0'
+2022-02-10 16:58:44,567 [39] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 16:58:44,567 [39] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 16:58:45,482 [55] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 16:58:47,507 [44] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 16:58:47,508 [44] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 16:58:47,508 [44] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=21, opCode=219
+2022-02-10 16:58:47,508 [44] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 16:58:47,508 [44] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/users/1?:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 16:58:47,508 [35] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 16:58:47,509 [35] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 16:58:47,509 [35] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 16:58:47,509 [35] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 16:58:47,510 [35] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 16:58:47,510 [35] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 16:58:47,512 [39] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/users/1?: {"ResultCode":0,"data":{"user":[{"name":"tester1","sex":1,"level":2}]}}
+2022-02-10 16:58:57,733 [39] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 21, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T07:58:47, in Room 'MainHall/0', IP 192.168.0.1:50457, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 16:58:57,733 [39] DEBUG Photon.Hive.HivePeer - OnDisconnect: conId=21, reason=0, reasonDetail=
+2022-02-10 16:58:57,733 [39] DEBUG Photon.Hive.HivePeer - RemovePeerFromCurrentRoom: Removing peer from room. p:GameClientPeer: PID: 21, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T07:58:47, in Room 'MainHall/0', IP 192.168.0.1:50457, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 16:58:57,734 [39] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance reference: roomName=MainHall/0, referenceCount=0
+2022-02-10 16:58:57,734 [39] DEBUG Photon.Hive.Caching.RoomCacheBase - Room has no references. Trying to remove it. room:MainHall/0
+2022-02-10 16:58:57,734 [39] DEBUG Photon.Hive.Caching.RoomCacheBase - Room BeforeRemoveFromCache returned 'false'. Removing stopped. room:MainHall/0
+2022-02-10 16:58:57,734 [54] DEBUG Photon.Hive.HiveGame - ProcessMessage 1
+2022-02-10 16:58:57,735 [54] DEBUG Photon.Hive.Plugin.LeaveGameCallInfo - Continue.
+2022-02-10 16:58:57,735 [54] DEBUG Photon.Hive.HiveGame - Actor 1 left. MasterClientId is 0
+2022-02-10 16:58:57,735 [54] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 16:58:57,735 [54] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 16:58:57,736 [54] DEBUG Photon.Hive.Collections.ActorsManager - Actor removed: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 21, IsConnected: False, IsDisposed: True, Last Activity: Operation 219 at UTC 2022-02-10T07:58:47, in Room '', IP 192.168.0.1:50457, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 16:58:57,736 [54] DEBUG Photon.Hive.Plugin.BeforeCloseGameCallInfo - Continue.
+2022-02-10 16:58:57,736 [54] DEBUG Photon.Hive.Plugin.CloseGameCallInfo - Continue.
+2022-02-10 16:58:57,736 [54] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance: roomId=MainHall/0
+2022-02-10 16:58:57,737 [54] DEBUG Photon.Hive.Room - Release for room:MainHall/0, RemovePath:;BeforeRemoveFromCacheCalled(오전 7:58:57);BeforeRemoveFromCacheActionCalled(오전 7:58:57);ProcessBeforeCloseGameCalled(오전 7:58:57);ProcessBeforeCloseGameCalledEmptyRoomLiveTimeLECalled(오전 7:58:57);TriggerPluginOnCloseCalled(오전 7:58:57);ProcessCloseGameCalled(오전 7:58:57);TryRemoveRoomFromCacheCalled(오전 7:58:57)
+2022-02-10 16:58:57,737 [54] DEBUG Photon.Hive.Room - Tried to remove room: roomName=MainHall/0, removed=True
+2022-02-10 16:58:57,737 [54] DEBUG Photon.Hive.Room - Disposing room 'MainHall/0', dispose:True
+2022-02-10 16:58:57,737 [54] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Flush for appId:, version:
+2022-02-10 16:58:58,747 [37] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 16:59:29,123 [40] DEBUG Photon.LoadBalancing.GameServer.GameApplication - CreatePeer for LoadBalancing
+2022-02-10 16:59:29,124 [40] DEBUG Photon.LoadBalancing.GameServer.GameApplication - incoming game peer at 192.168.0.49:5056 from 192.168.0.1:58730
+2022-02-10 16:59:29,124 [40] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker scheduled. authTimeout:20000 p:GameClientPeer: PID: 23, IsConnected: False, IsDisposed: False, Last Activity: Operation 0 at UTC 0001-01-01T00:00:00, in Room '', IP 192.168.0.1:58730, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 16:59:29,182 [36] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=23, opCode=230
+2022-02-10 16:59:29,182 [36] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 23, IsConnected: True, IsDisposed: False, Last Activity: Operation 230 at UTC 2022-02-10T07:59:29, in Room '', IP 192.168.0.1:58730, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 16:59:29,183 [36] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Token Validation: checking token with GS: 118.36.97.193 and GameId:MainHall/0
+2022-02-10 16:59:29,249 [53] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=23, opCode=226
+2022-02-10 16:59:29,250 [53] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=226
+2022-02-10 16:59:29,250 [53] DEBUG Photon.Hive.Caching.RoomCacheBase - Creating room instance: roomName=MainHall/0
+2022-02-10 16:59:29,250 [53] DEBUG Photon.Hive.Caching.RoomCacheBase - Created room instance reference: roomName=MainHall/0, referenceCount=1
+2022-02-10 16:59:29,251 [53] INFO  Photon.Hive.Plugin.PluginManager - Plugin successfully created:Type:MyFirstPlugin.MyPluginFactory, path:D:\Photon-Server-Test\photon-server-sdk_v5-0-12-24499-rc1\deploy\Plugins/MyFirstPlugin//bin/MyFirstPlugin.dll
+2022-02-10 16:59:29,251 [53] INFO  Plugin.MyFirstPlugin - OnCreateGame MainHall/0 by user 1
+2022-02-10 16:59:29,251 [53] DEBUG Photon.Hive.Plugin.CreateGameCallInfo - Continue.
+2022-02-10 16:59:29,251 [53] DEBUG Photon.Hive.HiveGame - Processing Join from IP: 192.168.0.1 to port: 5056
+2022-02-10 16:59:29,251 [53] DEBUG Photon.Hive.Collections.ActorsManager - Actor added: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 23, IsConnected: True, IsDisposed: False, Last Activity: Operation 226 at UTC 2022-02-10T07:59:29, in Room 'MainHall/0', IP 192.168.0.1:58730, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 4 
+2022-02-10 16:59:29,252 [53] DEBUG Photon.Hive.HiveGame - JoinApplyGameStateChanges: Actor 1 is added. MasterClientId is 1
+2022-02-10 16:59:29,252 [53] DEBUG Photon.Hive.HiveGame - Created Game - name=MainHall/0, lobbyName=, lobbyType=Default, maxPlayers=4, IsOpen=True, IsVisible=True, EmptyRoomLiveTime=0, PlayerTTL=0, CheckUserOnJoin=True, PublishUserId=False, ExpectedUsers=
+2022-02-10 16:59:29,252 [53] DEBUG Photon.LoadBalancing.GameServer.Game - UpdateGameStateOnMasterOnCreate: game - 'MainHall/0'
+2022-02-10 16:59:29,252 [53] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 16:59:29,253 [53] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 16:59:30,130 [49] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 16:59:32,184 [51] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 16:59:32,184 [51] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 16:59:32,184 [51] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=23, opCode=219
+2022-02-10 16:59:32,185 [51] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 16:59:32,185 [51] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/users/1?:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 16:59:32,184 [49] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 16:59:32,185 [49] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 16:59:32,185 [49] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 16:59:32,186 [49] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 16:59:32,186 [49] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 16:59:32,186 [49] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 16:59:32,190 [53] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/users/1?: {"ResultCode":0,"data":{"user":[{"name":"tester1","sex":1,"level":2}]}}
+2022-02-10 17:01:38,638 [41] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=23, opCode=219
+2022-02-10 17:01:38,639 [41] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:01:38,639 [41] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/videos?lecture_name=math&:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:01:38,654 [50] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/videos?lecture_name=math&: {"ResultCode":0,"data":{"videos":[{"vid":1,"video_count":1,"video_desc":"수학 1","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669685953","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":100},{"vid":2,"video_count":2,"video_desc":"수학 2","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669651592","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":200}]}}
+2022-02-10 17:01:43,943 [54] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=23, opCode=219
+2022-02-10 17:01:43,944 [54] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:01:43,944 [54] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/videos?lecture_name=science&:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:01:43,948 [53] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/videos?lecture_name=science&: {"ResultCode":0,"data":{"videos":[{"vid":3,"video_count":1,"video_desc":"과학 1","lecture_name":"science","lecture_num":2,"professor_id":1,"url":"https://vimeo.com/669685953","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":100}]}}
+2022-02-10 17:01:51,094 [37] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=23, opCode=219
+2022-02-10 17:01:51,094 [37] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:01:51,095 [37] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/videos?lecture_name=math&:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:01:51,101 [47] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/videos?lecture_name=math&: {"ResultCode":0,"data":{"videos":[{"vid":1,"video_count":1,"video_desc":"수학 1","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669685953","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":100},{"vid":2,"video_count":2,"video_desc":"수학 2","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669651592","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":200}]}}
+2022-02-10 17:01:56,687 [38] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 23, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T08:01:51, in Room 'MainHall/0', IP 192.168.0.1:58730, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:01:56,688 [38] DEBUG Photon.Hive.HivePeer - OnDisconnect: conId=23, reason=0, reasonDetail=
+2022-02-10 17:01:56,688 [38] DEBUG Photon.Hive.HivePeer - RemovePeerFromCurrentRoom: Removing peer from room. p:GameClientPeer: PID: 23, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T08:01:51, in Room 'MainHall/0', IP 192.168.0.1:58730, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:01:56,688 [38] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance reference: roomName=MainHall/0, referenceCount=0
+2022-02-10 17:01:56,689 [38] DEBUG Photon.Hive.Caching.RoomCacheBase - Room has no references. Trying to remove it. room:MainHall/0
+2022-02-10 17:01:56,689 [38] DEBUG Photon.Hive.Caching.RoomCacheBase - Room BeforeRemoveFromCache returned 'false'. Removing stopped. room:MainHall/0
+2022-02-10 17:01:56,688 [45] DEBUG Photon.Hive.HiveGame - ProcessMessage 1
+2022-02-10 17:01:56,690 [45] DEBUG Photon.Hive.Plugin.LeaveGameCallInfo - Continue.
+2022-02-10 17:01:56,690 [45] DEBUG Photon.Hive.HiveGame - Actor 1 left. MasterClientId is 0
+2022-02-10 17:01:56,690 [45] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 17:01:56,690 [45] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:01:56,691 [45] DEBUG Photon.Hive.Collections.ActorsManager - Actor removed: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 23, IsConnected: False, IsDisposed: True, Last Activity: Operation 219 at UTC 2022-02-10T08:01:51, in Room '', IP 192.168.0.1:58730, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:01:56,691 [45] DEBUG Photon.Hive.Plugin.BeforeCloseGameCallInfo - Continue.
+2022-02-10 17:01:56,691 [45] DEBUG Photon.Hive.Plugin.CloseGameCallInfo - Continue.
+2022-02-10 17:01:56,691 [45] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance: roomId=MainHall/0
+2022-02-10 17:01:56,691 [45] DEBUG Photon.Hive.Room - Release for room:MainHall/0, RemovePath:;BeforeRemoveFromCacheCalled(오전 8:01:56);BeforeRemoveFromCacheActionCalled(오전 8:01:56);ProcessBeforeCloseGameCalled(오전 8:01:56);ProcessBeforeCloseGameCalledEmptyRoomLiveTimeLECalled(오전 8:01:56);TriggerPluginOnCloseCalled(오전 8:01:56);ProcessCloseGameCalled(오전 8:01:56);TryRemoveRoomFromCacheCalled(오전 8:01:56)
+2022-02-10 17:01:56,692 [45] DEBUG Photon.Hive.Room - Tried to remove room: roomName=MainHall/0, removed=True
+2022-02-10 17:01:56,692 [45] DEBUG Photon.Hive.Room - Disposing room 'MainHall/0', dispose:True
+2022-02-10 17:01:56,692 [45] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Flush for appId:, version:
+2022-02-10 17:01:57,695 [36] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:04:17,352 [39] DEBUG Photon.LoadBalancing.GameServer.GameApplication - CreatePeer for LoadBalancing
+2022-02-10 17:04:17,352 [39] DEBUG Photon.LoadBalancing.GameServer.GameApplication - incoming game peer at 192.168.0.49:5056 from 192.168.0.1:57817
+2022-02-10 17:04:17,353 [39] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker scheduled. authTimeout:20000 p:GameClientPeer: PID: 25, IsConnected: False, IsDisposed: False, Last Activity: Operation 0 at UTC 0001-01-01T00:00:00, in Room '', IP 192.168.0.1:57817, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 17:04:17,447 [51] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=25, opCode=230
+2022-02-10 17:04:17,447 [51] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 25, IsConnected: True, IsDisposed: False, Last Activity: Operation 230 at UTC 2022-02-10T08:04:17, in Room '', IP 192.168.0.1:57817, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 17:04:17,447 [51] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Token Validation: checking token with GS: 118.36.97.193 and GameId:MainHall/0
+2022-02-10 17:04:17,480 [53] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=25, opCode=226
+2022-02-10 17:04:17,480 [53] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=226
+2022-02-10 17:04:17,481 [53] DEBUG Photon.Hive.Caching.RoomCacheBase - Creating room instance: roomName=MainHall/0
+2022-02-10 17:04:17,481 [53] DEBUG Photon.Hive.Caching.RoomCacheBase - Created room instance reference: roomName=MainHall/0, referenceCount=1
+2022-02-10 17:04:17,481 [53] INFO  Photon.Hive.Plugin.PluginManager - Plugin successfully created:Type:MyFirstPlugin.MyPluginFactory, path:D:\Photon-Server-Test\photon-server-sdk_v5-0-12-24499-rc1\deploy\Plugins/MyFirstPlugin//bin/MyFirstPlugin.dll
+2022-02-10 17:04:17,482 [53] INFO  Plugin.MyFirstPlugin - OnCreateGame MainHall/0 by user 1
+2022-02-10 17:04:17,482 [53] DEBUG Photon.Hive.Plugin.CreateGameCallInfo - Continue.
+2022-02-10 17:04:17,482 [53] DEBUG Photon.Hive.HiveGame - Processing Join from IP: 192.168.0.1 to port: 5056
+2022-02-10 17:04:17,482 [53] DEBUG Photon.Hive.Collections.ActorsManager - Actor added: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 25, IsConnected: True, IsDisposed: False, Last Activity: Operation 226 at UTC 2022-02-10T08:04:17, in Room 'MainHall/0', IP 192.168.0.1:57817, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 4 
+2022-02-10 17:04:17,482 [53] DEBUG Photon.Hive.HiveGame - JoinApplyGameStateChanges: Actor 1 is added. MasterClientId is 1
+2022-02-10 17:04:17,483 [53] DEBUG Photon.Hive.HiveGame - Created Game - name=MainHall/0, lobbyName=, lobbyType=Default, maxPlayers=4, IsOpen=True, IsVisible=True, EmptyRoomLiveTime=0, PlayerTTL=0, CheckUserOnJoin=True, PublishUserId=False, ExpectedUsers=
+2022-02-10 17:04:17,483 [53] DEBUG Photon.LoadBalancing.GameServer.Game - UpdateGameStateOnMasterOnCreate: game - 'MainHall/0'
+2022-02-10 17:04:17,483 [53] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 17:04:17,483 [53] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:04:18,356 [46] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:04:20,464 [52] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 17:04:20,464 [52] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 17:04:20,464 [52] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=25, opCode=219
+2022-02-10 17:04:20,465 [52] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:04:20,465 [52] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/users/1?:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:04:20,464 [34] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 17:04:20,467 [34] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 17:04:20,467 [34] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 17:04:20,468 [34] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 17:04:20,468 [34] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 17:04:20,468 [34] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 17:04:20,470 [40] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/users/1?: {"ResultCode":0,"data":{"user":[{"name":"tester1","sex":1,"level":2}]}}
+2022-02-10 17:04:31,841 [41] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=25, opCode=219
+2022-02-10 17:04:31,841 [41] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:04:31,841 [41] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/videos?lecture_name=math&:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:04:31,846 [57] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/videos?lecture_name=math&: {"ResultCode":0,"data":{"videos":[{"vid":1,"video_count":1,"video_desc":"수학 1","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669685953","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":100},{"vid":2,"video_count":2,"video_desc":"수학 2","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669651592","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":200}]}}
+2022-02-10 17:04:40,045 [36] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=25, opCode=219
+2022-02-10 17:04:40,045 [36] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:04:40,045 [36] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/videos?lecture_name=science&:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:04:40,100 [39] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/videos?lecture_name=science&: {"ResultCode":0,"data":{"videos":[{"vid":3,"video_count":1,"video_desc":"과학 1","lecture_name":"science","lecture_num":2,"professor_id":1,"url":"https://vimeo.com/669685953","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":100}]}}
+2022-02-10 17:04:49,991 [54] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=25, opCode=219
+2022-02-10 17:04:49,992 [54] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:04:49,992 [54] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/videos?lecture_name=math&:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:04:50,035 [56] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/videos?lecture_name=math&: {"ResultCode":0,"data":{"videos":[{"vid":1,"video_count":1,"video_desc":"수학 1","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669685953","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":100},{"vid":2,"video_count":2,"video_desc":"수학 2","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669651592","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":200}]}}
+2022-02-10 17:04:56,096 [35] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=25, opCode=219
+2022-02-10 17:04:56,096 [35] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:04:56,096 [35] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/videos?lecture_name=science&:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:04:56,125 [37] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/videos?lecture_name=science&: {"ResultCode":0,"data":{"videos":[{"vid":3,"video_count":1,"video_desc":"과학 1","lecture_name":"science","lecture_num":2,"professor_id":1,"url":"https://vimeo.com/669685953","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":100}]}}
+2022-02-10 17:05:02,562 [49] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 25, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T08:04:56, in Room 'MainHall/0', IP 192.168.0.1:57817, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:05:02,562 [49] DEBUG Photon.Hive.HivePeer - OnDisconnect: conId=25, reason=0, reasonDetail=
+2022-02-10 17:05:02,563 [49] DEBUG Photon.Hive.HivePeer - RemovePeerFromCurrentRoom: Removing peer from room. p:GameClientPeer: PID: 25, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T08:04:56, in Room 'MainHall/0', IP 192.168.0.1:57817, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:05:02,563 [49] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance reference: roomName=MainHall/0, referenceCount=0
+2022-02-10 17:05:02,563 [49] DEBUG Photon.Hive.Caching.RoomCacheBase - Room has no references. Trying to remove it. room:MainHall/0
+2022-02-10 17:05:02,563 [49] DEBUG Photon.Hive.Caching.RoomCacheBase - Room BeforeRemoveFromCache returned 'false'. Removing stopped. room:MainHall/0
+2022-02-10 17:05:02,563 [54] DEBUG Photon.Hive.HiveGame - ProcessMessage 1
+2022-02-10 17:05:02,564 [54] DEBUG Photon.Hive.Plugin.LeaveGameCallInfo - Continue.
+2022-02-10 17:05:02,565 [54] DEBUG Photon.Hive.HiveGame - Actor 1 left. MasterClientId is 0
+2022-02-10 17:05:02,565 [54] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 17:05:02,565 [54] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:05:02,565 [54] DEBUG Photon.Hive.Collections.ActorsManager - Actor removed: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 25, IsConnected: False, IsDisposed: True, Last Activity: Operation 219 at UTC 2022-02-10T08:04:56, in Room '', IP 192.168.0.1:57817, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:05:02,566 [54] DEBUG Photon.Hive.Plugin.BeforeCloseGameCallInfo - Continue.
+2022-02-10 17:05:02,566 [54] DEBUG Photon.Hive.Plugin.CloseGameCallInfo - Continue.
+2022-02-10 17:05:02,566 [54] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance: roomId=MainHall/0
+2022-02-10 17:05:02,566 [54] DEBUG Photon.Hive.Room - Release for room:MainHall/0, RemovePath:;BeforeRemoveFromCacheCalled(오전 8:05:02);BeforeRemoveFromCacheActionCalled(오전 8:05:02);ProcessBeforeCloseGameCalled(오전 8:05:02);ProcessBeforeCloseGameCalledEmptyRoomLiveTimeLECalled(오전 8:05:02);TriggerPluginOnCloseCalled(오전 8:05:02);ProcessCloseGameCalled(오전 8:05:02);TryRemoveRoomFromCacheCalled(오전 8:05:02)
+2022-02-10 17:05:02,566 [54] DEBUG Photon.Hive.Room - Tried to remove room: roomName=MainHall/0, removed=True
+2022-02-10 17:05:02,567 [54] DEBUG Photon.Hive.Room - Disposing room 'MainHall/0', dispose:True
+2022-02-10 17:05:02,567 [54] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Flush for appId:, version:
+2022-02-10 17:05:03,578 [54] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:31:04,182 [35] DEBUG Photon.LoadBalancing.GameServer.GameApplication - CreatePeer for LoadBalancing
+2022-02-10 17:31:04,183 [35] DEBUG Photon.LoadBalancing.GameServer.GameApplication - incoming game peer at 192.168.0.49:5056 from 192.168.0.1:50021
+2022-02-10 17:31:04,183 [35] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker scheduled. authTimeout:20000 p:GameClientPeer: PID: 27, IsConnected: False, IsDisposed: False, Last Activity: Operation 0 at UTC 0001-01-01T00:00:00, in Room '', IP 192.168.0.1:50021, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 17:31:04,252 [49] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=27, opCode=230
+2022-02-10 17:31:04,253 [49] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 27, IsConnected: True, IsDisposed: False, Last Activity: Operation 230 at UTC 2022-02-10T08:31:04, in Room '', IP 192.168.0.1:50021, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 17:31:04,253 [49] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Token Validation: checking token with GS: 118.36.97.193 and GameId:MainHall/0
+2022-02-10 17:31:04,276 [41] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=27, opCode=226
+2022-02-10 17:31:04,276 [41] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=226
+2022-02-10 17:31:04,277 [41] DEBUG Photon.Hive.Caching.RoomCacheBase - Creating room instance: roomName=MainHall/0
+2022-02-10 17:31:04,277 [41] DEBUG Photon.Hive.Caching.RoomCacheBase - Created room instance reference: roomName=MainHall/0, referenceCount=1
+2022-02-10 17:31:04,277 [41] INFO  Photon.Hive.Plugin.PluginManager - Plugin successfully created:Type:MyFirstPlugin.MyPluginFactory, path:D:\Photon-Server-Test\photon-server-sdk_v5-0-12-24499-rc1\deploy\Plugins/MyFirstPlugin//bin/MyFirstPlugin.dll
+2022-02-10 17:31:04,277 [41] INFO  Plugin.MyFirstPlugin - OnCreateGame MainHall/0 by user 1
+2022-02-10 17:31:04,278 [41] DEBUG Photon.Hive.Plugin.CreateGameCallInfo - Continue.
+2022-02-10 17:31:04,278 [41] DEBUG Photon.Hive.HiveGame - Processing Join from IP: 192.168.0.1 to port: 5056
+2022-02-10 17:31:04,278 [41] DEBUG Photon.Hive.Collections.ActorsManager - Actor added: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 27, IsConnected: True, IsDisposed: False, Last Activity: Operation 226 at UTC 2022-02-10T08:31:04, in Room 'MainHall/0', IP 192.168.0.1:50021, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 4 
+2022-02-10 17:31:04,278 [41] DEBUG Photon.Hive.HiveGame - JoinApplyGameStateChanges: Actor 1 is added. MasterClientId is 1
+2022-02-10 17:31:04,279 [41] DEBUG Photon.Hive.HiveGame - Created Game - name=MainHall/0, lobbyName=, lobbyType=Default, maxPlayers=4, IsOpen=True, IsVisible=True, EmptyRoomLiveTime=0, PlayerTTL=0, CheckUserOnJoin=True, PublishUserId=False, ExpectedUsers=
+2022-02-10 17:31:04,279 [41] DEBUG Photon.LoadBalancing.GameServer.Game - UpdateGameStateOnMasterOnCreate: game - 'MainHall/0'
+2022-02-10 17:31:04,279 [41] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 17:31:04,279 [41] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:31:05,200 [36] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:31:07,213 [34] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 17:31:07,214 [34] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 17:31:07,214 [34] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=27, opCode=219
+2022-02-10 17:31:07,214 [34] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:31:07,215 [34] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/users/1?:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:31:07,214 [55] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 17:31:07,217 [55] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 17:31:07,217 [55] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 17:31:07,218 [55] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 17:31:07,218 [55] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 17:31:07,218 [55] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 17:31:07,227 [40] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/users/1?: {"ResultCode":0,"data":{"user":[{"name":"tester1","sex":1,"level":2}]}}
+2022-02-10 17:31:16,137 [54] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=27, opCode=219
+2022-02-10 17:31:16,137 [54] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:31:16,138 [54] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/videos?lecture_name=math&:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:31:16,143 [51] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/videos?lecture_name=math&: {"ResultCode":0,"data":{"videos":[{"vid":1,"video_count":1,"video_desc":"수학 1","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669685953","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":100},{"vid":2,"video_count":2,"video_desc":"수학 2","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669651592","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":200}]}}
+2022-02-10 17:31:28,962 [52] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 27, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T08:31:16, in Room 'MainHall/0', IP 192.168.0.1:50021, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:31:28,963 [52] DEBUG Photon.Hive.HivePeer - OnDisconnect: conId=27, reason=0, reasonDetail=
+2022-02-10 17:31:28,963 [52] DEBUG Photon.Hive.HivePeer - RemovePeerFromCurrentRoom: Removing peer from room. p:GameClientPeer: PID: 27, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T08:31:16, in Room 'MainHall/0', IP 192.168.0.1:50021, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:31:28,963 [52] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance reference: roomName=MainHall/0, referenceCount=0
+2022-02-10 17:31:28,964 [52] DEBUG Photon.Hive.Caching.RoomCacheBase - Room has no references. Trying to remove it. room:MainHall/0
+2022-02-10 17:31:28,964 [52] DEBUG Photon.Hive.Caching.RoomCacheBase - Room BeforeRemoveFromCache returned 'false'. Removing stopped. room:MainHall/0
+2022-02-10 17:31:28,963 [39] DEBUG Photon.Hive.HiveGame - ProcessMessage 1
+2022-02-10 17:31:28,965 [39] DEBUG Photon.Hive.Plugin.LeaveGameCallInfo - Continue.
+2022-02-10 17:31:28,965 [39] DEBUG Photon.Hive.HiveGame - Actor 1 left. MasterClientId is 0
+2022-02-10 17:31:28,965 [39] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 17:31:28,965 [39] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:31:28,965 [39] DEBUG Photon.Hive.Collections.ActorsManager - Actor removed: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 27, IsConnected: False, IsDisposed: True, Last Activity: Operation 219 at UTC 2022-02-10T08:31:16, in Room '', IP 192.168.0.1:50021, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:31:28,966 [44] DEBUG Photon.Hive.Plugin.BeforeCloseGameCallInfo - Continue.
+2022-02-10 17:31:28,966 [44] DEBUG Photon.Hive.Plugin.CloseGameCallInfo - Continue.
+2022-02-10 17:31:28,966 [44] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance: roomId=MainHall/0
+2022-02-10 17:31:28,966 [44] DEBUG Photon.Hive.Room - Release for room:MainHall/0, RemovePath:;BeforeRemoveFromCacheCalled(오전 8:31:28);BeforeRemoveFromCacheActionCalled(오전 8:31:28);ProcessBeforeCloseGameCalled(오전 8:31:28);ProcessBeforeCloseGameCalledEmptyRoomLiveTimeLECalled(오전 8:31:28);TriggerPluginOnCloseCalled(오전 8:31:28);ProcessCloseGameCalled(오전 8:31:28);TryRemoveRoomFromCacheCalled(오전 8:31:28)
+2022-02-10 17:31:28,967 [44] DEBUG Photon.Hive.Room - Tried to remove room: roomName=MainHall/0, removed=True
+2022-02-10 17:31:28,967 [44] DEBUG Photon.Hive.Room - Disposing room 'MainHall/0', dispose:True
+2022-02-10 17:31:28,967 [44] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Flush for appId:, version:
+2022-02-10 17:31:29,969 [51] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:31:33,237 [56] DEBUG Photon.LoadBalancing.GameServer.GameApplication - CreatePeer for LoadBalancing
+2022-02-10 17:31:33,237 [56] DEBUG Photon.LoadBalancing.GameServer.GameApplication - incoming game peer at 192.168.0.49:5056 from 192.168.0.1:62408
+2022-02-10 17:31:33,237 [56] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker scheduled. authTimeout:20000 p:GameClientPeer: PID: 29, IsConnected: False, IsDisposed: False, Last Activity: Operation 0 at UTC 0001-01-01T00:00:00, in Room '', IP 192.168.0.1:62408, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 17:31:33,305 [54] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=29, opCode=230
+2022-02-10 17:31:33,306 [54] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 29, IsConnected: True, IsDisposed: False, Last Activity: Operation 230 at UTC 2022-02-10T08:31:33, in Room '', IP 192.168.0.1:62408, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 17:31:33,306 [54] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Token Validation: checking token with GS: 118.36.97.193 and GameId:MainHall/0
+2022-02-10 17:31:33,365 [48] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=29, opCode=226
+2022-02-10 17:31:33,365 [48] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=226
+2022-02-10 17:31:33,366 [48] DEBUG Photon.Hive.Caching.RoomCacheBase - Creating room instance: roomName=MainHall/0
+2022-02-10 17:31:33,366 [48] DEBUG Photon.Hive.Caching.RoomCacheBase - Created room instance reference: roomName=MainHall/0, referenceCount=1
+2022-02-10 17:31:33,366 [48] INFO  Photon.Hive.Plugin.PluginManager - Plugin successfully created:Type:MyFirstPlugin.MyPluginFactory, path:D:\Photon-Server-Test\photon-server-sdk_v5-0-12-24499-rc1\deploy\Plugins/MyFirstPlugin//bin/MyFirstPlugin.dll
+2022-02-10 17:31:33,367 [48] INFO  Plugin.MyFirstPlugin - OnCreateGame MainHall/0 by user 1
+2022-02-10 17:31:33,367 [48] DEBUG Photon.Hive.Plugin.CreateGameCallInfo - Continue.
+2022-02-10 17:31:33,367 [48] DEBUG Photon.Hive.HiveGame - Processing Join from IP: 192.168.0.1 to port: 5056
+2022-02-10 17:31:33,367 [48] DEBUG Photon.Hive.Collections.ActorsManager - Actor added: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 29, IsConnected: True, IsDisposed: False, Last Activity: Operation 226 at UTC 2022-02-10T08:31:33, in Room 'MainHall/0', IP 192.168.0.1:62408, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 4 
+2022-02-10 17:31:33,368 [48] DEBUG Photon.Hive.HiveGame - JoinApplyGameStateChanges: Actor 1 is added. MasterClientId is 1
+2022-02-10 17:31:33,368 [48] DEBUG Photon.Hive.HiveGame - Created Game - name=MainHall/0, lobbyName=, lobbyType=Default, maxPlayers=4, IsOpen=True, IsVisible=True, EmptyRoomLiveTime=0, PlayerTTL=0, CheckUserOnJoin=True, PublishUserId=False, ExpectedUsers=
+2022-02-10 17:31:33,368 [48] DEBUG Photon.LoadBalancing.GameServer.Game - UpdateGameStateOnMasterOnCreate: game - 'MainHall/0'
+2022-02-10 17:31:33,368 [48] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 17:31:33,369 [48] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:31:34,250 [36] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:31:36,287 [35] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 17:31:36,287 [35] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 17:31:36,288 [35] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=29, opCode=219
+2022-02-10 17:31:36,288 [35] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:31:36,288 [35] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/users/1?:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:31:36,288 [52] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 17:31:36,289 [52] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 17:31:36,289 [52] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 17:31:36,289 [52] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 17:31:36,289 [52] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 17:31:36,290 [52] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 17:31:36,300 [44] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/users/1?: {"ResultCode":0,"data":{"user":[{"name":"tester1","sex":1,"level":2}]}}
+2022-02-10 17:31:43,569 [39] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=29, opCode=219
+2022-02-10 17:31:43,569 [39] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:31:43,569 [39] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/videos?lecture_name=math&:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:31:43,575 [57] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/videos?lecture_name=math&: {"ResultCode":0,"data":{"videos":[{"vid":1,"video_count":1,"video_desc":"수학 1","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669685953","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":100},{"vid":2,"video_count":2,"video_desc":"수학 2","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669651592","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":200}]}}
+2022-02-10 17:32:16,678 [37] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=29, opCode=219
+2022-02-10 17:32:16,679 [37] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:32:16,686 [37] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/lec-records/{math}?uid={PhotonNetwork.NetworkingClient.UserId}&count={MoveSound.Move_count}&:{"method":"put","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:32:16,695 [48] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:2;Message:''] for request to address http://118.36.97.193:79/lec-records/{math}?uid={PhotonNetwork.NetworkingClient.UserId}&count={MoveSound.Move_count}&: {"ResultCode":2,"data":{"error":"you wrong request or empty data"}}
+2022-02-10 17:32:22,971 [45] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 29, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T08:32:16, in Room 'MainHall/0', IP 192.168.0.1:62408, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:32:22,971 [45] DEBUG Photon.Hive.HivePeer - OnDisconnect: conId=29, reason=0, reasonDetail=
+2022-02-10 17:32:22,971 [45] DEBUG Photon.Hive.HivePeer - RemovePeerFromCurrentRoom: Removing peer from room. p:GameClientPeer: PID: 29, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T08:32:16, in Room 'MainHall/0', IP 192.168.0.1:62408, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:32:22,972 [45] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance reference: roomName=MainHall/0, referenceCount=0
+2022-02-10 17:32:22,972 [45] DEBUG Photon.Hive.Caching.RoomCacheBase - Room has no references. Trying to remove it. room:MainHall/0
+2022-02-10 17:32:22,972 [45] DEBUG Photon.Hive.Caching.RoomCacheBase - Room BeforeRemoveFromCache returned 'false'. Removing stopped. room:MainHall/0
+2022-02-10 17:32:22,972 [56] DEBUG Photon.Hive.HiveGame - ProcessMessage 1
+2022-02-10 17:32:22,973 [56] DEBUG Photon.Hive.Plugin.LeaveGameCallInfo - Continue.
+2022-02-10 17:32:22,973 [56] DEBUG Photon.Hive.HiveGame - Actor 1 left. MasterClientId is 0
+2022-02-10 17:32:22,973 [56] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 17:32:22,973 [56] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:32:22,974 [56] DEBUG Photon.Hive.Collections.ActorsManager - Actor removed: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 29, IsConnected: False, IsDisposed: True, Last Activity: Operation 219 at UTC 2022-02-10T08:32:16, in Room '', IP 192.168.0.1:62408, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:32:22,974 [56] DEBUG Photon.Hive.Plugin.BeforeCloseGameCallInfo - Continue.
+2022-02-10 17:32:22,974 [56] DEBUG Photon.Hive.Plugin.CloseGameCallInfo - Continue.
+2022-02-10 17:32:22,974 [56] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance: roomId=MainHall/0
+2022-02-10 17:32:22,975 [56] DEBUG Photon.Hive.Room - Release for room:MainHall/0, RemovePath:;BeforeRemoveFromCacheCalled(오전 8:32:22);BeforeRemoveFromCacheActionCalled(오전 8:32:22);ProcessBeforeCloseGameCalled(오전 8:32:22);ProcessBeforeCloseGameCalledEmptyRoomLiveTimeLECalled(오전 8:32:22);TriggerPluginOnCloseCalled(오전 8:32:22);ProcessCloseGameCalled(오전 8:32:22);TryRemoveRoomFromCacheCalled(오전 8:32:22)
+2022-02-10 17:32:22,975 [56] DEBUG Photon.Hive.Room - Tried to remove room: roomName=MainHall/0, removed=True
+2022-02-10 17:32:22,975 [56] DEBUG Photon.Hive.Room - Disposing room 'MainHall/0', dispose:True
+2022-02-10 17:32:22,976 [56] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Flush for appId:, version:
+2022-02-10 17:32:23,989 [46] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:39:17,102 [48] DEBUG Photon.LoadBalancing.GameServer.GameApplication - CreatePeer for LoadBalancing
+2022-02-10 17:39:17,103 [48] DEBUG Photon.LoadBalancing.GameServer.GameApplication - incoming game peer at 192.168.0.49:5056 from 192.168.0.1:65170
+2022-02-10 17:39:17,103 [48] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker scheduled. authTimeout:20000 p:GameClientPeer: PID: 31, IsConnected: False, IsDisposed: False, Last Activity: Operation 0 at UTC 0001-01-01T00:00:00, in Room '', IP 192.168.0.1:65170, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 17:39:17,168 [52] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=31, opCode=230
+2022-02-10 17:39:17,168 [52] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 31, IsConnected: True, IsDisposed: False, Last Activity: Operation 230 at UTC 2022-02-10T08:39:17, in Room '', IP 192.168.0.1:65170, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 17:39:17,168 [52] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Token Validation: checking token with GS: 118.36.97.193 and GameId:MainHall/0
+2022-02-10 17:39:17,202 [49] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=31, opCode=226
+2022-02-10 17:39:17,202 [49] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=226
+2022-02-10 17:39:17,202 [49] DEBUG Photon.Hive.Caching.RoomCacheBase - Creating room instance: roomName=MainHall/0
+2022-02-10 17:39:17,203 [49] DEBUG Photon.Hive.Caching.RoomCacheBase - Created room instance reference: roomName=MainHall/0, referenceCount=1
+2022-02-10 17:39:17,203 [49] INFO  Photon.Hive.Plugin.PluginManager - Plugin successfully created:Type:MyFirstPlugin.MyPluginFactory, path:D:\Photon-Server-Test\photon-server-sdk_v5-0-12-24499-rc1\deploy\Plugins/MyFirstPlugin//bin/MyFirstPlugin.dll
+2022-02-10 17:39:17,203 [49] INFO  Plugin.MyFirstPlugin - OnCreateGame MainHall/0 by user 1
+2022-02-10 17:39:17,203 [49] DEBUG Photon.Hive.Plugin.CreateGameCallInfo - Continue.
+2022-02-10 17:39:17,204 [49] DEBUG Photon.Hive.HiveGame - Processing Join from IP: 192.168.0.1 to port: 5056
+2022-02-10 17:39:17,204 [49] DEBUG Photon.Hive.Collections.ActorsManager - Actor added: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 31, IsConnected: True, IsDisposed: False, Last Activity: Operation 226 at UTC 2022-02-10T08:39:17, in Room 'MainHall/0', IP 192.168.0.1:65170, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 4 
+2022-02-10 17:39:17,204 [49] DEBUG Photon.Hive.HiveGame - JoinApplyGameStateChanges: Actor 1 is added. MasterClientId is 1
+2022-02-10 17:39:17,204 [49] DEBUG Photon.Hive.HiveGame - Created Game - name=MainHall/0, lobbyName=, lobbyType=Default, maxPlayers=4, IsOpen=True, IsVisible=True, EmptyRoomLiveTime=0, PlayerTTL=0, CheckUserOnJoin=True, PublishUserId=False, ExpectedUsers=
+2022-02-10 17:39:17,205 [49] DEBUG Photon.LoadBalancing.GameServer.Game - UpdateGameStateOnMasterOnCreate: game - 'MainHall/0'
+2022-02-10 17:39:17,205 [49] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 17:39:17,205 [49] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:39:18,109 [52] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:39:20,122 [54] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 17:39:20,122 [54] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 17:39:20,123 [54] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=31, opCode=219
+2022-02-10 17:39:20,123 [54] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:39:20,122 [37] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 17:39:20,123 [54] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/users/1?:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:39:20,124 [37] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 17:39:20,124 [37] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 17:39:20,124 [37] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 17:39:20,125 [37] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 17:39:20,125 [37] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 17:39:20,139 [56] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/users/1?: {"ResultCode":0,"data":{"user":[{"name":"tester1","sex":1,"level":2}]}}
+2022-02-10 17:39:34,442 [43] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=31, opCode=219
+2022-02-10 17:39:34,443 [43] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:39:34,443 [43] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/videos?lecture_name=math&:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:39:34,449 [37] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/videos?lecture_name=math&: {"ResultCode":0,"data":{"videos":[{"vid":1,"video_count":1,"video_desc":"수학 1","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669685953","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":100},{"vid":2,"video_count":2,"video_desc":"수학 2","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669651592","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":200}]}}
+2022-02-10 17:39:42,196 [36] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=31, opCode=219
+2022-02-10 17:39:42,196 [36] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:39:42,196 [36] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/videos?lecture_name=math&:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:39:42,202 [39] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/videos?lecture_name=math&: {"ResultCode":0,"data":{"videos":[{"vid":1,"video_count":1,"video_desc":"수학 1","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669685953","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":100},{"vid":2,"video_count":2,"video_desc":"수학 2","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669651592","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":200}]}}
+2022-02-10 17:41:08,354 [46] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 31, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T08:39:42, in Room 'MainHall/0', IP 192.168.0.1:65170, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:41:08,354 [46] DEBUG Photon.Hive.HivePeer - OnDisconnect: conId=31, reason=0, reasonDetail=
+2022-02-10 17:41:08,355 [46] DEBUG Photon.Hive.HivePeer - RemovePeerFromCurrentRoom: Removing peer from room. p:GameClientPeer: PID: 31, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T08:39:42, in Room 'MainHall/0', IP 192.168.0.1:65170, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:41:08,355 [46] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance reference: roomName=MainHall/0, referenceCount=0
+2022-02-10 17:41:08,355 [46] DEBUG Photon.Hive.Caching.RoomCacheBase - Room has no references. Trying to remove it. room:MainHall/0
+2022-02-10 17:41:08,355 [46] DEBUG Photon.Hive.Caching.RoomCacheBase - Room BeforeRemoveFromCache returned 'false'. Removing stopped. room:MainHall/0
+2022-02-10 17:41:08,355 [41] DEBUG Photon.Hive.HiveGame - ProcessMessage 1
+2022-02-10 17:41:08,356 [41] DEBUG Photon.Hive.Plugin.LeaveGameCallInfo - Continue.
+2022-02-10 17:41:08,357 [41] DEBUG Photon.Hive.HiveGame - Actor 1 left. MasterClientId is 0
+2022-02-10 17:41:08,357 [41] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 17:41:08,357 [41] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:41:08,357 [41] DEBUG Photon.Hive.Collections.ActorsManager - Actor removed: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 31, IsConnected: False, IsDisposed: True, Last Activity: Operation 219 at UTC 2022-02-10T08:39:42, in Room '', IP 192.168.0.1:65170, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:41:08,358 [41] DEBUG Photon.Hive.Plugin.BeforeCloseGameCallInfo - Continue.
+2022-02-10 17:41:08,358 [41] DEBUG Photon.Hive.Plugin.CloseGameCallInfo - Continue.
+2022-02-10 17:41:08,358 [41] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance: roomId=MainHall/0
+2022-02-10 17:41:08,358 [41] DEBUG Photon.Hive.Room - Release for room:MainHall/0, RemovePath:;BeforeRemoveFromCacheCalled(오전 8:41:08);BeforeRemoveFromCacheActionCalled(오전 8:41:08);ProcessBeforeCloseGameCalled(오전 8:41:08);ProcessBeforeCloseGameCalledEmptyRoomLiveTimeLECalled(오전 8:41:08);TriggerPluginOnCloseCalled(오전 8:41:08);ProcessCloseGameCalled(오전 8:41:08);TryRemoveRoomFromCacheCalled(오전 8:41:08)
+2022-02-10 17:41:08,359 [41] DEBUG Photon.Hive.Room - Tried to remove room: roomName=MainHall/0, removed=True
+2022-02-10 17:41:08,359 [41] DEBUG Photon.Hive.Room - Disposing room 'MainHall/0', dispose:True
+2022-02-10 17:41:08,359 [41] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Flush for appId:, version:
+2022-02-10 17:41:09,364 [52] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:41:18,184 [35] DEBUG Photon.LoadBalancing.GameServer.GameApplication - CreatePeer for LoadBalancing
+2022-02-10 17:41:18,184 [35] DEBUG Photon.LoadBalancing.GameServer.GameApplication - incoming game peer at 192.168.0.49:5056 from 192.168.0.1:56739
+2022-02-10 17:41:18,184 [35] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker scheduled. authTimeout:20000 p:GameClientPeer: PID: 33, IsConnected: False, IsDisposed: False, Last Activity: Operation 0 at UTC 0001-01-01T00:00:00, in Room '', IP 192.168.0.1:56739, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 17:41:18,282 [40] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=33, opCode=230
+2022-02-10 17:41:18,282 [40] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 33, IsConnected: True, IsDisposed: False, Last Activity: Operation 230 at UTC 2022-02-10T08:41:18, in Room '', IP 192.168.0.1:56739, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 17:41:18,283 [40] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Token Validation: checking token with GS: 118.36.97.193 and GameId:MainHall/0
+2022-02-10 17:41:18,337 [36] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=33, opCode=226
+2022-02-10 17:41:18,338 [36] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=226
+2022-02-10 17:41:18,338 [36] DEBUG Photon.Hive.Caching.RoomCacheBase - Creating room instance: roomName=MainHall/0
+2022-02-10 17:41:18,338 [36] DEBUG Photon.Hive.Caching.RoomCacheBase - Created room instance reference: roomName=MainHall/0, referenceCount=1
+2022-02-10 17:41:18,338 [36] INFO  Photon.Hive.Plugin.PluginManager - Plugin successfully created:Type:MyFirstPlugin.MyPluginFactory, path:D:\Photon-Server-Test\photon-server-sdk_v5-0-12-24499-rc1\deploy\Plugins/MyFirstPlugin//bin/MyFirstPlugin.dll
+2022-02-10 17:41:18,339 [36] INFO  Plugin.MyFirstPlugin - OnCreateGame MainHall/0 by user 1
+2022-02-10 17:41:18,339 [36] DEBUG Photon.Hive.Plugin.CreateGameCallInfo - Continue.
+2022-02-10 17:41:18,339 [36] DEBUG Photon.Hive.HiveGame - Processing Join from IP: 192.168.0.1 to port: 5056
+2022-02-10 17:41:18,339 [36] DEBUG Photon.Hive.Collections.ActorsManager - Actor added: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 33, IsConnected: True, IsDisposed: False, Last Activity: Operation 226 at UTC 2022-02-10T08:41:18, in Room 'MainHall/0', IP 192.168.0.1:56739, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 4 
+2022-02-10 17:41:18,340 [36] DEBUG Photon.Hive.HiveGame - JoinApplyGameStateChanges: Actor 1 is added. MasterClientId is 1
+2022-02-10 17:41:18,340 [36] DEBUG Photon.Hive.HiveGame - Created Game - name=MainHall/0, lobbyName=, lobbyType=Default, maxPlayers=4, IsOpen=True, IsVisible=True, EmptyRoomLiveTime=0, PlayerTTL=0, CheckUserOnJoin=True, PublishUserId=False, ExpectedUsers=
+2022-02-10 17:41:18,340 [36] DEBUG Photon.LoadBalancing.GameServer.Game - UpdateGameStateOnMasterOnCreate: game - 'MainHall/0'
+2022-02-10 17:41:18,340 [36] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 17:41:18,340 [36] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:41:19,195 [45] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:41:21,697 [45] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 17:41:21,697 [45] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 17:41:21,698 [45] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=33, opCode=219
+2022-02-10 17:41:21,698 [45] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:41:21,698 [45] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/users/1?:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:41:21,697 [55] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 17:41:21,699 [55] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 17:41:21,699 [55] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 17:41:21,699 [55] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 17:41:21,699 [55] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 17:41:21,699 [55] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 17:41:21,702 [48] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/users/1?: {"ResultCode":0,"data":{"user":[{"name":"tester1","sex":1,"level":2}]}}
+2022-02-10 17:41:30,467 [45] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=33, opCode=219
+2022-02-10 17:41:30,467 [45] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:41:30,467 [45] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/videos?lecture_name=math&:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:41:30,472 [57] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/videos?lecture_name=math&: {"ResultCode":0,"data":{"videos":[{"vid":1,"video_count":1,"video_desc":"수학 1","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669685953","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":100},{"vid":2,"video_count":2,"video_desc":"수학 2","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669651592","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":200}]}}
+2022-02-10 17:42:42,872 [41] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=33, opCode=219
+2022-02-10 17:42:42,872 [41] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:42:42,873 [41] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/lec-records/math?uid=1&count=2&:{"method":"put","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:42:42,917 [51] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:2;Message:''] for request to address http://118.36.97.193:79/lec-records/math?uid=1&count=2&: {"ResultCode":2,"data":{"error":"already watched!!"}}
+2022-02-10 17:43:26,376 [35] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 33, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T08:42:42, in Room 'MainHall/0', IP 192.168.0.1:56739, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:43:26,376 [35] DEBUG Photon.Hive.HivePeer - OnDisconnect: conId=33, reason=0, reasonDetail=
+2022-02-10 17:43:26,376 [35] DEBUG Photon.Hive.HivePeer - RemovePeerFromCurrentRoom: Removing peer from room. p:GameClientPeer: PID: 33, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T08:42:42, in Room 'MainHall/0', IP 192.168.0.1:56739, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:43:26,377 [35] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance reference: roomName=MainHall/0, referenceCount=0
+2022-02-10 17:43:26,377 [35] DEBUG Photon.Hive.Caching.RoomCacheBase - Room has no references. Trying to remove it. room:MainHall/0
+2022-02-10 17:43:26,377 [35] DEBUG Photon.Hive.Caching.RoomCacheBase - Room BeforeRemoveFromCache returned 'false'. Removing stopped. room:MainHall/0
+2022-02-10 17:43:26,377 [39] DEBUG Photon.Hive.HiveGame - ProcessMessage 1
+2022-02-10 17:43:26,378 [39] DEBUG Photon.Hive.Plugin.LeaveGameCallInfo - Continue.
+2022-02-10 17:43:26,378 [39] DEBUG Photon.Hive.HiveGame - Actor 1 left. MasterClientId is 0
+2022-02-10 17:43:26,378 [39] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 17:43:26,378 [39] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:43:26,379 [39] DEBUG Photon.Hive.Collections.ActorsManager - Actor removed: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 33, IsConnected: False, IsDisposed: True, Last Activity: Operation 219 at UTC 2022-02-10T08:42:42, in Room '', IP 192.168.0.1:56739, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:43:26,379 [39] DEBUG Photon.Hive.Plugin.BeforeCloseGameCallInfo - Continue.
+2022-02-10 17:43:26,379 [39] DEBUG Photon.Hive.Plugin.CloseGameCallInfo - Continue.
+2022-02-10 17:43:26,379 [39] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance: roomId=MainHall/0
+2022-02-10 17:43:26,380 [39] DEBUG Photon.Hive.Room - Release for room:MainHall/0, RemovePath:;BeforeRemoveFromCacheCalled(오전 8:43:26);BeforeRemoveFromCacheActionCalled(오전 8:43:26);ProcessBeforeCloseGameCalled(오전 8:43:26);ProcessBeforeCloseGameCalledEmptyRoomLiveTimeLECalled(오전 8:43:26);TriggerPluginOnCloseCalled(오전 8:43:26);ProcessCloseGameCalled(오전 8:43:26);TryRemoveRoomFromCacheCalled(오전 8:43:26)
+2022-02-10 17:43:26,380 [39] DEBUG Photon.Hive.Room - Tried to remove room: roomName=MainHall/0, removed=True
+2022-02-10 17:43:26,380 [39] DEBUG Photon.Hive.Room - Disposing room 'MainHall/0', dispose:True
+2022-02-10 17:43:26,380 [39] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Flush for appId:, version:
+2022-02-10 17:43:27,387 [34] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:45:16,893 [35] DEBUG Photon.LoadBalancing.GameServer.GameApplication - CreatePeer for LoadBalancing
+2022-02-10 17:45:16,893 [35] DEBUG Photon.LoadBalancing.GameServer.GameApplication - incoming game peer at 192.168.0.49:5056 from 192.168.0.1:55726
+2022-02-10 17:45:16,894 [35] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker scheduled. authTimeout:20000 p:GameClientPeer: PID: 35, IsConnected: False, IsDisposed: False, Last Activity: Operation 0 at UTC 0001-01-01T00:00:00, in Room '', IP 192.168.0.1:55726, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 17:45:16,962 [45] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=35, opCode=230
+2022-02-10 17:45:16,963 [45] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 35, IsConnected: True, IsDisposed: False, Last Activity: Operation 230 at UTC 2022-02-10T08:45:16, in Room '', IP 192.168.0.1:55726, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 17:45:16,963 [45] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Token Validation: checking token with GS: 118.36.97.193 and GameId:MainHall/0
+2022-02-10 17:45:17,027 [37] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=35, opCode=226
+2022-02-10 17:45:17,027 [37] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=226
+2022-02-10 17:45:17,027 [37] DEBUG Photon.Hive.Caching.RoomCacheBase - Creating room instance: roomName=MainHall/0
+2022-02-10 17:45:17,028 [37] DEBUG Photon.Hive.Caching.RoomCacheBase - Created room instance reference: roomName=MainHall/0, referenceCount=1
+2022-02-10 17:45:17,028 [37] INFO  Photon.Hive.Plugin.PluginManager - Plugin successfully created:Type:MyFirstPlugin.MyPluginFactory, path:D:\Photon-Server-Test\photon-server-sdk_v5-0-12-24499-rc1\deploy\Plugins/MyFirstPlugin//bin/MyFirstPlugin.dll
+2022-02-10 17:45:17,028 [37] INFO  Plugin.MyFirstPlugin - OnCreateGame MainHall/0 by user 1
+2022-02-10 17:45:17,029 [37] DEBUG Photon.Hive.Plugin.CreateGameCallInfo - Continue.
+2022-02-10 17:45:17,029 [37] DEBUG Photon.Hive.HiveGame - Processing Join from IP: 192.168.0.1 to port: 5056
+2022-02-10 17:45:17,029 [37] DEBUG Photon.Hive.Collections.ActorsManager - Actor added: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 35, IsConnected: True, IsDisposed: False, Last Activity: Operation 226 at UTC 2022-02-10T08:45:17, in Room 'MainHall/0', IP 192.168.0.1:55726, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 4 
+2022-02-10 17:45:17,029 [37] DEBUG Photon.Hive.HiveGame - JoinApplyGameStateChanges: Actor 1 is added. MasterClientId is 1
+2022-02-10 17:45:17,029 [37] DEBUG Photon.Hive.HiveGame - Created Game - name=MainHall/0, lobbyName=, lobbyType=Default, maxPlayers=4, IsOpen=True, IsVisible=True, EmptyRoomLiveTime=0, PlayerTTL=0, CheckUserOnJoin=True, PublishUserId=False, ExpectedUsers=
+2022-02-10 17:45:17,030 [37] DEBUG Photon.LoadBalancing.GameServer.Game - UpdateGameStateOnMasterOnCreate: game - 'MainHall/0'
+2022-02-10 17:45:17,030 [37] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 17:45:17,030 [37] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:45:17,894 [38] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:45:19,994 [45] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 17:45:19,995 [45] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 17:45:19,995 [45] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=35, opCode=219
+2022-02-10 17:45:19,995 [45] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:45:19,996 [45] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/users/1?:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:45:19,995 [44] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 17:45:19,998 [44] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 17:45:19,998 [44] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 17:45:19,999 [55] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 17:45:19,999 [55] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 17:45:19,999 [55] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 17:45:20,022 [42] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/users/1?: {"ResultCode":0,"data":{"user":[{"name":"tester1","sex":1,"level":2}]}}
+2022-02-10 17:45:28,605 [54] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=35, opCode=219
+2022-02-10 17:45:28,605 [54] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:45:28,605 [54] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/videos?lecture_name=math&:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:45:28,633 [38] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/videos?lecture_name=math&: {"ResultCode":0,"data":{"videos":[{"vid":1,"video_count":1,"video_desc":"수학 1","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669685953","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":100},{"vid":2,"video_count":2,"video_desc":"수학 2","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669651592","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":200}]}}
+2022-02-10 17:46:34,374 [39] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=35, opCode=219
+2022-02-10 17:46:34,375 [39] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:46:34,375 [39] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/lec-records/math?uid=1&count=2&:{"method":"put","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:46:34,395 [42] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/lec-records/math?uid=1&count=2&: {"ResultCode":0,"data":{"message":"complete"}}
+2022-02-10 17:47:10,936 [42] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 35, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T08:46:34, in Room 'MainHall/0', IP 192.168.0.1:55726, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:47:10,936 [42] DEBUG Photon.Hive.HivePeer - OnDisconnect: conId=35, reason=0, reasonDetail=
+2022-02-10 17:47:10,937 [42] DEBUG Photon.Hive.HivePeer - RemovePeerFromCurrentRoom: Removing peer from room. p:GameClientPeer: PID: 35, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T08:46:34, in Room 'MainHall/0', IP 192.168.0.1:55726, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:47:10,937 [42] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance reference: roomName=MainHall/0, referenceCount=0
+2022-02-10 17:47:10,937 [42] DEBUG Photon.Hive.Caching.RoomCacheBase - Room has no references. Trying to remove it. room:MainHall/0
+2022-02-10 17:47:10,937 [42] DEBUG Photon.Hive.Caching.RoomCacheBase - Room BeforeRemoveFromCache returned 'false'. Removing stopped. room:MainHall/0
+2022-02-10 17:47:10,937 [37] DEBUG Photon.Hive.HiveGame - ProcessMessage 1
+2022-02-10 17:47:10,938 [37] DEBUG Photon.Hive.Plugin.LeaveGameCallInfo - Continue.
+2022-02-10 17:47:10,938 [37] DEBUG Photon.Hive.HiveGame - Actor 1 left. MasterClientId is 0
+2022-02-10 17:47:10,939 [37] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 17:47:10,939 [37] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:47:10,939 [37] DEBUG Photon.Hive.Collections.ActorsManager - Actor removed: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 35, IsConnected: False, IsDisposed: True, Last Activity: Operation 219 at UTC 2022-02-10T08:46:34, in Room '', IP 192.168.0.1:55726, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:47:10,939 [37] DEBUG Photon.Hive.Plugin.BeforeCloseGameCallInfo - Continue.
+2022-02-10 17:47:10,940 [37] DEBUG Photon.Hive.Plugin.CloseGameCallInfo - Continue.
+2022-02-10 17:47:10,940 [37] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance: roomId=MainHall/0
+2022-02-10 17:47:10,940 [37] DEBUG Photon.Hive.Room - Release for room:MainHall/0, RemovePath:;BeforeRemoveFromCacheCalled(오전 8:47:10);BeforeRemoveFromCacheActionCalled(오전 8:47:10);ProcessBeforeCloseGameCalled(오전 8:47:10);ProcessBeforeCloseGameCalledEmptyRoomLiveTimeLECalled(오전 8:47:10);TriggerPluginOnCloseCalled(오전 8:47:10);ProcessCloseGameCalled(오전 8:47:10);TryRemoveRoomFromCacheCalled(오전 8:47:10)
+2022-02-10 17:47:10,940 [37] DEBUG Photon.Hive.Room - Tried to remove room: roomName=MainHall/0, removed=True
+2022-02-10 17:47:10,941 [37] DEBUG Photon.Hive.Room - Disposing room 'MainHall/0', dispose:True
+2022-02-10 17:47:10,941 [37] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Flush for appId:, version:
+2022-02-10 17:47:11,959 [50] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:48:00,128 [51] DEBUG Photon.LoadBalancing.GameServer.GameApplication - CreatePeer for LoadBalancing
+2022-02-10 17:48:00,128 [51] DEBUG Photon.LoadBalancing.GameServer.GameApplication - incoming game peer at 192.168.0.49:5056 from 192.168.0.1:61550
+2022-02-10 17:48:00,128 [51] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker scheduled. authTimeout:20000 p:GameClientPeer: PID: 37, IsConnected: False, IsDisposed: False, Last Activity: Operation 0 at UTC 0001-01-01T00:00:00, in Room '', IP 192.168.0.1:61550, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 17:48:00,197 [36] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=37, opCode=230
+2022-02-10 17:48:00,198 [36] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 37, IsConnected: True, IsDisposed: False, Last Activity: Operation 230 at UTC 2022-02-10T08:48:00, in Room '', IP 192.168.0.1:61550, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 17:48:00,198 [36] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Token Validation: checking token with GS: 118.36.97.193 and GameId:MainHall/0
+2022-02-10 17:48:00,260 [55] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=37, opCode=226
+2022-02-10 17:48:00,260 [55] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=226
+2022-02-10 17:48:00,260 [55] DEBUG Photon.Hive.Caching.RoomCacheBase - Creating room instance: roomName=MainHall/0
+2022-02-10 17:48:00,261 [55] DEBUG Photon.Hive.Caching.RoomCacheBase - Created room instance reference: roomName=MainHall/0, referenceCount=1
+2022-02-10 17:48:00,261 [55] INFO  Photon.Hive.Plugin.PluginManager - Plugin successfully created:Type:MyFirstPlugin.MyPluginFactory, path:D:\Photon-Server-Test\photon-server-sdk_v5-0-12-24499-rc1\deploy\Plugins/MyFirstPlugin//bin/MyFirstPlugin.dll
+2022-02-10 17:48:00,261 [55] INFO  Plugin.MyFirstPlugin - OnCreateGame MainHall/0 by user 1
+2022-02-10 17:48:00,261 [55] DEBUG Photon.Hive.Plugin.CreateGameCallInfo - Continue.
+2022-02-10 17:48:00,262 [55] DEBUG Photon.Hive.HiveGame - Processing Join from IP: 192.168.0.1 to port: 5056
+2022-02-10 17:48:00,262 [55] DEBUG Photon.Hive.Collections.ActorsManager - Actor added: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 37, IsConnected: True, IsDisposed: False, Last Activity: Operation 226 at UTC 2022-02-10T08:48:00, in Room 'MainHall/0', IP 192.168.0.1:61550, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 4 
+2022-02-10 17:48:00,262 [55] DEBUG Photon.Hive.HiveGame - JoinApplyGameStateChanges: Actor 1 is added. MasterClientId is 1
+2022-02-10 17:48:00,262 [55] DEBUG Photon.Hive.HiveGame - Created Game - name=MainHall/0, lobbyName=, lobbyType=Default, maxPlayers=4, IsOpen=True, IsVisible=True, EmptyRoomLiveTime=0, PlayerTTL=0, CheckUserOnJoin=True, PublishUserId=False, ExpectedUsers=
+2022-02-10 17:48:00,262 [55] DEBUG Photon.LoadBalancing.GameServer.Game - UpdateGameStateOnMasterOnCreate: game - 'MainHall/0'
+2022-02-10 17:48:00,263 [55] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 17:48:00,263 [55] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:48:01,137 [37] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:48:03,231 [43] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 17:48:03,232 [43] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 17:48:03,232 [43] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=37, opCode=219
+2022-02-10 17:48:03,232 [43] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:48:03,233 [43] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/users/1?:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:48:03,232 [39] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 17:48:03,234 [39] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 17:48:03,234 [39] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 17:48:03,234 [39] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 17:48:03,234 [39] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 17:48:03,235 [39] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 17:48:03,244 [48] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/users/1?: {"ResultCode":0,"data":{"user":[{"name":"tester1","sex":1,"level":2}]}}
+2022-02-10 17:48:11,045 [49] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=37, opCode=219
+2022-02-10 17:48:11,046 [49] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:48:11,046 [49] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/videos?lecture_name=math&:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:48:11,053 [37] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/videos?lecture_name=math&: {"ResultCode":0,"data":{"videos":[{"vid":1,"video_count":1,"video_desc":"수학 1","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669685953","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":100},{"vid":2,"video_count":2,"video_desc":"수학 2","lecture_name":"math","lecture_num":1,"professor_id":1,"url":"https://vimeo.com/669651592","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":200}]}}
+2022-02-10 17:49:18,489 [42] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=37, opCode=219
+2022-02-10 17:49:18,489 [42] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:49:18,490 [42] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/lec-records/math?uid=1&count=2&:{"method":"put","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:49:18,543 [48] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/lec-records/math?uid=1&count=2&: {"ResultCode":0,"data":{"message":"complete"}}
+2022-02-10 17:49:43,817 [37] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 37, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T08:49:18, in Room 'MainHall/0', IP 192.168.0.1:61550, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:49:43,818 [37] DEBUG Photon.Hive.HivePeer - OnDisconnect: conId=37, reason=0, reasonDetail=
+2022-02-10 17:49:43,818 [37] DEBUG Photon.Hive.HivePeer - RemovePeerFromCurrentRoom: Removing peer from room. p:GameClientPeer: PID: 37, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T08:49:18, in Room 'MainHall/0', IP 192.168.0.1:61550, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:49:43,818 [37] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance reference: roomName=MainHall/0, referenceCount=0
+2022-02-10 17:49:43,818 [37] DEBUG Photon.Hive.Caching.RoomCacheBase - Room has no references. Trying to remove it. room:MainHall/0
+2022-02-10 17:49:43,819 [37] DEBUG Photon.Hive.Caching.RoomCacheBase - Room BeforeRemoveFromCache returned 'false'. Removing stopped. room:MainHall/0
+2022-02-10 17:49:43,818 [56] DEBUG Photon.Hive.HiveGame - ProcessMessage 1
+2022-02-10 17:49:43,819 [56] DEBUG Photon.Hive.Plugin.LeaveGameCallInfo - Continue.
+2022-02-10 17:49:43,820 [56] DEBUG Photon.Hive.HiveGame - Actor 1 left. MasterClientId is 0
+2022-02-10 17:49:43,820 [56] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 17:49:43,820 [56] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:49:43,820 [56] DEBUG Photon.Hive.Collections.ActorsManager - Actor removed: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 37, IsConnected: False, IsDisposed: True, Last Activity: Operation 219 at UTC 2022-02-10T08:49:18, in Room '', IP 192.168.0.1:61550, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:49:43,820 [56] DEBUG Photon.Hive.Plugin.BeforeCloseGameCallInfo - Continue.
+2022-02-10 17:49:43,821 [56] DEBUG Photon.Hive.Plugin.CloseGameCallInfo - Continue.
+2022-02-10 17:49:43,821 [56] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance: roomId=MainHall/0
+2022-02-10 17:49:43,821 [56] DEBUG Photon.Hive.Room - Release for room:MainHall/0, RemovePath:;BeforeRemoveFromCacheCalled(오전 8:49:43);BeforeRemoveFromCacheActionCalled(오전 8:49:43);ProcessBeforeCloseGameCalled(오전 8:49:43);ProcessBeforeCloseGameCalledEmptyRoomLiveTimeLECalled(오전 8:49:43);TriggerPluginOnCloseCalled(오전 8:49:43);ProcessCloseGameCalled(오전 8:49:43);TryRemoveRoomFromCacheCalled(오전 8:49:43)
+2022-02-10 17:49:43,821 [56] DEBUG Photon.Hive.Room - Tried to remove room: roomName=MainHall/0, removed=True
+2022-02-10 17:49:43,821 [56] DEBUG Photon.Hive.Room - Disposing room 'MainHall/0', dispose:True
+2022-02-10 17:49:43,822 [56] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Flush for appId:, version:
+2022-02-10 17:49:44,837 [49] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:56:16,789 [57] DEBUG Photon.LoadBalancing.GameServer.GameApplication - CreatePeer for LoadBalancing
+2022-02-10 17:56:16,790 [57] DEBUG Photon.LoadBalancing.GameServer.GameApplication - incoming game peer at 192.168.0.49:5056 from 192.168.0.1:57904
+2022-02-10 17:56:16,790 [57] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker scheduled. authTimeout:20000 p:GameClientPeer: PID: 39, IsConnected: False, IsDisposed: False, Last Activity: Operation 0 at UTC 0001-01-01T00:00:00, in Room '', IP 192.168.0.1:57904, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 17:56:16,881 [56] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=39, opCode=230
+2022-02-10 17:56:16,882 [56] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 39, IsConnected: True, IsDisposed: False, Last Activity: Operation 230 at UTC 2022-02-10T08:56:16, in Room '', IP 192.168.0.1:57904, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 0 
+2022-02-10 17:56:16,882 [56] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Token Validation: checking token with GS: 118.36.97.193 and GameId:MainHall/0
+2022-02-10 17:56:16,940 [49] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=39, opCode=226
+2022-02-10 17:56:16,940 [49] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=226
+2022-02-10 17:56:16,941 [49] DEBUG Photon.Hive.Caching.RoomCacheBase - Creating room instance: roomName=MainHall/0
+2022-02-10 17:56:16,941 [49] DEBUG Photon.Hive.Caching.RoomCacheBase - Created room instance reference: roomName=MainHall/0, referenceCount=1
+2022-02-10 17:56:16,941 [49] INFO  Photon.Hive.Plugin.PluginManager - Plugin successfully created:Type:MyFirstPlugin.MyPluginFactory, path:D:\Photon-Server-Test\photon-server-sdk_v5-0-12-24499-rc1\deploy\Plugins/MyFirstPlugin//bin/MyFirstPlugin.dll
+2022-02-10 17:56:16,942 [49] INFO  Plugin.MyFirstPlugin - OnCreateGame MainHall/0 by user 1
+2022-02-10 17:56:16,942 [49] DEBUG Photon.Hive.Plugin.CreateGameCallInfo - Continue.
+2022-02-10 17:56:16,942 [49] DEBUG Photon.Hive.HiveGame - Processing Join from IP: 192.168.0.1 to port: 5056
+2022-02-10 17:56:16,942 [49] DEBUG Photon.Hive.Collections.ActorsManager - Actor added: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 39, IsConnected: True, IsDisposed: False, Last Activity: Operation 226 at UTC 2022-02-10T08:56:16, in Room 'MainHall/0', IP 192.168.0.1:57904, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 4 
+2022-02-10 17:56:16,942 [49] DEBUG Photon.Hive.HiveGame - JoinApplyGameStateChanges: Actor 1 is added. MasterClientId is 1
+2022-02-10 17:56:16,943 [49] DEBUG Photon.Hive.HiveGame - Created Game - name=MainHall/0, lobbyName=, lobbyType=Default, maxPlayers=4, IsOpen=True, IsVisible=True, EmptyRoomLiveTime=0, PlayerTTL=0, CheckUserOnJoin=True, PublishUserId=False, ExpectedUsers=
+2022-02-10 17:56:16,943 [49] DEBUG Photon.LoadBalancing.GameServer.Game - UpdateGameStateOnMasterOnCreate: game - 'MainHall/0'
+2022-02-10 17:56:16,943 [49] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 17:56:16,943 [49] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:56:17,800 [35] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:56:19,920 [53] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 17:56:19,920 [53] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=253
+2022-02-10 17:56:19,920 [53] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=39, opCode=219
+2022-02-10 17:56:19,921 [53] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:56:19,921 [53] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/users/1?:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:56:19,920 [35] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 17:56:19,923 [35] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 17:56:19,924 [35] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 17:56:19,924 [35] DEBUG Photon.Hive.HiveHostGame - Broadcasting: Got RaiseEvent from 1/'1', targetActors=-1, Group=0, ReceiverGroup=0
+2022-02-10 17:56:19,924 [35] DEBUG Photon.Hive.Plugin.RaiseEventCallInfo - Continue.
+2022-02-10 17:56:19,924 [35] DEBUG Photon.Hive.HiveGame - Broadcasting: Recipients selected basing receiver group: Others
+2022-02-10 17:56:19,926 [37] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/users/1?: {"ResultCode":0,"data":{"user":[{"name":"tester1","sex":1,"level":2}]}}
+2022-02-10 17:56:27,394 [46] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=39, opCode=219
+2022-02-10 17:56:27,394 [46] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:56:27,394 [46] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/videos?lecture_name=science&:{"method":"get","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:56:27,400 [44] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:0;Message:''] for request to address http://118.36.97.193:79/videos?lecture_name=science&: {"ResultCode":0,"data":{"videos":[{"vid":3,"video_count":1,"video_desc":"과학 1","lecture_name":"science","lecture_num":2,"professor_id":1,"url":"https://vimeo.com/669685953","upload_date":"2022-02-04T01:14:45.000Z","reward_gold":100}]}}
+2022-02-10 17:56:59,831 [45] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - OnOperationRequest: conId=39, opCode=219
+2022-02-10 17:56:59,832 [45] DEBUG Photon.Hive.HivePeer - OnOperationRequest. Code=219
+2022-02-10 17:56:59,832 [45] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc request http://118.36.97.193:79/lec-records/science?uid=1&count=1&:{"method":"put","AppId":"822F-3130-579C-EEA6-9037-675D","AppVersion":"","Region":"","UserId":"1"}
+2022-02-10 17:56:59,838 [43] DEBUG Photon.Hive.WebRpc.WebRpcHandler - WebRpc response [ResultCode:2;Message:''] for request to address http://118.36.97.193:79/lec-records/science?uid=1&count=1&: {"ResultCode":2,"data":{"error":"you wrong request or empty data"}}
+2022-02-10 17:57:11,167 [43] DEBUG Photon.LoadBalancing.GameServer.GameClientPeer - Auth Timeout Checker stopped. authTimeout:20000 p:GameClientPeer: PID: 39, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T08:56:59, in Room 'MainHall/0', IP 192.168.0.1:57904, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:57:11,167 [43] DEBUG Photon.Hive.HivePeer - OnDisconnect: conId=39, reason=0, reasonDetail=
+2022-02-10 17:57:11,167 [43] DEBUG Photon.Hive.HivePeer - RemovePeerFromCurrentRoom: Removing peer from room. p:GameClientPeer: PID: 39, IsConnected: False, IsDisposed: False, Last Activity: Operation 219 at UTC 2022-02-10T08:56:59, in Room 'MainHall/0', IP 192.168.0.1:57904, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:57:11,167 [43] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance reference: roomName=MainHall/0, referenceCount=0
+2022-02-10 17:57:11,168 [43] DEBUG Photon.Hive.Caching.RoomCacheBase - Room has no references. Trying to remove it. room:MainHall/0
+2022-02-10 17:57:11,168 [43] DEBUG Photon.Hive.Caching.RoomCacheBase - Room BeforeRemoveFromCache returned 'false'. Removing stopped. room:MainHall/0
+2022-02-10 17:57:11,167 [41] DEBUG Photon.Hive.HiveGame - ProcessMessage 1
+2022-02-10 17:57:11,169 [41] DEBUG Photon.Hive.Plugin.LeaveGameCallInfo - Continue.
+2022-02-10 17:57:11,169 [41] DEBUG Photon.Hive.HiveGame - Actor 1 left. MasterClientId is 0
+2022-02-10 17:57:11,169 [41] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Message was sent directly
+2022-02-10 17:57:11,169 [41] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=3, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
+2022-02-10 17:57:11,170 [41] DEBUG Photon.Hive.Collections.ActorsManager - Actor removed: 1 1 to game: MainHall/0 -- peer:GameClientPeer: PID: 39, IsConnected: False, IsDisposed: True, Last Activity: Operation 219 at UTC 2022-02-10T08:56:59, in Room '', IP 192.168.0.1:57904, NetworkProtocol Udp, Protocol GpBinaryV18, JoinStage: 12 
+2022-02-10 17:57:11,170 [41] DEBUG Photon.Hive.Plugin.BeforeCloseGameCallInfo - Continue.
+2022-02-10 17:57:11,170 [41] DEBUG Photon.Hive.Plugin.CloseGameCallInfo - Continue.
+2022-02-10 17:57:11,170 [41] DEBUG Photon.Hive.Caching.RoomCacheBase - Removed room instance: roomId=MainHall/0
+2022-02-10 17:57:11,171 [41] DEBUG Photon.Hive.Room - Release for room:MainHall/0, RemovePath:;BeforeRemoveFromCacheCalled(오전 8:57:11);BeforeRemoveFromCacheActionCalled(오전 8:57:11);ProcessBeforeCloseGameCalled(오전 8:57:11);ProcessBeforeCloseGameCalledEmptyRoomLiveTimeLECalled(오전 8:57:11);TriggerPluginOnCloseCalled(오전 8:57:11);ProcessCloseGameCalled(오전 8:57:11);TryRemoveRoomFromCacheCalled(오전 8:57:11)
+2022-02-10 17:57:11,171 [41] DEBUG Photon.Hive.Room - Tried to remove room: roomName=MainHall/0, removed=True
+2022-02-10 17:57:11,171 [41] DEBUG Photon.Hive.Room - Disposing room 'MainHall/0', dispose:True
+2022-02-10 17:57:11,171 [41] DEBUG Photon.LoadBalancing.GameServer.GameUpdatesBatcher - Flush for appId:, version:
+2022-02-10 17:57:12,175 [57] DEBUG Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Sending event to master. EventCode=2, ConnectionId=8a8baf44-1c8a-40e2-be57-e51175bf29b0
