@@ -68,6 +68,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy /Y /Q "$(TargetDir)*" "D:\Photon-Server-Test\photon-server-sdk_v5-0-12-24499-rc1\deploy\Plugins\MyFirstPlugin\bin"</PostBuildEvent>
+    <PostBuildEvent>xcopy /Y /Q "$(TargetDir)*" "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\deploy\Plugins\MyFirstPlugin\bin"</PostBuildEvent>
   </PropertyGroup>
 </Project>

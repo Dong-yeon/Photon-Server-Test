@@ -9,10 +9,11 @@ namespace MyFirstPlugin
 		public override string Name => "MyFirstPlugin";
 		public override string Version => base.Version;
 		public override bool IsPersistent => base.IsPersistent;
+		IPluginLogger pluginLogger; // IPluginLooger 변수 설정
 
 		// 로그기록
 		public const string PluginName = "MyFirstPlugin";
-		IPluginLogger pluginLogger;
+		//IPluginLogger pluginLogger;
 
 		// 커스텀 타입 직렬화 역질렬화
 		// SetupInstance에서 등록, using System.IO;
@@ -37,8 +38,7 @@ namespace MyFirstPlugin
 			public string stringField;
 		}*/
 
-		// 직렬화 예시
-		// object -> byte[]
+		// 직렬화 예시 object -> byte[]
 /*		byte[] SerializeCustomPluginType(object customPluginObject)
 		{
 			var customPluginType = customPluginObject as CustomPluginType;
@@ -52,7 +52,7 @@ namespace MyFirstPlugin
 			return stream.ToArray();
 		}*/
 
-		// 역질렬화 예시
+		// 역질렬화 예시 byte[] -> object
 /*		object DeserializeCustomPluginType(byte[] bytes)
 		{
 			CustomPluginType customPluginType = new CustomPluginType();
@@ -77,36 +77,48 @@ namespace MyFirstPlugin
 			PluginHost.LogInfo($"### IsPersistent {IsPersistent}");
 		}
 
-		// 플러그인에서 콜백을 받으면 ICallInfo 형태로 info로 들어오게 된다.
-		public override void BeforeCloseGame(IBeforeCloseGameCallInfo info)
+        public override bool SetupInstance(IPluginHost host, Dictionary<string, string> config, out string errorMsg)
+        {
+			pluginLogger = host.CreateLogger(PluginName);
+
+			pluginLogger.Debug("debug");
+			pluginLogger.Debug("warn");
+			pluginLogger.Debug("error");
+			pluginLogger.Debug("fatal");
+
+            return base.SetupInstance(host, config, out errorMsg);
+        }
+
+        // 플러그인에서 콜백을 받으면 ICallInfo 형태로 info로 들어오게 된다.
+        public override void BeforeCloseGame(IBeforeCloseGameCallInfo info) // 방을 나가긴 전에 받는 콜백
 		{
 			// 방에서 나가기 전
 			PluginHost.LogInfo($"### BeforeCloseGame by user {info.UserId}");
 			info.Continue();
 		}
 
-		public override void BeforeJoin(IBeforeJoinGameCallInfo info)
+		public override void BeforeJoin(IBeforeJoinGameCallInfo info) // 방에 참가하기 전에 받는 콜백
 		{
 			// 방에 참가하기 전
 			PluginHost.LogInfo($"### BeforeJoin {info.Request.GameId} by user {info.UserId}");
 			info.Continue();
 		}
 
-		public override void BeforeSetProperties(IBeforeSetPropertiesCallInfo info)
+		public override void BeforeSetProperties(IBeforeSetPropertiesCallInfo info) // 커스텀 프로퍼티를 Set 하기전에 받는 콜백
 		{
 			// 커스텀 프로퍼티를 Set하기 전
 			PluginHost.LogInfo($"### BeforeSetProperties {info.Request.Properties.Keys} by user {info.UserId}");
 			info.Continue();
 		}
 
-		public override void OnCloseGame(ICloseGameCallInfo info)
+		public override void OnCloseGame(ICloseGameCallInfo info) // 게임에서 나간 후 받는 콜백
 		{
 			// 방에서 나간 후
 			PluginHost.LogInfo($"### OnCloseGame by user {info.UserId}");
 			info.Continue();
 		}
 
-		public override void OnCreateGame(ICreateGameCallInfo info)
+		public override void OnCreateGame(ICreateGameCallInfo info) // 방을 만든 후 받는 콜백
 		{
 			// 방을 만든 후
 			PluginHost.LogInfo($"### OnCreateGame {info.Request.GameId} by user {info.UserId}");
@@ -146,21 +158,21 @@ namespace MyFirstPlugin
 				}, 3000, 2000); // 3초후 실행, 2초간격으로 반복실행*/
 		}
 
-		public override void OnJoin(IJoinGameCallInfo info)
+		public override void OnJoin(IJoinGameCallInfo info) // 방에 접속한 후 받는 콜백
 		{
 			// 방에 참가 후
 			PluginHost.LogInfo($"### OnJoin {info.Request.GameId} by user {info.UserId}");
 			info.Continue();
 		}
 
-		public override void OnLeave(ILeaveGameCallInfo info)
+		public override void OnLeave(ILeaveGameCallInfo info) // 방에서 나간 후 받는 콜백
 		{
 			// 방에서 나간 후
 			PluginHost.LogInfo($"### OnLeave by user {info.UserId}");
 			info.Continue();
 		}
 
-		public override void OnRaiseEvent(IRaiseEventCallInfo info)
+		public override void OnRaiseEvent(IRaiseEventCallInfo info) // RaiseEvent 발생 후 받는 콜백
 		{
 			// RaiseEvent 발생 후
 			PluginHost.LogInfo($"### OnRaiseEvent {info.Request.Data} by user {info.UserId}");
@@ -191,14 +203,14 @@ namespace MyFirstPlugin
 
 		}
 
-		public override void OnSetProperties(ISetPropertiesCallInfo info)
+		public override void OnSetProperties(ISetPropertiesCallInfo info) // 커스텀 프로퍼티를 Set 한 후 받는 콜백
 		{
 			// 커스텀 프로퍼티 Set 후
 			PluginHost.LogInfo($"### OnSetProperties {info.Request.Properties.Keys} by user {info.UserId}");
 			info.Continue();
 		}
 
-		protected override void OnChangeMasterClientId(int oldId, int newId)
+		protected override void OnChangeMasterClientId(int oldId, int newId) // 마스터클라이언트를 바꾼 후 받는 콜백
 		{
 			// 마스터 클라이언트가 바뀐 후
 			PluginHost.LogInfo($"### OnChangeMasterClientId oldId {oldId}, newId {newId}");

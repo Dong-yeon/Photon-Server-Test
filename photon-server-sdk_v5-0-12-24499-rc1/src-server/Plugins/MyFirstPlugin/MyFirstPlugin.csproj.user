@@ -6,8 +6,8 @@
     <StartArguments>/run LoadBalancing /configPath D:\Photon-Server-Test\photon-server-sdk_v5-0-12-24499-rc1\deploy\bin_Win64</StartArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
-    <StartProgram>D:\Photon-Server-Test\photon-server-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonSocketServer.exe</StartProgram>
-    <StartArguments>/run LoadBalancing /configPath D:\Photon-Server-Test\photon-server-sdk_v5-0-12-24499-rc1\deploy\bin_Win64</StartArguments>
+    <StartProgram>D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonSocketServer.exe</StartProgram>
+    <StartArguments>/run LoadBalancing /configPath D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\deploy\bin_Win64</StartArguments>
     <StartAction>Program</StartAction>
   </PropertyGroup>
 </Project>

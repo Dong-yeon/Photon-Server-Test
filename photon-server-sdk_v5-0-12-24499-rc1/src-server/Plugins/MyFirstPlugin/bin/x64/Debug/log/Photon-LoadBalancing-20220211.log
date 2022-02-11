@@ -1,0 +1,583 @@
+36668: 11:21:50.979 - ---
+36668: 11:21:50.979 - Service: "Photon Socket Server" starting
+36668: 11:21:50.979 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\PhotonServer.config
+36668: 11:21:50.981 - Will produce at most: 10 crash dumps
+36668: 11:21:50.981 - Construction of service object complete
+36668: 11:21:50.981 - 
+36668: 11:21:50.981 - ERROR: ***************************************************************
+36668: 11:21:50.981 - ERROR: /configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+36668: 11:21:50.981 - ERROR: option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+36668: 11:21:50.981 - ERROR:  
+36668: 11:21:50.981 - ERROR: Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+36668: 11:21:50.981 - ERROR: ***************************************************************
+36668: 11:21:50.981 - 
+36668: 11:21:50.981 - 
+36668: 11:21:50.981 - ERROR: ***************************************************************
+36668: 11:21:50.981 - ERROR: /configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+ 
+Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+36668: 11:21:50.981 - ERROR: ***************************************************************
+36668: 11:21:50.981 - 
+36668: 11:21:50.981 - MessageBox: Photon Socket Server: LoadBalancing - 5.0.12.7770
+
+/configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+ 
+Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+
+Usage: PhotonSocketServer.exe  Followed by the following command line options.
+  /help		Display this list.
+  /noMessages	Must be first. Do not display status messages.
+  /install name	Installs an instance of the service named 'name'.
+  /installCounters	Installs performance counters for this service.
+  /remove name	Removes the instance of the service named 'name'.
+  /removeCounters	Removes performance counters for this service.
+  /run name   	Runs the service as a normal process for debugging.
+  /stop         	Request all instances of Photon to shutdown and exit.
+  /stop1 name	Request instance 'name' of Photon shutdown and exit.
+  /configPath path	Use the supplied path to locate the config file.
+  /config file	Use the supplied config file.
+
+Note that /config and /configFile can be used with /install and /run
+
+Note that only /noMessages can be combined with all other command line options.
+
+36668: 11:21:52.538 - Service shutting down: commandline option error. Errorcode: 255
+36668: 11:21:52.540 - Service shut down complete
+29596: 11:29:30.744 - ---
+29596: 11:29:30.744 - Service: "Photon Socket Server" starting
+29596: 11:29:30.744 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\PhotonServer.config
+29596: 11:29:30.746 - Will produce at most: 10 crash dumps
+29596: 11:29:30.746 - Construction of service object complete
+29596: 11:29:30.746 - 
+29596: 11:29:30.746 - ERROR: ***************************************************************
+29596: 11:29:30.746 - ERROR: /configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+29596: 11:29:30.746 - ERROR: option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+29596: 11:29:30.746 - ERROR:  
+29596: 11:29:30.746 - ERROR: Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+29596: 11:29:30.746 - ERROR: ***************************************************************
+29596: 11:29:30.746 - 
+29596: 11:29:30.746 - 
+29596: 11:29:30.746 - ERROR: ***************************************************************
+29596: 11:29:30.746 - ERROR: /configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+ 
+Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+29596: 11:29:30.746 - ERROR: ***************************************************************
+29596: 11:29:30.746 - 
+29596: 11:29:30.746 - MessageBox: Photon Socket Server: LoadBalancing - 5.0.12.7770
+
+/configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+ 
+Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+
+Usage: PhotonSocketServer.exe  Followed by the following command line options.
+  /help		Display this list.
+  /noMessages	Must be first. Do not display status messages.
+  /install name	Installs an instance of the service named 'name'.
+  /installCounters	Installs performance counters for this service.
+  /remove name	Removes the instance of the service named 'name'.
+  /removeCounters	Removes performance counters for this service.
+  /run name   	Runs the service as a normal process for debugging.
+  /stop         	Request all instances of Photon to shutdown and exit.
+  /stop1 name	Request instance 'name' of Photon shutdown and exit.
+  /configPath path	Use the supplied path to locate the config file.
+  /config file	Use the supplied config file.
+
+Note that /config and /configFile can be used with /install and /run
+
+Note that only /noMessages can be combined with all other command line options.
+
+29596: 11:29:35.961 - Service shutting down: commandline option error. Errorcode: 255
+29596: 11:29:35.963 - Service shut down complete
+2504: 11:29:40.458 - ---
+2504: 11:29:40.458 - Service: "Photon Socket Server" starting
+2504: 11:29:40.459 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\PhotonServer.config
+2504: 11:29:40.460 - Will produce at most: 10 crash dumps
+2504: 11:29:40.460 - Construction of service object complete
+2504: 11:29:40.460 - 
+2504: 11:29:40.460 - ERROR: ***************************************************************
+2504: 11:29:40.460 - ERROR: /configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+2504: 11:29:40.460 - ERROR: option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+2504: 11:29:40.460 - ERROR:  
+2504: 11:29:40.460 - ERROR: Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+2504: 11:29:40.460 - ERROR: ***************************************************************
+2504: 11:29:40.460 - 
+2504: 11:29:40.460 - 
+2504: 11:29:40.460 - ERROR: ***************************************************************
+2504: 11:29:40.460 - ERROR: /configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+ 
+Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+2504: 11:29:40.460 - ERROR: ***************************************************************
+2504: 11:29:40.460 - 
+2504: 11:29:40.460 - MessageBox: Photon Socket Server: LoadBalancing - 5.0.12.7770
+
+/configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+ 
+Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+
+Usage: PhotonSocketServer.exe  Followed by the following command line options.
+  /help		Display this list.
+  /noMessages	Must be first. Do not display status messages.
+  /install name	Installs an instance of the service named 'name'.
+  /installCounters	Installs performance counters for this service.
+  /remove name	Removes the instance of the service named 'name'.
+  /removeCounters	Removes performance counters for this service.
+  /run name   	Runs the service as a normal process for debugging.
+  /stop         	Request all instances of Photon to shutdown and exit.
+  /stop1 name	Request instance 'name' of Photon shutdown and exit.
+  /configPath path	Use the supplied path to locate the config file.
+  /config file	Use the supplied config file.
+
+Note that /config and /configFile can be used with /install and /run
+
+Note that only /noMessages can be combined with all other command line options.
+
+2504: 11:29:41.953 - Service shutting down: commandline option error. Errorcode: 255
+2504: 11:29:41.957 - Service shut down complete
+20744: 11:29:48.948 - ---
+20744: 11:29:48.948 - Service: "Photon Socket Server" starting
+20744: 11:29:48.949 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\PhotonServer.config
+20744: 11:29:48.950 - Will produce at most: 10 crash dumps
+20744: 11:29:48.950 - Construction of service object complete
+20744: 11:29:48.950 - 
+20744: 11:29:48.950 - ERROR: ***************************************************************
+20744: 11:29:48.950 - ERROR: /configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+20744: 11:29:48.950 - ERROR: option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+20744: 11:29:48.950 - ERROR:  
+20744: 11:29:48.950 - ERROR: Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+20744: 11:29:48.950 - ERROR: ***************************************************************
+20744: 11:29:48.950 - 
+20744: 11:29:48.950 - 
+20744: 11:29:48.950 - ERROR: ***************************************************************
+20744: 11:29:48.950 - ERROR: /configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+ 
+Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+20744: 11:29:48.950 - ERROR: ***************************************************************
+20744: 11:29:48.950 - 
+20744: 11:29:48.950 - MessageBox: Photon Socket Server: LoadBalancing - 5.0.12.7770
+
+/configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+ 
+Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+
+Usage: PhotonSocketServer.exe  Followed by the following command line options.
+  /help		Display this list.
+  /noMessages	Must be first. Do not display status messages.
+  /install name	Installs an instance of the service named 'name'.
+  /installCounters	Installs performance counters for this service.
+  /remove name	Removes the instance of the service named 'name'.
+  /removeCounters	Removes performance counters for this service.
+  /run name   	Runs the service as a normal process for debugging.
+  /stop         	Request all instances of Photon to shutdown and exit.
+  /stop1 name	Request instance 'name' of Photon shutdown and exit.
+  /configPath path	Use the supplied path to locate the config file.
+  /config file	Use the supplied config file.
+
+Note that /config and /configFile can be used with /install and /run
+
+Note that only /noMessages can be combined with all other command line options.
+
+20744: 11:29:57.617 - Service shutting down: commandline option error. Errorcode: 255
+20744: 11:29:57.619 - Service shut down complete
+23536: 11:32:27.105 - ---
+23536: 11:32:27.105 - Service: "Photon Socket Server" starting
+23536: 11:32:27.105 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\PhotonServer.config
+23536: 11:32:27.106 - Will produce at most: 10 crash dumps
+23536: 11:32:27.106 - Construction of service object complete
+23536: 11:32:27.106 - 
+23536: 11:32:27.106 - ERROR: ***************************************************************
+23536: 11:32:27.106 - ERROR: /configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+23536: 11:32:27.106 - ERROR: option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+23536: 11:32:27.106 - ERROR:  
+23536: 11:32:27.106 - ERROR: Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+23536: 11:32:27.106 - ERROR: ***************************************************************
+23536: 11:32:27.106 - 
+23536: 11:32:27.106 - 
+23536: 11:32:27.106 - ERROR: ***************************************************************
+23536: 11:32:27.106 - ERROR: /configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+ 
+Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+23536: 11:32:27.106 - ERROR: ***************************************************************
+23536: 11:32:27.106 - 
+23536: 11:32:27.106 - MessageBox: Photon Socket Server: LoadBalancing - 5.0.12.7770
+
+/configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+ 
+Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+
+Usage: PhotonSocketServer.exe  Followed by the following command line options.
+  /help		Display this list.
+  /noMessages	Must be first. Do not display status messages.
+  /install name	Installs an instance of the service named 'name'.
+  /installCounters	Installs performance counters for this service.
+  /remove name	Removes the instance of the service named 'name'.
+  /removeCounters	Removes performance counters for this service.
+  /run name   	Runs the service as a normal process for debugging.
+  /stop         	Request all instances of Photon to shutdown and exit.
+  /stop1 name	Request instance 'name' of Photon shutdown and exit.
+  /configPath path	Use the supplied path to locate the config file.
+  /config file	Use the supplied config file.
+
+Note that /config and /configFile can be used with /install and /run
+
+Note that only /noMessages can be combined with all other command line options.
+
+23536: 11:32:28.612 - Service shutting down: commandline option error. Errorcode: 255
+23536: 11:32:28.613 - Service shut down complete
+25240: 11:32:33.453 - ---
+25240: 11:32:33.453 - Service: "Photon Socket Server" starting
+25240: 11:32:33.453 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\PhotonServer.config
+25240: 11:32:33.454 - Will produce at most: 10 crash dumps
+25240: 11:32:33.454 - Construction of service object complete
+25240: 11:32:33.454 - 
+25240: 11:32:33.454 - ERROR: ***************************************************************
+25240: 11:32:33.454 - ERROR: /configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+25240: 11:32:33.454 - ERROR: option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+25240: 11:32:33.454 - ERROR:  
+25240: 11:32:33.454 - ERROR: Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+25240: 11:32:33.454 - ERROR: ***************************************************************
+25240: 11:32:33.454 - 
+25240: 11:32:33.454 - 
+25240: 11:32:33.454 - ERROR: ***************************************************************
+25240: 11:32:33.454 - ERROR: /configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+ 
+Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+25240: 11:32:33.454 - ERROR: ***************************************************************
+25240: 11:32:33.454 - 
+25240: 11:32:33.454 - MessageBox: Photon Socket Server: LoadBalancing - 5.0.12.7770
+
+/configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+ 
+Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+
+Usage: PhotonSocketServer.exe  Followed by the following command line options.
+  /help		Display this list.
+  /noMessages	Must be first. Do not display status messages.
+  /install name	Installs an instance of the service named 'name'.
+  /installCounters	Installs performance counters for this service.
+  /remove name	Removes the instance of the service named 'name'.
+  /removeCounters	Removes performance counters for this service.
+  /run name   	Runs the service as a normal process for debugging.
+  /stop         	Request all instances of Photon to shutdown and exit.
+  /stop1 name	Request instance 'name' of Photon shutdown and exit.
+  /configPath path	Use the supplied path to locate the config file.
+  /config file	Use the supplied config file.
+
+Note that /config and /configFile can be used with /install and /run
+
+Note that only /noMessages can be combined with all other command line options.
+
+25240: 11:32:34.485 - Service shutting down: commandline option error. Errorcode: 255
+25240: 11:32:34.488 - Service shut down complete
+15040: 11:35:21.597 - ---
+15040: 11:35:21.597 - Service: "Photon Socket Server" starting
+15040: 11:35:21.597 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\PhotonServer.config
+15040: 11:35:21.599 - Will produce at most: 10 crash dumps
+15040: 11:35:21.599 - Construction of service object complete
+15040: 11:35:21.599 - 
+15040: 11:35:21.599 - ERROR: ***************************************************************
+15040: 11:35:21.599 - ERROR: /configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+15040: 11:35:21.599 - ERROR: option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+15040: 11:35:21.599 - ERROR:  
+15040: 11:35:21.599 - ERROR: Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+15040: 11:35:21.599 - ERROR: ***************************************************************
+15040: 11:35:21.599 - 
+15040: 11:35:21.599 - 
+15040: 11:35:21.599 - ERROR: ***************************************************************
+15040: 11:35:21.599 - ERROR: /configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+ 
+Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+15040: 11:35:21.599 - ERROR: ***************************************************************
+15040: 11:35:21.599 - 
+15040: 11:35:21.599 - MessageBox: Photon Socket Server: LoadBalancing - 5.0.12.7770
+
+/configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+ 
+Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+
+Usage: PhotonSocketServer.exe  Followed by the following command line options.
+  /help		Display this list.
+  /noMessages	Must be first. Do not display status messages.
+  /install name	Installs an instance of the service named 'name'.
+  /installCounters	Installs performance counters for this service.
+  /remove name	Removes the instance of the service named 'name'.
+  /removeCounters	Removes performance counters for this service.
+  /run name   	Runs the service as a normal process for debugging.
+  /stop         	Request all instances of Photon to shutdown and exit.
+  /stop1 name	Request instance 'name' of Photon shutdown and exit.
+  /configPath path	Use the supplied path to locate the config file.
+  /config file	Use the supplied config file.
+
+Note that /config and /configFile can be used with /install and /run
+
+Note that only /noMessages can be combined with all other command line options.
+
+15040: 11:35:29.622 - Service shutting down: commandline option error. Errorcode: 255
+15040: 11:35:29.625 - Service shut down complete
+20884: 11:38:25.079 - ---
+20884: 11:38:25.079 - Service: "Photon Socket Server" starting
+20884: 11:38:25.079 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\PhotonServer.config
+20884: 11:38:25.080 - Will produce at most: 10 crash dumps
+20884: 11:38:25.080 - Construction of service object complete
+20884: 11:38:25.080 - 
+20884: 11:38:25.080 - ERROR: ***************************************************************
+20884: 11:38:25.080 - ERROR: /configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+20884: 11:38:25.080 - ERROR: option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+20884: 11:38:25.080 - ERROR:  
+20884: 11:38:25.080 - ERROR: Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+20884: 11:38:25.080 - ERROR: ***************************************************************
+20884: 11:38:25.080 - 
+20884: 11:38:25.080 - 
+20884: 11:38:25.080 - ERROR: ***************************************************************
+20884: 11:38:25.080 - ERROR: /configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+ 
+Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+20884: 11:38:25.080 - ERROR: ***************************************************************
+20884: 11:38:25.080 - 
+20884: 11:38:25.080 - MessageBox: Photon Socket Server: LoadBalancing - 5.0.12.7770
+
+/configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+ 
+Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+
+Usage: PhotonSocketServer.exe  Followed by the following command line options.
+  /help		Display this list.
+  /noMessages	Must be first. Do not display status messages.
+  /install name	Installs an instance of the service named 'name'.
+  /installCounters	Installs performance counters for this service.
+  /remove name	Removes the instance of the service named 'name'.
+  /removeCounters	Removes performance counters for this service.
+  /run name   	Runs the service as a normal process for debugging.
+  /stop         	Request all instances of Photon to shutdown and exit.
+  /stop1 name	Request instance 'name' of Photon shutdown and exit.
+  /configPath path	Use the supplied path to locate the config file.
+  /config file	Use the supplied config file.
+
+Note that /config and /configFile can be used with /install and /run
+
+Note that only /noMessages can be combined with all other command line options.
+
+20884: 11:39:02.920 - Service shutting down: commandline option error. Errorcode: 255
+20884: 11:39:02.922 - Service shut down complete
+43336: 11:39:49.027 - ---
+43336: 11:39:49.027 - Service: "Photon Socket Server" starting
+43336: 11:39:49.027 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\PhotonServer.config
+43336: 11:39:49.029 - Will produce at most: 10 crash dumps
+43336: 11:39:49.029 - Construction of service object complete
+43336: 11:39:49.029 - 
+43336: 11:39:49.029 - ERROR: ***************************************************************
+43336: 11:39:49.029 - ERROR: /configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+43336: 11:39:49.029 - ERROR: option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+43336: 11:39:49.029 - ERROR:  
+43336: 11:39:49.029 - ERROR: Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+43336: 11:39:49.029 - ERROR: ***************************************************************
+43336: 11:39:49.029 - 
+43336: 11:39:49.029 - 
+43336: 11:39:49.029 - ERROR: ***************************************************************
+43336: 11:39:49.029 - ERROR: /configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+ 
+Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+43336: 11:39:49.029 - ERROR: ***************************************************************
+43336: 11:39:49.029 - 
+43336: 11:39:49.029 - MessageBox: Photon Socket Server: LoadBalancing - 5.0.12.7770
+
+/configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+ 
+Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+
+Usage: PhotonSocketServer.exe  Followed by the following command line options.
+  /help		Display this list.
+  /noMessages	Must be first. Do not display status messages.
+  /install name	Installs an instance of the service named 'name'.
+  /installCounters	Installs performance counters for this service.
+  /remove name	Removes the instance of the service named 'name'.
+  /removeCounters	Removes performance counters for this service.
+  /run name   	Runs the service as a normal process for debugging.
+  /stop         	Request all instances of Photon to shutdown and exit.
+  /stop1 name	Request instance 'name' of Photon shutdown and exit.
+  /configPath path	Use the supplied path to locate the config file.
+  /config file	Use the supplied config file.
+
+Note that /config and /configFile can be used with /install and /run
+
+Note that only /noMessages can be combined with all other command line options.
+
+43336: 11:39:50.604 - Service shutting down: commandline option error. Errorcode: 255
+43336: 11:39:50.607 - Service shut down complete
+24472: 11:39:53.816 - ---
+24472: 11:39:53.816 - Service: "Photon Socket Server" starting
+24472: 11:39:53.816 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\PhotonServer.config
+24472: 11:39:53.817 - Will produce at most: 10 crash dumps
+24472: 11:39:53.817 - Construction of service object complete
+24472: 11:39:53.817 - 
+24472: 11:39:53.817 - ERROR: ***************************************************************
+24472: 11:39:53.817 - ERROR: /configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+24472: 11:39:53.817 - ERROR: option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+24472: 11:39:53.817 - ERROR:  
+24472: 11:39:53.817 - ERROR: Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+24472: 11:39:53.817 - ERROR: ***************************************************************
+24472: 11:39:53.817 - 
+24472: 11:39:53.817 - 
+24472: 11:39:53.817 - ERROR: ***************************************************************
+24472: 11:39:53.818 - ERROR: /configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+ 
+Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+24472: 11:39:53.818 - ERROR: ***************************************************************
+24472: 11:39:53.818 - 
+24472: 11:39:53.818 - MessageBox: Photon Socket Server: LoadBalancing - 5.0.12.7770
+
+/configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+ 
+Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+
+Usage: PhotonSocketServer.exe  Followed by the following command line options.
+  /help		Display this list.
+  /noMessages	Must be first. Do not display status messages.
+  /install name	Installs an instance of the service named 'name'.
+  /installCounters	Installs performance counters for this service.
+  /remove name	Removes the instance of the service named 'name'.
+  /removeCounters	Removes performance counters for this service.
+  /run name   	Runs the service as a normal process for debugging.
+  /stop         	Request all instances of Photon to shutdown and exit.
+  /stop1 name	Request instance 'name' of Photon shutdown and exit.
+  /configPath path	Use the supplied path to locate the config file.
+  /config file	Use the supplied config file.
+
+Note that /config and /configFile can be used with /install and /run
+
+Note that only /noMessages can be combined with all other command line options.
+
+24472: 11:39:55.719 - Service shutting down: commandline option error. Errorcode: 255
+24472: 11:39:55.721 - Service shut down complete
+37636: 11:40:49.286 - ---
+37636: 11:40:49.286 - Service: "Photon Socket Server" starting
+37636: 11:40:49.286 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\PhotonServer.config
+37636: 11:40:49.287 - Will produce at most: 10 crash dumps
+37636: 11:40:49.287 - Construction of service object complete
+37636: 11:40:49.287 - 
+37636: 11:40:49.287 - ERROR: ***************************************************************
+37636: 11:40:49.287 - ERROR: /configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+37636: 11:40:49.287 - ERROR: option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+37636: 11:40:49.287 - ERROR:  
+37636: 11:40:49.287 - ERROR: Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+37636: 11:40:49.287 - ERROR: ***************************************************************
+37636: 11:40:49.287 - 
+37636: 11:40:49.287 - 
+37636: 11:40:49.287 - ERROR: ***************************************************************
+37636: 11:40:49.287 - ERROR: /configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+ 
+Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+37636: 11:40:49.287 - ERROR: ***************************************************************
+37636: 11:40:49.287 - 
+37636: 11:40:49.287 - MessageBox: Photon Socket Server: LoadBalancing - 5.0.12.7770
+
+/configPath: ...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64
+option defines an invalid path: "D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\...\photon-server-sdk_v5-0-12-24499-rc1
+\deploy\bin_Win64".
+ 
+Working directory: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug
+
+Usage: PhotonSocketServer.exe  Followed by the following command line options.
+  /help		Display this list.
+  /noMessages	Must be first. Do not display status messages.
+  /install name	Installs an instance of the service named 'name'.
+  /installCounters	Installs performance counters for this service.
+  /remove name	Removes the instance of the service named 'name'.
+  /removeCounters	Removes performance counters for this service.
+  /run name   	Runs the service as a normal process for debugging.
+  /stop         	Request all instances of Photon to shutdown and exit.
+  /stop1 name	Request instance 'name' of Photon shutdown and exit.
+  /configPath path	Use the supplied path to locate the config file.
+  /config file	Use the supplied config file.
+
+Note that /config and /configFile can be used with /install and /run
+
+Note that only /noMessages can be combined with all other command line options.
+
+37636: 11:40:55.857 - Service shutting down: commandline option error. Errorcode: 255
+37636: 11:40:55.859 - Service shut down complete

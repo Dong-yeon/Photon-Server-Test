@@ -1,0 +1,77 @@
+18808: 10:01:30.573 - ---
+18808: 10:01:30.573 - Service: "Photon Socket Server" starting
+18808: 10:01:30.573 - Config File: D:\Photon-Server-Test\photon-server-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+18808: 10:01:30.575 - Will produce at most: 10 crash dumps
+18808: 10:01:30.575 - Construction of service object complete
+18808: 10:01:30.575 - Service shutting down
+18808: 10:01:30.575 - Service shut down complete
+32624: 10:27:31.365 - ---
+32624: 10:27:31.365 - Service: "Photon Socket Server" starting
+32624: 10:27:31.365 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+32624: 10:27:31.367 - Will produce at most: 10 crash dumps
+32624: 10:27:31.367 - Construction of service object complete
+32624: 10:27:31.367 - Service shutting down
+32624: 10:27:31.368 - Service shut down complete
+18220: 10:48:33.490 - ---
+18220: 10:48:33.490 - Service: "Photon Socket Server" starting
+18220: 10:48:33.490 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+18220: 10:48:33.491 - Will produce at most: 10 crash dumps
+18220: 10:48:33.491 - Construction of service object complete
+18220: 10:48:33.491 - Service shutting down
+18220: 10:48:33.492 - Service shut down complete
+41264: 10:50:35.439 - ---
+41264: 10:50:35.439 - Service: "Photon Socket Server" starting
+41264: 10:50:35.439 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+41264: 10:50:35.441 - Will produce at most: 10 crash dumps
+41264: 10:50:35.441 - Construction of service object complete
+41264: 10:50:35.441 - Service shutting down
+41264: 10:50:35.442 - Service shut down complete
+5840: 10:54:15.002 - ---
+5840: 10:54:15.002 - Service: "Photon Socket Server" starting
+5840: 10:54:15.002 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+5840: 10:54:15.004 - Will produce at most: 10 crash dumps
+5840: 10:54:15.004 - Construction of service object complete
+5840: 10:54:15.004 - Service shutting down
+5840: 10:54:15.004 - Service shut down complete
+39128: 10:55:26.092 - ---
+39128: 10:55:26.092 - Service: "Photon Socket Server" starting
+39128: 10:55:26.092 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+39128: 10:55:26.093 - Will produce at most: 10 crash dumps
+39128: 10:55:26.093 - Construction of service object complete
+39128: 10:55:26.093 - Service shutting down
+39128: 10:55:26.094 - Service shut down complete
+14164: 10:57:35.053 - ---
+14164: 10:57:35.053 - Service: "Photon Socket Server" starting
+14164: 10:57:35.053 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+14164: 10:57:35.055 - Will produce at most: 10 crash dumps
+14164: 10:57:35.055 - Construction of service object complete
+14164: 10:57:35.055 - Service shutting down
+14164: 10:57:35.056 - Service shut down complete
+21176: 11:29:45.950 - ---
+21176: 11:29:45.950 - Service: "Photon Socket Server" starting
+21176: 11:29:45.950 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+21176: 11:29:45.951 - Will produce at most: 10 crash dumps
+21176: 11:29:45.951 - Construction of service object complete
+21176: 11:29:45.951 - Service shutting down
+21176: 11:29:45.952 - Service shut down complete
+41172: 11:40:45.633 - ---
+41172: 11:40:45.633 - Service: "Photon Socket Server" starting
+41172: 11:40:45.633 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+41172: 11:40:45.634 - Will produce at most: 10 crash dumps
+41172: 11:40:45.634 - Construction of service object complete
+41172: 11:40:45.634 - Service shutting down
+41172: 11:40:45.635 - Service shut down complete
+37148: 11:51:38.465 - ---
+37148: 11:51:38.465 - Service: "Photon Socket Server" starting
+37148: 11:51:38.465 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+37148: 11:51:38.466 - Will produce at most: 10 crash dumps
+37148: 11:51:38.466 - Construction of service object complete
+37148: 11:51:38.466 - Service shutting down
+37148: 11:51:38.467 - Service shut down complete
+32964: 15:58:13.919 - ---
+32964: 15:58:13.919 - Service: "Photon Socket Server" starting
+32964: 15:58:13.919 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+32964: 15:58:13.921 - Will produce at most: 10 crash dumps
+32964: 15:58:13.921 - Construction of service object complete
+32964: 15:58:13.921 - Service shutting down
+32964: 15:58:13.922 - Service shut down complete

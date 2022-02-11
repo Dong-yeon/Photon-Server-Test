@@ -18,3 +18,19 @@
 2022-02-10 16:32:55,190 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
 2022-02-10 16:32:55,192 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
 2022-02-10 16:32:56,513 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2022-02-11 09:27:53,992 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2022-02-11 09:27:54,004 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2022-02-11 09:27:54,005 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2022-02-11 09:27:55,556 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2022-02-11 09:27:58,400 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2022-02-11 09:27:58,411 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2022-02-11 09:27:58,412 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2022-02-11 09:27:59,718 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2022-02-11 09:29:45,014 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2022-02-11 09:29:45,024 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2022-02-11 09:29:45,025 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2022-02-11 09:29:46,537 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2022-02-11 09:30:39,963 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2022-02-11 09:30:39,974 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2022-02-11 09:30:39,975 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2022-02-11 09:30:41,273 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'

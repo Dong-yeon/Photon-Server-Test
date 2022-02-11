@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using Photon.Hive.Plugin;
 
 namespace MyFirstPlugin

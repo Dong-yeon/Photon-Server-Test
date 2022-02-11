@@ -6,3 +6,12 @@ D:\Photon-Server-Test\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyF
 D:\Photon-Server-Test\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\obj\x64\Debug\MyFirstPlugin.csproj.CopyComplete
 D:\Photon-Server-Test\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\obj\x64\Debug\MyFirstPlugin.dll
 D:\Photon-Server-Test\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\obj\x64\Debug\MyFirstPlugin.pdb
+D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\MyFirstPlugin.dll
+D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\MyFirstPlugin.pdb
+D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\PhotonHivePlugin.dll
+D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\bin\x64\Debug\PhotonHivePlugin.pdb
+D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\obj\x64\Debug\MyFirstPlugin.csproj.CoreCompileInputs.cache
+D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\obj\x64\Debug\MyFirstPlugin.csproj.CopyComplete
+D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\obj\x64\Debug\MyFirstPlugin.dll
+D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\obj\x64\Debug\MyFirstPlugin.pdb
+D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\src-server\Plugins\MyFirstPlugin\obj\x64\Debug\MyFirstPlugin.csproj.AssemblyReference.cache
