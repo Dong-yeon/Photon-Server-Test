@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nAE+/JcO8m5dHa9CxHYlA9LJZtKmxeSGKBi09z3AJi+HsMmlKyP1DcqYrEtC+jJaiVti88xX9AbD9hqx4CR2bA==",
+  "success": true,
+  "projectFilePath": "D:\\Photon\\photon-server-sdk_v5-0-12-24499-rc1\\src-server\\LoadBalancing\\TestInterfaces\\LoadBalancing.TestInterfaces.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ez-on\\.nuget\\packages\\exitgames.photonhostruntimeinterfaces\\3.81.0\\exitgames.photonhostruntimeinterfaces.3.81.0.nupkg.sha512"
+  ],
+  "logs": []
+}

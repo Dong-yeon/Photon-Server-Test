@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YucQbc/G1FDTqrNDFlLZhZnx/maIf2fEdC9of+eb7cw+fa3qBhsjvkh6WUNI0VN685RJfZSP/jEwSAWdZVAOXA==",
+  "success": true,
+  "projectFilePath": "D:\\Photon\\photon-server-sdk_v5-0-12-24499-rc1\\src-server\\Plugins\\WebHooks1.2\\WebHooks1.2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ez-on\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

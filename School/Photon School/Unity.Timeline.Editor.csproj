@@ -880,13 +880,13 @@
       <Project>{990F6EC5-374F-1FBB-18B1-CB45370AB9BE}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{2ED340A1-73D2-BC25-59AF-A286C344E023}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{05A18524-17BD-0F6C-4356-9410E3B50BAE}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{2ED340A1-73D2-BC25-59AF-A286C344E023}</Project>
+      <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{AA3FBB82-02D7-A8A2-B35C-DF16B3F43C45}</Project>

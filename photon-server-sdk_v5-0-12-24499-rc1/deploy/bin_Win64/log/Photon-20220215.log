@@ -1,0 +1,35 @@
+34492: 09:30:03.024 - ---
+34492: 09:30:03.024 - Service: "Photon Socket Server" starting
+34492: 09:30:03.024 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+34492: 09:30:03.026 - Will produce at most: 10 crash dumps
+34492: 09:30:03.026 - Construction of service object complete
+34492: 09:30:03.026 - Service shutting down
+34492: 09:30:03.026 - Service shut down complete
+46468: 09:33:41.820 - ---
+46468: 09:33:41.820 - Service: "Photon Socket Server" starting
+46468: 09:33:41.820 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+46468: 09:33:41.822 - Will produce at most: 10 crash dumps
+46468: 09:33:41.822 - Construction of service object complete
+46468: 09:33:41.822 - Service shutting down
+46468: 09:33:41.823 - Service shut down complete
+21156: 09:46:04.469 - ---
+21156: 09:46:04.469 - Service: "Photon Socket Server" starting
+21156: 09:46:04.469 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+21156: 09:46:04.471 - Will produce at most: 10 crash dumps
+21156: 09:46:04.471 - Construction of service object complete
+21156: 09:46:04.471 - Service shutting down
+21156: 09:46:04.471 - Service shut down complete
+33936: 09:51:52.481 - ---
+33936: 09:51:52.481 - Service: "Photon Socket Server" starting
+33936: 09:51:52.481 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+33936: 09:51:52.482 - Will produce at most: 10 crash dumps
+33936: 09:51:52.482 - Construction of service object complete
+33936: 09:51:52.482 - Service shutting down
+33936: 09:51:52.483 - Service shut down complete
+30220: 09:52:06.535 - ---
+30220: 09:52:06.535 - Service: "Photon Socket Server" starting
+30220: 09:52:06.535 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+30220: 09:52:06.537 - Will produce at most: 10 crash dumps
+30220: 09:52:06.537 - Construction of service object complete
+30220: 09:52:06.537 - Service shutting down
+30220: 09:52:06.537 - Service shut down complete

@@ -1,0 +1,14 @@
+11068: 13:20:46.217 - ---
+11068: 13:20:46.217 - Service: "Photon Socket Server" starting
+11068: 13:20:46.218 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+11068: 13:20:46.219 - Will produce at most: 10 crash dumps
+11068: 13:20:46.219 - Construction of service object complete
+11068: 13:20:46.219 - Service shutting down
+11068: 13:20:46.220 - Service shut down complete
+40704: 18:01:04.650 - ---
+40704: 18:01:04.650 - Service: "Photon Socket Server" starting
+40704: 18:01:04.650 - Config File: D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\deploy\bin_Win64\PhotonServer.config
+40704: 18:01:04.650 - Will produce at most: 10 crash dumps
+40704: 18:01:04.650 - Construction of service object complete
+40704: 18:01:04.650 - Service shutting down
+40704: 18:01:04.650 - Service shut down complete

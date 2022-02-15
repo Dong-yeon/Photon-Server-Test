@@ -175,8 +175,8 @@ namespace MyFirstPlugin
 		public override void OnRaiseEvent(IRaiseEventCallInfo info) // RaiseEvent 발생 후 받는 콜백
 		{
 			// RaiseEvent 발생 후
-			PluginHost.LogInfo($"### OnRaiseEvent {info.Request.Data} by user {info.UserId}");
-			info.Continue();
+/*			PluginHost.LogInfo($"### OnRaiseEvent {info.Request.Data} by user {info.UserId}");
+			info.Continue();*/
 			// info.Cancel(); // 클라이언트에게 오류나 알림없이 처리를 건너뜀.
 			// OnRaiseEvent와 BeforeSetProperties에서만 사용가능
 			// OnRaiseEvent에서는 들어오는 Event를 무시

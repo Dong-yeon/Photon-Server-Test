@@ -6209,3 +6209,135 @@
 30440: 17:04:13.175 - Config|INFO| *:9093::NameServer:/* - inactivity timeout: 10000ms
 30440: 17:04:13.175 - Config|INFO| *:9093::NameServer:/* - Forcing all applications ids to: "NameServer"
 30440: 17:04:13.229 - Service is running...
+30440: 18:03:23.612 - Service is stopped...
+30440: 18:03:23.612 - Server shutting down...
+30440: 18:03:23.612 - Shutdown monitoring enabled, 60000ms before process abort
+30440: 18:03:23.612 - Notifying CLR applications of shutdown...
+30440: 18:03:23.612 - RequestApplicationStop: 3
+30440: 18:03:24.617 - RequestApplicationStop: 2
+30440: 18:03:24.617 - RequestApplicationStop: 4
+30440: 18:03:24.617 - RequestStop: defalt app domain
+30440: 18:03:24.617 - Shutting down NEW TCP Outbound Connection Manager...
+30440: 18:03:24.617 - Shutting down ENet host...
+30440: 18:03:24.617 - Disconnecting all peers...
+30440: 18:03:24.617 - Shutting down socket servers...
+30440: 18:03:24.617 - Shutting down ENet thread pool...
+30440: 18:03:24.617 - Shutting down TCP inactivity timers...
+30440: 18:03:24.617 - Timer queue stats: TCP Timers
+30440: 18:03:24.617 - Stats are not available
+30440: 18:03:24.617 - Shutting down ENet timers...
+30440: 18:03:24.617 - Waiting for socket servers to shutdown...
+30440: 18:03:24.617 - WaitingForShutdownToComplete: HTTP: 0.0.0.0:9090 (*:9090::Master)
+30440: 18:03:24.617 - OnShutdownCompleted: HTTP: 0.0.0.0:9090 (*:9090::Master)
+30440: 18:03:24.617 - WaitingForShutdownToComplete: HTTP: 0.0.0.0:9091 (*:9091::Game)
+30440: 18:03:24.617 - OnShutdownCompleted: HTTP: 0.0.0.0:9091 (*:9091::Game)
+30440: 18:03:24.617 - WaitingForShutdownToComplete: HTTP: 0.0.0.0:9093 (*:9093::NameServer)
+30440: 18:03:24.617 - OnShutdownCompleted: HTTP: 0.0.0.0:9093 (*:9093::NameServer)
+30440: 18:03:24.617 - WaitingForShutdownToComplete: New TCP: 0.0.0.0:4520
+30440: 18:03:24.617 - OnShutdownCompleted: New TCP: 0.0.0.0:4520
+30440: 18:03:24.617 - WaitingForShutdownToComplete: New TCP: 0.0.0.0:4530
+30440: 18:03:24.617 - OnShutdownCompleted: New TCP: 0.0.0.0:4530
+30440: 18:03:24.617 - WaitingForShutdownToComplete: New TCP: 0.0.0.0:4531
+30440: 18:03:24.617 - OnShutdownCompleted: New TCP: 0.0.0.0:4531
+30440: 18:03:24.617 - WaitingForShutdownToComplete: New TCP: 0.0.0.0:4533
+30440: 18:03:24.617 - OnShutdownCompleted: New TCP: 0.0.0.0:4533
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:127.0.0.1:27000
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:127.0.0.1:27000
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:127.0.0.1:27001
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:127.0.0.1:27001
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:127.0.0.1:27002
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:127.0.0.1:27002
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:127.0.0.1:5055
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:127.0.0.1:5055
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:127.0.0.1:5056
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:127.0.0.1:5056
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:127.0.0.1:5058
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:127.0.0.1:5058
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:192.168.0.49:27000
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:192.168.0.49:27000
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:192.168.0.49:27001
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:192.168.0.49:27001
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:192.168.0.49:27002
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:192.168.0.49:27002
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:192.168.0.49:5055
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:192.168.0.49:5055
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:192.168.0.49:5056
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:192.168.0.49:5056
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:192.168.0.49:5058
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:192.168.0.49:5058
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:192.168.169.1:27000
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:192.168.169.1:27000
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:192.168.169.1:27001
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:192.168.169.1:27001
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:192.168.169.1:27002
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:192.168.169.1:27002
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:192.168.169.1:5055
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:192.168.169.1:5055
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:192.168.169.1:5056
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:192.168.169.1:5056
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:192.168.169.1:5058
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:192.168.169.1:5058
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:192.168.80.1:27000
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:192.168.80.1:27000
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:192.168.80.1:27001
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:192.168.80.1:27001
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:192.168.80.1:27002
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:192.168.80.1:27002
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:192.168.80.1:5055
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:192.168.80.1:5055
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:192.168.80.1:5056
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:192.168.80.1:5056
+30440: 18:03:24.617 - WaitingForShutdownToComplete: UDP:192.168.80.1:5058
+30440: 18:03:24.617 - OnShutdownCompleted: UDP:192.168.80.1:5058
+30440: 18:03:24.617 - Shutting down I/O thread pool...
+30440: 18:03:24.617 - Shutting down CLR applications...
+14800: 18:03:24.617 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+30440: 18:03:24.617 - Shutting down network data traces...
+30440: 18:03:24.617 - Waiting for network data traces to complete...
+30440: 18:03:24.617 - Destroying servers
+30440: 18:03:24.617 - Destroying WebRTC Outbound Connection Manager
+30440: 18:03:24.617 - Destroying WebRTC Outbound Host
+30440: 18:03:24.617 - Destroying outbound ICE connection manager
+30440: 18:03:24.617 - Destroying ENet timer wheel
+30440: 18:03:24.617 - Timer queue stats: ENetTimerWheel
+30440: 18:03:24.617 - Stats are not available
+30440: 18:03:24.617 - Destroying Network Data Trace factory
+30440: 18:03:24.617 - Destroying ENet host
+30440: 18:03:24.617 - Destroying WebRTC inactivity timer queue
+30440: 18:03:24.617 - Destroying WebRTC host
+30440: 18:03:24.617 - Destroying ICE connection manager
+30440: 18:03:24.617 - Flushing stream socket allocator...
+30440: 18:03:24.617 - Flushing UDP Chunk datagram socket allocator...
+30440: 18:03:24.617 - Flushing NEW TCP socket allocator...
+30440: 18:03:24.617 - Destroying TCP inactivity timer
+30440: 18:03:24.617 - Flushing ENET buffer allocator...
+30440: 18:03:24.633 - Flushing TCP buffer allocator...
+30440: 18:03:24.633 - Flushing TCP buffer handle allocator...
+30440: 18:03:24.633 - Destroying CLR applications
+30440: 18:03:24.633 - ~CCLRApplicationCollection() - Waiting up to 10 seconds for the CLR to release all of our objects
+14800: 18:03:24.633 - CManagedHost::OnDomainUnload() - 3
+14800: 18:03:24.633 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+14800: 18:03:24.633 - CManagedHost::OnDomainUnload() - 4
+14800: 18:03:24.633 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+14800: 18:03:24.648 - CManagedHost::OnDomainUnload() - 2
+30440: 18:03:24.648 - ~CCLRApplicationCollection() - Done. All objects released
+30440: 18:03:24.648 - ~CManagedHost() - Release default app domain
+30440: 18:03:24.648 - CManagedHost::OnDomainUnload() - 1
+30440: 18:03:24.648 - ~CManagedHost() - Waiting up to 10 seconds for CLR shutdown...
+30440: 18:03:24.661 - ~CManagedHost
+30440: 18:03:24.661 - Destroying ENet thread pool
+30440: 18:03:24.661 - Destroying I/O thread pool
+30440: 18:03:24.661 - Destroying HTTP File Server I/O thread pool
+30440: 18:03:24.661 - Destroying ENet I/O thread pool
+30440: 18:03:24.661 - Destroying ENet buffer allocator
+30440: 18:03:24.661 - Destroying TCP buffer allocator
+30440: 18:03:24.661 - Destroying TCP socket allocator
+30440: 18:03:24.661 - Destroying NEW TCP socket allocator
+30440: 18:03:24.661 - Destroying NEW TCP configuration
+30440: 18:03:24.661 - Config|INFO| New TCP: Flushing TCP socket allocator...
+30440: 18:03:24.661 - Config|INFO| New TCP: Flushing TCP buffer allocator...
+30440: 18:03:24.661 - Config|INFO| New TCP: Flushing TCP buffer handle allocator...
+30440: 18:03:24.661 - Config|INFO| New TCP: Flushing policy file buffer allocator...
+30440: 18:03:24.661 - Destroying UDP Chunk inbound socket allocator
+30440: 18:03:24.661 - Destroying shared datagram flow control data
+30440: 18:03:24.661 - Shutdown complete...
