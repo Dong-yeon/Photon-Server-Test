@@ -2618,3 +2618,135 @@
 16156: 09:52:16.914 - Config|INFO| *:9093::NameServer:/* - inactivity timeout: 10000ms
 16156: 09:52:16.914 - Config|INFO| *:9093::NameServer:/* - Forcing all applications ids to: "NameServer"
 16156: 09:52:16.965 - Service is running...
+16156: 18:08:55.645 - Service is stopped...
+16156: 18:08:55.645 - Server shutting down...
+16156: 18:08:55.645 - Shutdown monitoring enabled, 60000ms before process abort
+16156: 18:08:55.645 - Notifying CLR applications of shutdown...
+16156: 18:08:55.645 - RequestApplicationStop: 3
+16156: 18:08:56.649 - RequestApplicationStop: 2
+16156: 18:08:56.649 - RequestApplicationStop: 4
+16156: 18:08:56.649 - RequestStop: defalt app domain
+16156: 18:08:56.649 - Shutting down NEW TCP Outbound Connection Manager...
+16156: 18:08:56.649 - Shutting down ENet host...
+16156: 18:08:56.649 - Disconnecting all peers...
+16156: 18:08:56.649 - Shutting down socket servers...
+16156: 18:08:56.649 - Shutting down ENet thread pool...
+16156: 18:08:56.649 - Shutting down TCP inactivity timers...
+16156: 18:08:56.649 - Timer queue stats: TCP Timers
+16156: 18:08:56.649 - Stats are not available
+16156: 18:08:56.649 - Shutting down ENet timers...
+16156: 18:08:56.649 - Waiting for socket servers to shutdown...
+16156: 18:08:56.649 - WaitingForShutdownToComplete: HTTP: 0.0.0.0:9090 (*:9090::Master)
+16156: 18:08:56.649 - OnShutdownCompleted: HTTP: 0.0.0.0:9090 (*:9090::Master)
+16156: 18:08:56.649 - WaitingForShutdownToComplete: HTTP: 0.0.0.0:9091 (*:9091::Game)
+16156: 18:08:56.649 - OnShutdownCompleted: HTTP: 0.0.0.0:9091 (*:9091::Game)
+16156: 18:08:56.649 - WaitingForShutdownToComplete: HTTP: 0.0.0.0:9093 (*:9093::NameServer)
+16156: 18:08:56.649 - OnShutdownCompleted: HTTP: 0.0.0.0:9093 (*:9093::NameServer)
+16156: 18:08:56.649 - WaitingForShutdownToComplete: New TCP: 0.0.0.0:4520
+16156: 18:08:56.649 - OnShutdownCompleted: New TCP: 0.0.0.0:4520
+16156: 18:08:56.649 - WaitingForShutdownToComplete: New TCP: 0.0.0.0:4530
+16156: 18:08:56.649 - OnShutdownCompleted: New TCP: 0.0.0.0:4530
+16156: 18:08:56.649 - WaitingForShutdownToComplete: New TCP: 0.0.0.0:4531
+16156: 18:08:56.649 - OnShutdownCompleted: New TCP: 0.0.0.0:4531
+16156: 18:08:56.649 - WaitingForShutdownToComplete: New TCP: 0.0.0.0:4533
+16156: 18:08:56.649 - OnShutdownCompleted: New TCP: 0.0.0.0:4533
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:127.0.0.1:27000
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:127.0.0.1:27000
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:127.0.0.1:27001
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:127.0.0.1:27001
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:127.0.0.1:27002
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:127.0.0.1:27002
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:127.0.0.1:5055
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:127.0.0.1:5055
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:127.0.0.1:5056
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:127.0.0.1:5056
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:127.0.0.1:5058
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:127.0.0.1:5058
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:192.168.0.49:27000
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:192.168.0.49:27000
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:192.168.0.49:27001
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:192.168.0.49:27001
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:192.168.0.49:27002
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:192.168.0.49:27002
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:192.168.0.49:5055
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:192.168.0.49:5055
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:192.168.0.49:5056
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:192.168.0.49:5056
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:192.168.0.49:5058
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:192.168.0.49:5058
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:192.168.169.1:27000
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:192.168.169.1:27000
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:192.168.169.1:27001
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:192.168.169.1:27001
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:192.168.169.1:27002
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:192.168.169.1:27002
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:192.168.169.1:5055
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:192.168.169.1:5055
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:192.168.169.1:5056
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:192.168.169.1:5056
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:192.168.169.1:5058
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:192.168.169.1:5058
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:192.168.80.1:27000
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:192.168.80.1:27000
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:192.168.80.1:27001
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:192.168.80.1:27001
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:192.168.80.1:27002
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:192.168.80.1:27002
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:192.168.80.1:5055
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:192.168.80.1:5055
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:192.168.80.1:5056
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:192.168.80.1:5056
+16156: 18:08:56.649 - WaitingForShutdownToComplete: UDP:192.168.80.1:5058
+16156: 18:08:56.649 - OnShutdownCompleted: UDP:192.168.80.1:5058
+16156: 18:08:56.649 - Shutting down I/O thread pool...
+16156: 18:08:56.649 - Shutting down CLR applications...
+27192: 18:08:56.649 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+16156: 18:08:56.649 - Shutting down network data traces...
+16156: 18:08:56.649 - Waiting for network data traces to complete...
+16156: 18:08:56.649 - Destroying servers
+16156: 18:08:56.649 - Destroying WebRTC Outbound Connection Manager
+16156: 18:08:56.649 - Destroying WebRTC Outbound Host
+16156: 18:08:56.649 - Destroying outbound ICE connection manager
+16156: 18:08:56.649 - Destroying ENet timer wheel
+16156: 18:08:56.649 - Timer queue stats: ENetTimerWheel
+16156: 18:08:56.649 - Stats are not available
+16156: 18:08:56.649 - Destroying Network Data Trace factory
+16156: 18:08:56.649 - Destroying ENet host
+16156: 18:08:56.649 - Destroying WebRTC inactivity timer queue
+16156: 18:08:56.649 - Destroying WebRTC host
+16156: 18:08:56.649 - Destroying ICE connection manager
+16156: 18:08:56.649 - Flushing stream socket allocator...
+16156: 18:08:56.649 - Flushing UDP Chunk datagram socket allocator...
+16156: 18:08:56.649 - Flushing NEW TCP socket allocator...
+16156: 18:08:56.649 - Destroying TCP inactivity timer
+16156: 18:08:56.649 - Flushing ENET buffer allocator...
+27192: 18:08:56.665 - CManagedHost::OnDomainUnload() - 3
+16156: 18:08:56.665 - Flushing TCP buffer allocator...
+16156: 18:08:56.665 - Flushing TCP buffer handle allocator...
+16156: 18:08:56.665 - Destroying CLR applications
+16156: 18:08:56.665 - ~CCLRApplicationCollection() - Waiting up to 10 seconds for the CLR to release all of our objects
+27192: 18:08:56.665 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+27192: 18:08:56.665 - CManagedHost::OnDomainUnload() - 4
+27192: 18:08:56.680 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+27192: 18:08:56.680 - CManagedHost::OnDomainUnload() - 2
+16156: 18:08:56.680 - ~CCLRApplicationCollection() - Done. All objects released
+16156: 18:08:56.680 - ~CManagedHost() - Release default app domain
+16156: 18:08:56.680 - CManagedHost::OnDomainUnload() - 1
+16156: 18:08:56.680 - ~CManagedHost() - Waiting up to 10 seconds for CLR shutdown...
+16156: 18:08:56.680 - ~CManagedHost
+16156: 18:08:56.680 - Destroying ENet thread pool
+16156: 18:08:56.680 - Destroying I/O thread pool
+16156: 18:08:56.680 - Destroying HTTP File Server I/O thread pool
+16156: 18:08:56.680 - Destroying ENet I/O thread pool
+16156: 18:08:56.680 - Destroying ENet buffer allocator
+16156: 18:08:56.680 - Destroying TCP buffer allocator
+16156: 18:08:56.680 - Destroying TCP socket allocator
+16156: 18:08:56.680 - Destroying NEW TCP socket allocator
+16156: 18:08:56.680 - Destroying NEW TCP configuration
+16156: 18:08:56.680 - Config|INFO| New TCP: Flushing TCP socket allocator...
+16156: 18:08:56.680 - Config|INFO| New TCP: Flushing TCP buffer allocator...
+16156: 18:08:56.680 - Config|INFO| New TCP: Flushing TCP buffer handle allocator...
+16156: 18:08:56.680 - Config|INFO| New TCP: Flushing policy file buffer allocator...
+16156: 18:08:56.696 - Destroying UDP Chunk inbound socket allocator
+16156: 18:08:56.696 - Destroying shared datagram flow control data
+16156: 18:08:56.696 - Shutdown complete...

@@ -13,18 +13,9 @@ public class NetworkManager : MonoBehaviourPunCallbacks // 다른 포톤의 반�
     [SerializeField] InputField roomInput; // 방이름 변수 설정
     [SerializeField] InputField maximumInput; // 방인원 변수 설정
     [SerializeField] Toggle privateToggle; // 비밀방 체크
-    [SerializeField] Text errorText;
-    [SerializeField] Text roomNameText; // 방이름 텍스트
-/*    [SerializeField] Transform roomListContent;
-    [SerializeField] GameObject roomListItemPrefab;*/
-    
-    // 룸 목록을 저장하기 위한 딕셔너리 자료형
-    private Dictionary<string, GameObject> roomDict = new Dictionary<string, GameObject>();
-    // 룸을 표시할 프리팹
-    [SerializeField] GameObject roomPrefab;
-    // Room 프리팹이 차이들화 시킬 부모 객체
-    [SerializeField] Transform scrollContent;
 
+    [SerializeField] Transform roomListContent;
+    [SerializeField] GameObject roomListItemPrefab;
 
     public static NetworkManager Instance; // NetManager 스크립트를 메서드로 사용하기 위해 선언
     void Awake()
@@ -61,36 +52,26 @@ public class NetworkManager : MonoBehaviourPunCallbacks // 다른 포톤의 반�
 
     public void OnCreateRoom() // 방 만들기
     {
-        if (PhotonNetwork.JoinLobby()) // 로비에 접속하면
-        {
             RoomOptions ro = new RoomOptions(); // 룸 옵션을 새로 지정
             ro.MaxPlayers = byte.Parse(maximumInput.text); // 방 최대 인원은 지정한 인원수
-            ro.IsVisible = !privateToggle.isOn; // 비밀방 체크가 되어있지않으면 공개방설정
-            if (ro.IsVisible) // 공개방이면
+            if (string.IsNullOrEmpty(roomInput.text) || string.IsNullOrEmpty(maximumInput.text))
             {
-                if (string.IsNullOrEmpty(roomInput.text) || string.IsNullOrEmpty(maximumInput.text))
-                {
-                    return; // 방 이름이 빈값이면 방이 만들어지지 않음 + 방인원을 지정하지 않으면 방이 만들어지지 않음
-                }
-                PhotonNetwork.CreateRoom(roomInput.text, ro, TypedLobby.Default);
+                return; // 방 이름이 빈값이면 방이 만들어지지 않음 + 방인원을 지정하지 않으면 방이 만들어지지 않음
             }
-            else
-            {
-                if (string.IsNullOrEmpty(roomInput.text) || string.IsNullOrEmpty(maximumInput.text))
-                {
-                    return; // 방 이름이 빈값이면 방이 만들어지지 않음 + 방인원을 지정하지 않으면 방이 만들어지지않음
-                }
-                PhotonNetwork.JoinOrCreateRoom(roomInput.text, ro, TypedLobby.Default);
-            }
+            if (byte.Parse(maximumInput.text) > 16) // 방 인원을 16인 이상으로 지정하면 방이 만들어지지 않음
+        {
+            return; 
         }
+
+            PhotonNetwork.CreateRoom(roomInput.text, ro, TypedLobby.Default);
+            /*        PhotonNetwork.CreateRoom(roomInput.text); // 포톤 네트워크 기능으로 roomInput.text의 이름으로 방을 만든다.*/
+            Debug.Log("3. 방 생성 완료");
         
-/*        PhotonNetwork.CreateRoom(roomInput.text); // 포톤 네트워크 기능으로 roomInput.text의 이름으로 방을 만든다.*/
-        Debug.Log("3. 방 생성 완료");
     }
 
     public override void OnCreateRoomFailed(short returnCode, string message) // 방 만들기 실패시 작동
     {
-        errorText.text = "Room Creation Faile" + message;
+        /*errorText.text = "Room Creation Faile" + message;*/
         MenuManager.Instance.OpenMenu("error");
     }
 
@@ -112,50 +93,20 @@ public class NetworkManager : MonoBehaviourPunCallbacks // 다른 포톤의 반�
         PhotonNetwork.LeaveRoom();
     }
 
-
-    public override void OnRoomListUpdate(List<RoomInfo> roomList) // 포톤의 룸 리스트 기능
+    public override void OnRoomListUpdate(List<RoomInfo> roomList) // 포톤의 룸리스트 기능
     {
-        /*        foreach (Transform trans in roomListContent) // 존재하는 모든 roomListContent
-                {
-                    Destroy(trans.gameObject); // 룸 리스트가 업데이트가 될때마다 싹 지움
-                }
-                for (int i = 0; i < roomList.Count; i++) // 방 개수만큼 반복
-                {
-                    if (roomList[i].RemovedFromList) // 사라진 방이면 취급 X
-                        continue;
-                    Instantiate(roomListItemPrefab, roomListContent).GetComponent<RoomListItem>().SetUp(roomList[i]);
-                    // Instantiate로 prefab을 roomListContent위치에 만들어주고 그 프리펩은 i번째 룸리스트가 된다.
-                }*/
-
-        GameObject tempRoom = null;
-        foreach (var room in roomList)
+        foreach (Transform trans in roomListContent) // 존재하는 모든 roomListContent
         {
-            // 룸이 삭제된 경우
-            if (room.RemovedFromList == true)
-            {
-                roomDict.TryGetValue(room.Name, out tempRoom);
-                Destroy(tempRoom);
-                roomDict.Remove(room.Name);
-            }
-            // 룸 정보가 갱신(변경)된 경우
-            else
-            {
-                // 룸이 처음 생성된 경우
-                if (roomDict.ContainsKey(room.Name) == false)
-                {
-                    GameObject _room = Instantiate(roomPrefab, scrollContent);
-                    _room.GetComponent<RoomListItem>().RoomInfo = room;
-                    roomDict.Add(room.Name, _room);
-                }
-                // 룸 정보를 갱신하는 경우
-                else
-                {
-                    roomDict.TryGetValue(room.Name, out tempRoom);
-                    tempRoom.GetComponent<RoomListItem>().RoomInfo = room;
-                }
-            }
+            Destroy(trans.gameObject); // 룸리스트가 업데이트 될때마다 싹 지우기
         }
-
+        for (int i = 0; i < roomList.Count; i++) // 방의 갯수만큼 반복
+        {
+            if (roomList[i].RemovedFromList) // 사라진 방은 취급 X
+                continue;
+            Instantiate(roomListItemPrefab, roomListContent).GetComponent<RoomData>().SetUp(roomList[i]);
+            // instantiate로 prefab을 roomListContent위치에 만들어주고 그 프리펩을 i번째 룸리스트로 만들어줌
+        }
         base.OnRoomListUpdate(roomList);
     }
+
 }

@@ -1441,3 +1441,22 @@
 2022-02-15 09:52:20,707 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=NameServer; AppPath=D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\deploy\NameServer, Type=Photon.NameServer.PhotonApp 
 2022-02-15 09:52:20,707 [1] INFO  Photon.SocketServer.ApplicationBase - Using Server GC:True
 2022-02-15 09:52:20,707 [1] INFO  Photon.SocketServer.ApplicationBase - Using GC LatencyMode:Interactive
+2022-02-15 18:08:56,649 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=NameServer
+2022-02-15 18:08:56,649 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=NameServer
+2022-02-16 09:05:29,184 [1] INFO  Photon.NameServer.PhotonApp - Initializing ...
+2022-02-16 09:05:29,191 [1] INFO  Photon.NameServer.PhotonApp - ServicePointManager.DefaultConnectionLimit=2147483647
+2022-02-16 09:05:29,197 [1] INFO  Photon.NameServer.PhotonApp - TokenCreator initialized with an expiration of 00:30:00
+2022-02-16 09:05:29,686 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Performance counters successfully initialized: instanceName=LoadBalancing_Custom
+2022-02-16 09:05:29,788 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Performance counters successfully initialized: instanceName=_Total
+2022-02-16 09:05:29,896 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Performance counters successfully initialized: instanceName=LoadBalancing_Custom
+2022-02-16 09:05:30,005 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Performance counters successfully initialized: instanceName=LoadBalancing_Facebook
+2022-02-16 09:05:30,111 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Performance counters successfully initialized: instanceName=LoadBalancing_Facebook
+2022-02-16 09:05:30,218 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Performance counters successfully initialized: instanceName=LoadBalancing_Oculus
+2022-02-16 09:05:30,326 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Performance counters successfully initialized: instanceName=LoadBalancing_Oculus
+2022-02-16 09:05:30,434 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Performance counters successfully initialized: instanceName=LoadBalancing_Steam
+2022-02-16 09:05:30,542 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Performance counters successfully initialized: instanceName=LoadBalancing_Steam
+2022-02-16 09:05:30,649 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Performance counters successfully initialized: instanceName=LoadBalancing_Viveport
+2022-02-16 09:05:30,759 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Performance counters successfully initialized: instanceName=LoadBalancing_Viveport
+2022-02-16 09:05:30,871 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=NameServer; AppPath=D:\Photon\photon-server-sdk_v5-0-12-24499-rc1\deploy\NameServer, Type=Photon.NameServer.PhotonApp 
+2022-02-16 09:05:30,871 [1] INFO  Photon.SocketServer.ApplicationBase - Using Server GC:True
+2022-02-16 09:05:30,871 [1] INFO  Photon.SocketServer.ApplicationBase - Using GC LatencyMode:Interactive

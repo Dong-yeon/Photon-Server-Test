@@ -5,7 +5,7 @@ ScriptsOnlyBuild:
     - MenuManager
     - NetworkManager
     - PlayerManager
-    - RoomListItem
+    - RoomData
     - RoomManager
     - ZombieCharacterControl
     PhotonUnityNetworking.Demos.dll:
@@ -40,9 +40,13 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.InputField
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Shadow
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
@@ -216,9 +220,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11496}
     - Class: 114
+      Script: {instanceID: 11792}
+    - Class: 114
+      Script: {instanceID: 12000}
+    - Class: 114
+      Script: {instanceID: 12312}
+    - Class: 114
       Script: {instanceID: 12458}
     - Class: 114
       Script: {instanceID: 12582}
+    - Class: 114
+      Script: {instanceID: 12790}
     - Class: 114
       Script: {instanceID: 13354}
     - Class: 114
@@ -226,13 +238,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13752}
     - Class: 114
-      Script: {instanceID: 13770}
-    - Class: 114
       Script: {instanceID: 14028}
     - Class: 114
       Script: {instanceID: 14452}
     - Class: 114
       Script: {instanceID: 14642}
+    - Class: 114
+      Script: {instanceID: 30346}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -287,6 +299,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -819,7 +835,7 @@ ScriptsOnlyBuild:
     className: PlayerControl
   - hash:
       serializedVersion: 2
-      Hash: d239a3d0ad5b7575b3aae9dc06e188b4
+      Hash: b7b7bee4630fd206ba64453ff6f07c8f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: NetworkManager
@@ -1219,12 +1235,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MenuManager
-  - hash:
-      serializedVersion: 2
-      Hash: 4ce15e99c635d2567873d27549d1f16f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: RoomListItem
   - hash:
       serializedVersion: 2
       Hash: cba6cca6bb3290c4c00d709cf63843db
@@ -1729,6 +1739,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: b01824ceb51cf6511e11549718f1b103
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RoomData
   platform: 19
   scenePathNames:
   - Assets/Scenes/Launcher.unity
